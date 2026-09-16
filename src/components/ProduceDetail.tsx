@@ -25,7 +25,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
 
   const { item, status, months, usesReferenceCalendar, localName } = resolved
   const presentation = STATUS_PRESENTATION[status]
-  const showEnglish = localName !== item.nameEN
+  const showGerman = localName !== item.nameDE
   const grownIn = COUNTRIES.filter((c) => item.region.includes(c.code))
 
   return (
@@ -46,7 +46,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
         <button
           type="button"
           onClick={handleClose}
-          aria-label="Close"
+          aria-label="Schließen"
           className="absolute right-3 top-3 z-10 flex size-9 items-center justify-center rounded-sm bg-white text-ink-900 shadow-sm transition hover:bg-surface-deep"
         >
           <X className="size-4" aria-hidden />
@@ -72,15 +72,15 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
               </div>
               <h2
                 id="produce-detail-title"
-                className="display mt-4 text-[2rem] leading-[0.95] tracking-[-0.035em] text-ink-900 sm:text-[2.5rem]"
+                className="display-black mt-4 text-[2.25rem] leading-[0.9] text-ink-900 sm:text-[3rem]"
               >
                 {localName}
               </h2>
-              {showEnglish && <p className="mt-1.5 text-base text-ink-400">{item.nameEN}</p>}
+              {showGerman && <p className="mt-1.5 text-base text-ink-400">{item.nameDE}</p>}
               <p className="mt-4 text-sm leading-relaxed text-ink-500">{item.description}</p>
               <div className="mt-5 flex items-center gap-2">
-                <span className="label text-ink-300">Grown in</span>
-                <span className="flex gap-1" aria-label={`Grown in ${grownIn.map((c) => c.name).join(', ')}`}>
+                <span className="label text-ink-300">Wächst in</span>
+                <span className="flex gap-1" aria-label={`Wächst in ${grownIn.map((c) => c.name).join(', ')}`}>
                   {grownIn.map((c) => (
                     <span key={c.code} title={c.name} className="text-sm leading-none" aria-hidden>
                       {c.flag}
@@ -95,9 +95,9 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
             <section>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <h3 className="label text-ink-900">
-                  Season in {countryByCode(country).shortName}
+                  Saison in {countryByCode(country).shortName}
                 </h3>
-                <p className="label text-ink-300">Viewing {monthName(month)}</p>
+                <p className="label text-ink-300">Du siehst {monthName(month)}</p>
               </div>
               <div className="mt-3.5">
                 <SeasonRibbon months={months} activeMonth={month} />
@@ -106,18 +106,18 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
                 <p className="mt-4 flex items-start gap-2 rounded bg-corn-500/20 p-3 text-xs leading-relaxed text-ink-700">
                   <Info className="mt-0.5 size-3.5 shrink-0 text-ink-900" aria-hidden />
                   <span>
-                    No country calendar for this crop yet — the German reference calendar is shown.
-                    Local dates may run a week or two either side.
+                    Für dieses Land gibt es noch keinen eigenen Kalender — du siehst den deutschen.
+                    Vor Ort kann es ein, zwei Wochen früher oder später losgehen.
                   </span>
                 </p>
               )}
             </section>
 
             <div className="grid gap-6 border-t border-line pt-6 sm:grid-cols-2">
-              <Panel icon={Sparkles} title="Flavour">
+              <Panel icon={Sparkles} title="Geschmack">
                 {item.flavorProfile}
               </Panel>
-              <Panel icon={Refrigerator} title="Keeping it fresh">
+              <Panel icon={Refrigerator} title="Frisch halten">
                 {item.storageTips}
               </Panel>
             </div>
@@ -125,7 +125,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
             <section className="border-t border-line pt-6">
               <h3 className="label flex items-center gap-2 text-ink-900">
                 <ChefHat className="size-3.5 text-neon-600" aria-hidden />
-                In the kitchen
+                In der Küche
               </h3>
               <p className="mt-2.5 text-sm leading-relaxed text-ink-500">{item.recipeIdea}</p>
               <ul className="mt-4 flex flex-wrap gap-2" role="list">

@@ -9,7 +9,8 @@ interface SectionDefinition {
   statuses: SeasonStatus[]
   /**
    * The heading in the selected country's own language, the way a bilingual
-   * grower's calendar prints it. English-speaking regions get nothing extra.
+   * grower's calendar prints it. Germany gets nothing extra — the title is
+   * already German.
    */
   local: Partial<Record<CountryCode, string>>
 }
@@ -17,31 +18,31 @@ interface SectionDefinition {
 export const SECTIONS: SectionDefinition[] = [
   {
     key: 'harvest',
-    title: 'In season now',
-    blurb: 'Cut, lifted or picked this month.',
+    title: 'Jetzt in Saison',
+    blurb: 'Diesen Monat geerntet.',
     statuses: ['peak', 'starting', 'ending'],
-    local: { DE: 'Saison', FR: 'De saison', IT: 'Di stagione', NL: 'In het seizoen' },
+    local: { FR: 'De saison', IT: 'Di stagione', NL: 'In het seizoen', GB: 'In season' },
   },
   {
     key: 'storage',
-    title: 'From the cellar',
-    blurb: 'Lifted earlier in the year and kept in local store.',
+    title: 'Aus dem Lager',
+    blurb: 'Früher im Jahr geerntet und hier eingelagert.',
     statuses: ['stored'],
-    local: { DE: 'Lagerware', FR: 'Conservation', IT: 'Da conservazione', NL: 'Bewaargroenten' },
+    local: { FR: 'Conservation', IT: 'Da conservazione', NL: 'Bewaargroenten', GB: 'From store' },
   },
   {
     key: 'soon',
-    title: 'Coming next month',
-    blurb: 'Worth waiting a few more weeks for.',
+    title: 'Kommt nächsten Monat',
+    blurb: 'Warte noch ein paar Wochen, dann lohnt es sich.',
     statuses: ['soon'],
-    local: { DE: 'Demnächst', FR: 'Le mois prochain', IT: 'Il mese prossimo', NL: 'Volgende maand' },
+    local: { FR: 'Le mois prochain', IT: 'Il mese prossimo', NL: 'Volgende maand', GB: 'Next month' },
   },
   {
     key: 'out',
-    title: 'Out of season',
-    blurb: 'Grown here, but not at this time of year.',
+    title: 'Außer Saison',
+    blurb: 'Wächst hier, aber nicht um diese Jahreszeit.',
     statuses: ['out-of-season'],
-    local: { DE: 'Außer Saison', FR: 'Hors saison', IT: 'Fuori stagione', NL: 'Buiten het seizoen' },
+    local: { FR: 'Hors saison', IT: 'Fuori stagione', NL: 'Buiten het seizoen', GB: 'Out of season' },
   },
 ]
 

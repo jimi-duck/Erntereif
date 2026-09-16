@@ -17,21 +17,21 @@ export function Co2Panel({ co2 }: { co2: Co2Profile }) {
   return (
     <section className="rounded-sm bg-ink-900 p-5 text-white">
       <div className="flex items-baseline justify-between gap-3">
-        <h3 className="label text-white/50">Climate impact</h3>
+        <h3 className="label text-white/50">Klimabilanz</h3>
         <span className="label rounded-sm bg-neon-500 px-2 py-1 text-ink-900">
-          {savingPercent}% lower
+          {savingPercent}% weniger
         </span>
       </div>
 
       <p className="display mt-5 text-[2.5rem] leading-none tracking-[-0.04em] text-white">
         {formatKg(saving)}
-        <span className="ml-2.5 align-middle text-sm font-semibold tracking-normal text-white/50">CO₂e saved per kg</span>
+        <span className="ml-2.5 align-middle text-sm font-semibold tracking-normal text-white/50">CO₂e gespart pro kg</span>
       </p>
 
       <dl className="mt-5 space-y-3.5">
         <div>
           <dt className="label flex items-center gap-1.5 text-white/60">
-            <Leaf className="size-3.5 text-neon-500" aria-hidden /> Local &amp; in season
+            <Leaf className="size-3.5 text-neon-500" aria-hidden /> Von hier, in Saison
           </dt>
           <dd className="mt-1.5 flex items-center gap-2">
             <span
@@ -58,9 +58,9 @@ export function Co2Panel({ co2 }: { co2: Co2Profile }) {
       <p className="mt-5 flex items-start gap-2 border-t border-white/15 pt-4 text-xs leading-relaxed text-white/70">
         <Car className="mt-0.5 size-3.5 shrink-0 text-white/40" aria-hidden />
         <span>
-          Buying a kilo locally is the same as not driving{' '}
-          <strong className="font-bold text-white">{formatCarKm(carKm)}</strong>. Indicative figures,
-          for comparing options rather than carbon accounting.
+          Ein Kilo von hier zu kaufen spart so viel, wie{' '}
+          <strong className="font-bold text-white">{formatCarKm(carKm)}</strong> nicht zu fahren.
+          Richtwerte zum Vergleichen, keine echte CO₂-Bilanz.
         </span>
       </p>
     </section>

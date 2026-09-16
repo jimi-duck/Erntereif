@@ -13,7 +13,7 @@ export function CountrySelect() {
       <span className="text-sm leading-none" aria-hidden>
         {active.flag}
       </span>
-      <span className="sr-only">Country</span>
+      <span className="sr-only">Land</span>
       <select
         value={country}
         onChange={(e) => setCountry(e.target.value as CountryCode)}

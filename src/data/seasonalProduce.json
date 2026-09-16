@@ -18,13 +18,13 @@
       4,
       5
     ],
-    "description": "Picked from late summer through autumn, then held in controlled-atmosphere stores where low oxygen effectively pauses the fruit. That technology is why a German apple in March is still a local apple, and still a low-carbon one.",
-    "storageTips": "Cool and slightly humid, away from everything else — apples give off ethylene and will ripen or spoil their neighbours. One bad apple really does ruin the box.",
+    "description": "Von Spätsommer bis Herbst gepflückt und dann im CA-Lager gehalten, wo wenig Sauerstoff die Frucht praktisch anhält. Genau deshalb ist ein deutscher Apfel im März immer noch einer von hier — und immer noch einer mit wenig CO₂.",
+    "storageTips": "Kühl und leicht feucht, weg von allem anderen — Äpfel geben Ethylen ab und lassen ihre Nachbarn nachreifen oder faulen. Ein schlechter Apfel verdirbt wirklich die ganze Kiste.",
     "pairingIdeas": [
-      "Cinnamon and butter",
-      "Sharp cheddar or blue cheese",
-      "Pork and sage",
-      "Raw with walnut and celery"
+      "Zimt und Butter",
+      "Kräftiger Cheddar oder Blauschimmel",
+      "Schwein und Salbei",
+      "Roh mit Walnuss und Sellerie"
     ],
     "imageUrl": "/produce/apple.png",
     "region": [
@@ -105,14 +105,14 @@
         ]
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Anywhere from sharp and grassy to honeyed and aromatic depending on variety — the range within one species is enormous.",
-    "recipeIdea": "Core whole apples, stuff with marzipan, raisins and butter, and bake at 180 °C for 35 minutes until the skins split — Bratapfel.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Von sauer und grasig bis honigsüß und aromatisch, je nach Sorte — die Bandbreite innerhalb einer Art ist riesig.",
+    "recipeIdea": "Äpfel entkernen, mit Marzipan, Rosinen und Butter füllen und bei 180 °C 35 Minuten backen, bis die Schale aufplatzt — Bratapfel.",
     "co2": {
       "local": 0.3,
       "imported": 0.8,
       "importMode": "sea",
-      "origin": "New Zealand / Chile"
+      "origin": "Neuseeland / Chile"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -128,13 +128,13 @@
       8
     ],
     "monthsInStorage": [],
-    "description": "Marginal in Germany, mainstream in the Rhône valley and northern Italy. Apricots stop developing sugar the moment they are picked, so any fruit shipped hard will soften but never actually sweeten.",
-    "storageTips": "Ripen at room temperature until they smell of apricot, then eat. Refrigeration makes the flesh mealy, so only chill fully ripe fruit and only for a day or two.",
+    "description": "In Deutschland ein Grenzfall, im Rhônetal und in Norditalien ganz normal. Aprikosen bilden ab dem Pflücken keinen Zucker mehr — hart geerntete Früchte werden zwar weich, aber nie wirklich süß.",
+    "storageTips": "Bei Zimmertemperatur reifen lassen, bis sie nach Aprikose riechen, dann essen. Im Kühlschrank wird das Fruchtfleisch mehlig, also nur ganz reife Früchte kühlen und nur ein, zwei Tage.",
     "pairingIdeas": [
-      "Almond and honey",
-      "Rosemary or lavender",
-      "Roasted with vanilla",
-      "Lamb tagine"
+      "Mandel und Honig",
+      "Rosmarin oder Lavendel",
+      "Mit Vanille geröstet",
+      "Lamm-Tajine"
     ],
     "imageUrl": "/produce/apricot.png",
     "region": [
@@ -172,14 +172,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Musky and floral with a distinct tartness at the skin; concentrates enormously when roasted.",
-    "recipeIdea": "Halve, roast cut-side up with honey, vanilla and a sprig of rosemary at 190 °C for 20 minutes.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Moschusartig und blumig, an der Schale deutlich säuerlich; im Ofen wird der Geschmack enorm konzentriert.",
+    "recipeIdea": "Halbieren und mit der Schnittfläche nach oben mit Honig, Vanille und einem Zweig Rosmarin bei 190 °C 20 Minuten rösten.",
     "co2": {
       "local": 0.4,
       "imported": 4.8,
       "importMode": "air",
-      "origin": "South Africa / Chile"
+      "origin": "Südafrika / Chile"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -197,13 +197,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The last free fruit of the year, in hedgerows across all of Northern Europe. British folklore says to stop picking after Michaelmas at the end of September, when the autumn rains make the late fruit go mouldy — sound advice dressed as superstition.",
-    "storageTips": "Two or three days, refrigerated in a shallow layer. A berry that pulls off with its white core still attached was picked too early and will stay sour.",
+    "description": "Das letzte kostenlose Obst im Jahr, in Hecken in ganz Nordeuropa. In England heißt es, nach Ende September solle man aufhören zu pflücken, weil der Herbstregen die späten Früchte schimmeln lässt — guter Rat im Gewand eines Aberglaubens.",
+    "storageTips": "Zwei, drei Tage, flach ausgebreitet im Kühlschrank. Eine Beere, die sich mit dem weißen Kern lösen lässt, war zu früh dran und bleibt sauer.",
     "pairingIdeas": [
-      "Apple in a crumble",
-      "Bay leaf and red wine",
-      "Cream and meringue",
-      "Gin or vodka, infused"
+      "Apfel im Crumble",
+      "Lorbeer und Rotwein",
+      "Sahne und Baiser",
+      "In Gin oder Wodka angesetzt"
     ],
     "imageUrl": "/produce/blackberry.png",
     "region": [
@@ -256,14 +256,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Deep, winey and musky, with a tannic edge that makes it a better cooking fruit than a raw one.",
-    "recipeIdea": "Bake with apple under an oat crumble — the blackberries collapse into the apple and stain the whole thing purple.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Tief, weinig und moschusartig, mit einer Gerbstoffkante, die sie zum besseren Koch- als Rohobst macht.",
+    "recipeIdea": "Mit Apfel unter Haferstreuseln backen — die Brombeeren fallen in den Apfel und färben alles lila.",
     "co2": {
       "local": 0.4,
       "imported": 6.5,
       "importMode": "air",
-      "origin": "Mexico / Morocco"
+      "origin": "Mexiko / Marokko"
     },
     "illustration": {
       "archetype": "cane-berry"
@@ -280,13 +280,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Two quite different fruits share the name: the small wild Heidelbeere, which stains everything purple including the eater, and the large cultivated bush blueberry, which has pale flesh and stains nothing.",
-    "storageTips": "The waxy bloom on the skin is natural protection — do not rub it off. Unwashed and refrigerated they keep a week, longer than any other soft fruit.",
+    "description": "Zwei ziemlich verschiedene Früchte teilen sich den Namen: die kleine wilde Heidelbeere, die alles lila färbt, den Esser inklusive, und die große Kulturheidelbeere vom Strauch, die helles Fleisch hat und gar nichts färbt.",
+    "storageTips": "Der wachsige Belag auf der Schale ist natürlicher Schutz — nicht abreiben. Ungewaschen und gekühlt halten sie eine Woche, länger als jedes andere Weichobst.",
     "pairingIdeas": [
-      "Lemon and buttermilk",
-      "Cinnamon pancakes",
-      "Yoghurt and honey",
-      "Warm with vanilla ice cream"
+      "Zitrone und Buttermilch",
+      "Zimt-Pancakes",
+      "Joghurt und Honig",
+      "Warm mit Vanilleeis"
     ],
     "imageUrl": "/produce/blueberry.png",
     "region": [
@@ -327,9 +327,9 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Mildly sweet with a resinous, almost piney note that is much stronger in the wild kind.",
-    "recipeIdea": "Warm briefly with lemon zest and a spoon of sugar until a few burst, then pour hot over cold yoghurt.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Mild süß mit einer harzigen, fast kiefernartigen Note, die bei den wilden viel stärker ist.",
+    "recipeIdea": "Kurz mit Zitronenabrieb und einem Löffel Zucker erwärmen, bis ein paar aufplatzen, dann heiß über kalten Joghurt gießen.",
     "co2": {
       "local": 0.5,
       "imported": 7.4,
@@ -351,13 +351,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The oval, deep-purple Zwetschge is the baking plum of Southern Germany, firm enough to hold its shape in a tray bake and to come cleanly away from the stone. Round Pflaumen are juicier and better eaten out of hand.",
-    "storageTips": "Ripen at room temperature, then refrigerate for up to a week. The dusty bloom is a sign of careful handling — fruit that has been rubbed shiny has been over-handled.",
+    "description": "Die ovale, dunkelviolette Zwetschge ist die Backpflaume Süddeutschlands, fest genug für den Blechkuchen und löst sich sauber vom Kern. Runde Pflaumen sind saftiger und besser aus der Hand.",
+    "storageTips": "Bei Zimmertemperatur reifen lassen, dann bis zu eine Woche in den Kühlschrank. Der staubige Belag zeigt, dass sorgsam gepflückt wurde — blank geriebene Früchte wurden zu oft angefasst.",
     "pairingIdeas": [
-      "Cinnamon and yeast dough",
-      "Streusel and cream",
-      "Roast pork",
-      "Slow-cooked into Powidl"
+      "Zimt und Hefeteig",
+      "Streusel und Sahne",
+      "Schweinebraten",
+      "Lange zu Powidl eingekocht"
     ],
     "imageUrl": "/produce/plum.png",
     "region": [
@@ -398,14 +398,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Winey and honeyed with a tart skin; the flesh turns jammy and almost spiced under heat.",
-    "recipeIdea": "Overlap halved plums cut-side up on a yeasted base, bake, and finish with cinnamon sugar — Zwetschgenkuchen, and nothing else needed.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Weinig und honigartig mit säuerlicher Haut; unter Hitze wird das Fleisch marmeladig und fast würzig.",
+    "recipeIdea": "Halbierte Zwetschgen dachziegelartig auf Hefeteig legen, backen und mit Zimtzucker bestreuen — Zwetschgenkuchen, mehr braucht es nicht.",
     "co2": {
       "local": 0.3,
       "imported": 1.9,
       "importMode": "sea",
-      "origin": "Chile / South Africa"
+      "origin": "Chile / Südafrika"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -421,13 +421,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Free, everywhere, and thoroughly underused. The flowers make cordial in June and the berries follow in late August — but raw elderberries contain sambunigrin and must be cooked before eating.",
-    "storageTips": "Process the day you pick. Strip the berries from the stalks with a fork, freeze them on the umbel if you are short of time, and never eat them raw.",
+    "description": "Kostenlos, überall und viel zu wenig genutzt. Im Juni geben die Blüten Sirup, Ende August kommen die Beeren — die enthalten roh aber Sambunigrin und müssen vor dem Essen gekocht werden.",
+    "storageTips": "Am Pflücktag verarbeiten. Die Beeren mit einer Gabel von den Stielen streifen, bei Zeitnot einfach an der Dolde einfrieren, und nie roh essen.",
     "pairingIdeas": [
-      "Apple and cinnamon",
-      "Cooked into a syrup",
-      "Semolina pudding",
-      "Port and game sauce"
+      "Apfel und Zimt",
+      "Zu Sirup eingekocht",
+      "Grießpudding",
+      "Portwein und Wildsauce"
     ],
     "imageUrl": "/produce/elderberry.png",
     "region": [
@@ -466,14 +466,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Always cook first",
-    "flavorProfile": "Musky, tannic and darkly fruity — closer to a wine grape than a garden berry.",
-    "recipeIdea": "Simmer with apple, sugar and cinnamon, sieve out the seeds, and drink it hot as Fliederbeersuppe with semolina dumplings.",
+    "culinaryTag": "Immer garen",
+    "flavorProfile": "Moschusartig, gerbig und dunkelfruchtig — näher an einer Weintraube als an einer Gartenbeere.",
+    "recipeIdea": "Mit Apfel, Zucker und Zimt köcheln, die Kerne durchsieben und heiß als Fliederbeersuppe mit Grießklößchen essen.",
     "co2": {
       "local": 0.2,
       "imported": 1.5,
       "importMode": "road",
-      "origin": "Eastern Europe"
+      "origin": "Osteuropa"
     },
     "illustration": {
       "archetype": "berry-cluster"
@@ -490,13 +490,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A Mediterranean crop with two harvests in a good year: an early one on last season's wood in June, then the main autumn crop. Figs do not ripen at all after picking, so a hard fig is a lost cause.",
-    "storageTips": "Ripe figs last two days at most. Keep them at room temperature, stem up, in a single layer. A drop of syrup at the base is a sign of perfect ripeness, not spoilage.",
+    "description": "Eine mediterrane Kultur mit in guten Jahren zwei Ernten: eine frühe im Juni am Holz des Vorjahres, dann die Haupternte im Herbst. Feigen reifen nach dem Pflücken überhaupt nicht nach — eine harte Feige bleibt ein Verlust.",
+    "storageTips": "Reife Feigen halten höchstens zwei Tage. Bei Zimmertemperatur lagern, Stiel nach oben, in einer Lage. Ein Tropfen Sirup am Ansatz heißt perfekt reif, nicht verdorben.",
     "pairingIdeas": [
-      "Prosciutto and rocket",
-      "Goat's cheese and honey",
-      "Roasted with thyme",
-      "Walnut and blue cheese"
+      "Prosciutto und Rucola",
+      "Ziegenkäse und Honig",
+      "Mit Thymian geröstet",
+      "Walnuss und Blauschimmel"
     ],
     "imageUrl": "/produce/fig.png",
     "region": [
@@ -526,14 +526,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Honeyed and jammy with a faint berry acidity and a texture that is somehow both silky and seedy.",
-    "recipeIdea": "Quarter without cutting through the base, drop in a knob of goat's cheese and a spoon of honey, and roast for eight minutes.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Honigsüß und marmeladig mit leichter Beerensäure und einer Textur, die gleichzeitig seidig und kernig ist.",
+    "recipeIdea": "Vierteln, ohne ganz durchzuschneiden, ein Stück Ziegenkäse und einen Löffel Honig hineingeben und acht Minuten backen.",
     "co2": {
       "local": 0.5,
       "imported": 3.6,
       "importMode": "air",
-      "origin": "Brazil / Turkey"
+      "origin": "Brasilien / Türkei"
     },
     "illustration": {
       "archetype": "fig"
@@ -550,13 +550,13 @@
       8
     ],
     "monthsInStorage": [],
-    "description": "Picked green and hard for cooking in early summer, or left on the bush until it turns soft, red and honeyed. Two completely different fruits from the same plant a month apart.",
-    "storageTips": "Firm green berries keep a week or more in the fridge; ripe ones go in two days. Top and tail before freezing, and they need no blanching.",
+    "description": "Im Frühsommer grün und hart zum Kochen gepflückt, oder am Strauch gelassen, bis sie weich, rot und honigsüß wird. Zwei völlig verschiedene Früchte von derselben Pflanze, einen Monat auseinander.",
+    "storageTips": "Feste grüne Beeren halten eine Woche und länger im Kühlschrank, reife zwei Tage. Vor dem Einfrieren putzen, blanchieren muss man sie nicht.",
     "pairingIdeas": [
-      "Elderflower",
-      "Custard and cream",
-      "Mackerel or pork",
-      "Crumble with almonds"
+      "Holunderblüte",
+      "Vanillesauce und Sahne",
+      "Makrele oder Schwein",
+      "Crumble mit Mandeln"
     ],
     "imageUrl": "/produce/gooseberry.png",
     "region": [
@@ -596,14 +596,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Fiercely sour and green when unripe; muscat-sweet and slightly floral when left to redden.",
-    "recipeIdea": "Stew green berries with sugar and a splash of elderflower cordial, then fold through whipped cream and custard for a fool.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Unreif brutal sauer und grün; rot ausgereift muskatsüß und leicht blumig.",
+    "recipeIdea": "Grüne Beeren mit Zucker und einem Schuss Holunderblütensirup einkochen, dann unter Schlagsahne und Vanillesauce heben.",
     "co2": {
       "local": 0.4,
       "imported": 2.2,
       "importMode": "sea",
-      "origin": "Poland"
+      "origin": "Polen"
     },
     "illustration": {
       "archetype": "small-berry"
@@ -626,13 +626,13 @@
       5,
       6
     ],
-    "description": "Sicily and the Amalfi coast are Europe's lemon groves, and their main harvest runs right through the northern winter — which makes lemons one of the few citrus fruits that are genuinely in season when Europe most wants them.",
-    "storageTips": "Room temperature for a week if you want maximum juice; the fridge for a month if you want them to last. Unwaxed fruit is essential whenever you need the zest.",
+    "description": "Sizilien und die Amalfiküste sind Europas Zitronengärten, und ihre Haupternte läuft quer durch den nordeuropäischen Winter — damit ist die Zitrone eine der wenigen Zitrusfrüchte, die genau dann Saison hat, wenn man sie hier am meisten will.",
+    "storageTips": "Zimmertemperatur für eine Woche, wenn du maximal Saft willst; Kühlschrank für einen Monat, wenn sie halten sollen. Für die Schale unbedingt unbehandelte Früchte nehmen.",
     "pairingIdeas": [
-      "Olive oil and sea salt",
-      "Preserved in salt",
-      "Ricotta in a cake",
-      "Fish, of any kind"
+      "Olivenöl und Meersalz",
+      "In Salz eingelegt",
+      "Ricotta im Kuchen",
+      "Fisch, egal welcher"
     ],
     "imageUrl": "/produce/lemon.png",
     "region": [
@@ -672,14 +672,14 @@
         ]
       }
     },
-    "culinaryTag": "Zest and juice",
-    "flavorProfile": "Sharply acidic with a perfumed, resinous oil in the peel that carries most of the actual flavour.",
-    "recipeIdea": "Pack quartered lemons in coarse salt for a month; the preserved peel transforms anything braised or roasted.",
+    "culinaryTag": "Schale und Saft",
+    "flavorProfile": "Scharf sauer, mit einem parfümierten, harzigen Öl in der Schale, das den eigentlichen Geschmack trägt.",
+    "recipeIdea": "Geviertelte Zitronen einen Monat in grobem Salz einlegen; die eingelegte Schale verwandelt alles Geschmorte und Geröstete.",
     "co2": {
       "local": 0.4,
       "imported": 1.7,
       "importMode": "sea",
-      "origin": "Argentina / South Africa"
+      "origin": "Argentinien / Südafrika"
     },
     "illustration": {
       "archetype": "citrus"
@@ -696,13 +696,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "A high-summer crop of southern France and Italy — Cavaillon and Charentais melons are named for the places that made them famous. German field melons exist but are rare and very weather-dependent.",
-    "storageTips": "Ripe melons smell strongly at the stem end and give slightly when pressed. Whole they keep a few days at room temperature; once cut, wrap well or the whole fridge will smell of melon.",
+    "description": "Eine Hochsommerkultur aus Südfrankreich und Italien — Cavaillon- und Charentais-Melonen tragen die Namen der Orte, die sie berühmt gemacht haben. Freilandmelonen gibt es hier auch, aber selten und sehr wetterabhängig.",
+    "storageTips": "Reife Melonen riechen am Stielende kräftig und geben auf Druck leicht nach. Ganz halten sie ein paar Tage bei Zimmertemperatur; angeschnitten gut einpacken, sonst riecht der ganze Kühlschrank danach.",
     "pairingIdeas": [
-      "Prosciutto and black pepper",
-      "Mint and lime",
-      "Feta and olive",
-      "Chilled as a soup"
+      "Prosciutto und schwarzer Pfeffer",
+      "Minze und Limette",
+      "Feta und Olive",
+      "Kalt als Suppe"
     ],
     "imageUrl": "/produce/melon.png",
     "region": [
@@ -742,14 +742,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Musky, floral and watery-sweet, with the perfume concentrated just under the rind.",
-    "recipeIdea": "Wedge and drape with prosciutto, then grind over more black pepper than feels reasonable.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Moschusartig, blumig und wässrig-süß, mit dem meisten Duft direkt unter der Schale.",
+    "recipeIdea": "In Spalten schneiden, mit Prosciutto belegen und mehr schwarzen Pfeffer darüber mahlen, als vernünftig wirkt.",
     "co2": {
       "local": 0.4,
       "imported": 2.9,
       "importMode": "air",
-      "origin": "Brazil / Costa Rica"
+      "origin": "Brasilien / Costa Rica"
     },
     "illustration": {
       "archetype": "melon"
@@ -766,13 +766,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "A tiny golden plum, with three quarters of the world's crop grown in Lorraine. The season lasts about six weeks and almost none of it leaves the region fresh — most becomes tart filling or eau-de-vie.",
-    "storageTips": "Ripe mirabelles bruise if you look at them. Use within two or three days; they freeze well once stoned and are excellent straight into a tart.",
+    "description": "Eine winzige goldene Pflaume, drei Viertel der Welternte wachsen in Lothringen. Die Saison dauert etwa sechs Wochen, und frisch verlässt fast nichts davon die Region — das meiste wird Kuchenbelag oder Schnaps.",
+    "storageTips": "Reife Mirabellen bekommen Druckstellen, wenn man sie nur ansieht. In zwei, drei Tagen aufbrauchen; entsteint lassen sie sich gut einfrieren und wandern hervorragend direkt in den Kuchen.",
     "pairingIdeas": [
-      "Almond frangipane",
-      "Vanilla and butter",
-      "Thyme and honey",
-      "Distilled as eau-de-vie"
+      "Mandel-Frangipane",
+      "Vanille und Butter",
+      "Thymian und Honig",
+      "Zu Obstler gebrannt"
     ],
     "imageUrl": "/produce/mirabelle.png",
     "region": [
@@ -801,14 +801,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Intensely sweet and honeyed with a little acidity in the skin — far more concentrated than a large plum.",
-    "recipeIdea": "Pack halved mirabelles tightly into a shortcrust case over frangipane and bake until the tops caramelise.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Sehr süß und honigartig mit etwas Säure in der Haut — viel konzentrierter als eine große Pflaume.",
+    "recipeIdea": "Halbierte Mirabellen dicht an dicht auf Frangipane in einen Mürbeteig setzen und backen, bis die Oberseiten karamellisieren.",
     "co2": {
       "local": 0.3,
       "imported": 1.8,
       "importMode": "sea",
-      "origin": "outside Europe"
+      "origin": "außerhalb Europas"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -829,13 +829,13 @@
     "monthsInStorage": [
       5
     ],
-    "description": "Southern Italy and Spain supply Europe through the winter — the blood oranges of Sicily, coloured by anthocyanins that only develop with cold nights, have a season of barely three months.",
-    "storageTips": "A week at room temperature, a month in the fridge. Oranges give up far more juice at room temperature, so take them out well before you squeeze them.",
+    "description": "Süditalien und Spanien versorgen Europa durch den Winter — die Blutorangen aus Sizilien, gefärbt von Anthocyanen, die sich nur bei kalten Nächten bilden, haben eine Saison von knapp drei Monaten.",
+    "storageTips": "Eine Woche bei Zimmertemperatur, einen Monat im Kühlschrank. Bei Zimmertemperatur geben Orangen viel mehr Saft, also rechtzeitig vorher rausholen.",
     "pairingIdeas": [
-      "Fennel and olive",
-      "Dark chocolate",
-      "Almond in a cake",
-      "Chicory and walnut"
+      "Fenchel und Olive",
+      "Zartbitterschokolade",
+      "Mandel im Kuchen",
+      "Chicorée und Walnuss"
     ],
     "imageUrl": "/produce/orange.png",
     "region": [
@@ -873,14 +873,14 @@
         ]
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Sweet and floral with a bitter edge in the pith; blood oranges add a distinct raspberry note.",
-    "recipeIdea": "Slice blood oranges into rounds and dress with fennel, black olives, red onion and good oil — the Sicilian winter salad.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Süß und blumig mit einer bitteren Kante in der weißen Haut; Blutorangen bringen eine deutliche Himbeernote mit.",
+    "recipeIdea": "Blutorangen in Scheiben schneiden und mit Fenchel, schwarzen Oliven, roter Zwiebel und gutem Öl anmachen — der sizilianische Wintersalat.",
     "co2": {
       "local": 0.4,
       "imported": 1.5,
       "importMode": "sea",
-      "origin": "South Africa / Egypt"
+      "origin": "Südafrika / Ägypten"
     },
     "illustration": {
       "archetype": "citrus"
@@ -897,13 +897,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Grown in the warmest corners of Germany — the Pfalz and the Rhine valley — but really an Italian and French crop. The flat, doughnut-shaped Weinbergpfirsich is a regional speciality worth hunting down.",
-    "storageTips": "Ripen shoulder-down on the counter so the weight does not bruise the fruit. Once it gives to a gentle press, refrigerate and eat within two days.",
+    "description": "Wächst in den wärmsten Ecken Deutschlands — Pfalz und Rheintal — ist aber eigentlich eine italienische und französische Kultur. Der flache Weinbergpfirsich ist eine regionale Spezialität, für die sich die Suche lohnt.",
+    "storageTips": "Mit der Schulter nach unten auf der Arbeitsplatte reifen lassen, damit das Gewicht keine Druckstellen macht. Sobald er auf leichten Druck nachgibt, kühlen und in zwei Tagen essen.",
     "pairingIdeas": [
-      "Raspberry and cream",
-      "Basil and mozzarella",
-      "Grilled with honey",
-      "White wine, sliced in"
+      "Himbeere und Sahne",
+      "Basilikum und Mozzarella",
+      "Mit Honig gegrillt",
+      "In Weißwein geschnitten"
     ],
     "imageUrl": "/produce/peach.png",
     "region": [
@@ -944,14 +944,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Floral, honeyed and dripping when ripe, with an almond bitterness near the stone.",
-    "recipeIdea": "Grill halves cut-side down until striped, then serve warm with cold cream and a spoon of raspberry purée.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Blumig, honigsüß und reif tropfend, mit einer Mandelbitterkeit am Kern.",
+    "recipeIdea": "Halbierte Pfirsiche mit der Schnittfläche nach unten grillen, bis sie Streifen haben, dann warm mit kalter Sahne und einem Löffel Himbeerpüree servieren.",
     "co2": {
       "local": 0.4,
       "imported": 4.5,
       "importMode": "air",
-      "origin": "South Africa / Chile"
+      "origin": "Südafrika / Chile"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -973,13 +973,13 @@
       1,
       2
     ],
-    "description": "The one fruit that is genuinely better picked unripe — left on the tree, pears go grainy from the core outwards. They ripen from the inside, which is why the skin still looks perfect when the middle has gone.",
-    "storageTips": "Ripen at room temperature and test at the neck, not the belly: if it yields near the stem, it is ready. Then refrigerate to hold it for two or three days.",
+    "description": "Die eine Frucht, die wirklich besser unreif gepflückt wird — am Baum wird die Birne vom Kern nach außen grießig. Sie reift von innen, weshalb die Schale noch perfekt aussieht, wenn die Mitte schon hin ist.",
+    "storageTips": "Bei Zimmertemperatur reifen lassen und am Hals testen, nicht am Bauch: Gibt sie beim Stiel nach, ist sie so weit. Dann kühlen, das hält sie zwei, drei Tage.",
     "pairingIdeas": [
-      "Blue cheese and walnut",
-      "Poached in red wine",
-      "Chocolate and almond",
-      "Beans and bacon"
+      "Blauschimmel und Walnuss",
+      "In Rotwein pochiert",
+      "Schokolade und Mandel",
+      "Bohnen und Speck"
     ],
     "imageUrl": "/produce/pear.png",
     "region": [
@@ -1053,14 +1053,14 @@
         ]
       }
     },
-    "culinaryTag": "Poach or bake",
-    "flavorProfile": "Perfumed, buttery and honey-sweet with very low acidity — which is why it needs cheese or wine alongside.",
-    "recipeIdea": "Poach peeled pears in red wine with cinnamon, star anise and orange peel, then reduce the liquid to a syrup.",
+    "culinaryTag": "Pochieren oder backen",
+    "flavorProfile": "Parfümiert, buttrig und honigsüß bei sehr wenig Säure — deshalb braucht sie Käse oder Wein daneben.",
+    "recipeIdea": "Geschälte Birnen in Rotwein mit Zimt, Sternanis und Orangenschale pochieren, dann den Sud zu Sirup einkochen.",
     "co2": {
       "local": 0.3,
       "imported": 0.9,
       "importMode": "sea",
-      "origin": "Argentina / South Africa"
+      "origin": "Argentinien / Südafrika"
     },
     "illustration": {
       "archetype": "pear"
@@ -1077,13 +1077,13 @@
       12
     ],
     "monthsInStorage": [],
-    "description": "Italy is Europe's biggest producer, picking from October once the leaves have dropped and the fruit hangs on bare branches like lanterns. The astringent varieties are inedible until almost jelly-soft; Sharon fruit has had that bred out.",
-    "storageTips": "Ripen astringent types on the counter until they feel like a water balloon — any earlier and the tannins will dry your mouth out completely. Firm Sharon types can be eaten like an apple.",
+    "description": "Italien ist Europas größter Produzent und pflückt ab Oktober, wenn die Blätter ab sind und die Früchte wie Lampions an kahlen Ästen hängen. Die herben Sorten sind ungenießbar, bis sie fast geleeweich sind; der Sharonfrucht hat man das weggezüchtet.",
+    "storageTips": "Herbe Sorten auf der Arbeitsplatte reifen lassen, bis sie sich wie ein Wasserballon anfühlen — früher trocknen dir die Gerbstoffe komplett den Mund aus. Feste Sharonfrüchte kannst du wie einen Apfel essen.",
     "pairingIdeas": [
-      "Ricotta and honey",
+      "Ricotta und Honig",
       "Prosciutto",
-      "Lime and chilli",
-      "Spooned straight from the skin"
+      "Limette und Chili",
+      "Direkt aus der Schale gelöffelt"
     ],
     "imageUrl": "/produce/persimmon.png",
     "region": [
@@ -1113,14 +1113,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Honey, apricot and date, with a custard texture when fully ripe.",
-    "recipeIdea": "Chill a ripe astringent persimmon, cut the top off and eat the flesh with a spoon — it needs nothing at all.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Honig, Aprikose und Dattel, voll ausgereift mit der Textur von Pudding.",
+    "recipeIdea": "Eine reife herbe Kaki kühlen, den Deckel abschneiden und das Fleisch mit dem Löffel essen — sie braucht überhaupt nichts.",
     "co2": {
       "local": 0.5,
       "imported": 2.8,
       "importMode": "sea",
-      "origin": "Spain / South America"
+      "origin": "Spanien / Südamerika"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -1139,13 +1139,13 @@
     "monthsInStorage": [
       12
     ],
-    "description": "Rock-hard, downy and inedible raw, yet it perfumes an entire room from a bowl. Long cooking turns the white flesh deep rose — a slow reaction between its tannins and heat, not any added colour.",
-    "storageTips": "Keeps for weeks in a cool room and perfumes everything nearby, so store it away from butter and milk. Rub the grey down off before cooking.",
+    "description": "Steinhart, flaumig und roh ungenießbar, trotzdem parfümiert sie aus einer Schale den ganzen Raum. Langes Kochen färbt das weiße Fleisch tiefrosa — eine langsame Reaktion ihrer Gerbstoffe mit Hitze, keine zugesetzte Farbe.",
+    "storageTips": "Hält im kühlen Raum wochenlang und parfümiert alles in der Nähe, also weg von Butter und Milch lagern. Den grauen Flaum vor dem Kochen abreiben.",
     "pairingIdeas": [
-      "Set as a membrillo paste",
-      "Roast pork or lamb",
-      "Apple in a tart",
-      "Manchego or hard cheese"
+      "Als Quittenbrot eingekocht",
+      "Schweine- oder Lammbraten",
+      "Apfel in der Tarte",
+      "Manchego oder Hartkäse"
     ],
     "imageUrl": "/produce/quince.png",
     "region": [
@@ -1191,14 +1191,14 @@
         ]
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Astringent and floral raw; honeyed, spiced and faintly tropical after two hours of cooking.",
-    "recipeIdea": "Simmer chopped quince with equal sugar until it turns deep red, then set it in a tray as membrillo for the cheese board.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Roh herb und blumig; nach zwei Stunden Kochen honigsüß, würzig und leicht tropisch.",
+    "recipeIdea": "Klein geschnittene Quitten mit der gleichen Menge Zucker köcheln, bis sie tiefrot wird, dann als Quittenbrot in eine Form gießen — für die Käseplatte.",
     "co2": {
       "local": 0.3,
       "imported": 1.1,
       "importMode": "sea",
-      "origin": "Turkey"
+      "origin": "Türkei"
     },
     "illustration": {
       "archetype": "pear"
@@ -1216,13 +1216,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Summer varieties fruit on last year's canes in June and July; autumn-fruiting ones carry on into October on this year's growth. Between them they cover a remarkably long stretch of the year.",
-    "storageTips": "The most fragile fruit in the shop. Do not stack, do not wash, use within 48 hours. Freeze on a tray in one layer, then bag, and they will not fuse into a block.",
+    "description": "Sommersorten tragen im Juni und Juli an den Ruten vom Vorjahr; Herbstsorten machen bis in den Oktober am diesjährigen Holz weiter. Zusammen decken sie eine bemerkenswert lange Strecke des Jahres ab.",
+    "storageTips": "Das empfindlichste Obst im Laden. Nicht stapeln, nicht waschen, binnen 48 Stunden aufbrauchen. Einzeln auf einem Blech einfrieren und dann erst in den Beutel, so backen sie nicht zusammen.",
     "pairingIdeas": [
-      "Dark chocolate",
-      "Peach and almond",
-      "Rose and cream",
-      "Vinegar for a shrub"
+      "Zartbitterschokolade",
+      "Pfirsich und Mandel",
+      "Rose und Sahne",
+      "Mit Essig zum Shrub"
     ],
     "imageUrl": "/produce/raspberry.png",
     "region": [
@@ -1278,14 +1278,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Intensely perfumed, sweet-sour and delicate, with a faint tannic note from the seeds.",
-    "recipeIdea": "Crush lightly with sugar and lemon and leave for ten minutes — an uncooked coulis with far more aroma than a boiled one.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Intensiv parfümiert, süßsauer und zart, mit einer leichten Gerbnote von den Kernen.",
+    "recipeIdea": "Leicht mit Zucker und Zitrone zerdrücken und zehn Minuten stehen lassen — ein ungekochtes Coulis mit weit mehr Aroma als ein aufgekochtes.",
     "co2": {
       "local": 0.4,
       "imported": 7.2,
       "importMode": "air",
-      "origin": "Morocco / Mexico"
+      "origin": "Marokko / Mexiko"
     },
     "illustration": {
       "archetype": "cane-berry"
@@ -1302,13 +1302,13 @@
       8
     ],
     "monthsInStorage": [],
-    "description": "Named for St John's Day on 24 June, around which the first strings ripen. Naturally high in pectin, which is why redcurrant jelly sets without anything added to it.",
-    "storageTips": "Keep them on the strings until the moment you use them — stripped berries collapse fast. Four days in the fridge; they freeze perfectly on their stalks.",
+    "description": "Benannt nach dem Johannistag am 24. Juni, um den herum die ersten Rispen reif werden. Von Natur aus pektinreich, weshalb Johannisbeergelee ohne jeden Zusatz geliert.",
+    "storageTips": "Bis zur Verwendung an den Rispen lassen — abgestreifte Beeren fallen schnell zusammen. Vier Tage im Kühlschrank; an den Stielen lassen sie sich perfekt einfrieren.",
     "pairingIdeas": [
-      "Meringue and cream",
-      "Set as a jelly",
-      "Vanilla sponge",
-      "Game and roast meats"
+      "Baiser und Sahne",
+      "Zu Gelee eingekocht",
+      "Vanillebiskuit",
+      "Wild und Braten"
     ],
     "imageUrl": "/produce/redcurrant.png",
     "region": [
@@ -1348,14 +1348,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Sharp, bright and almost translucent in flavour, with a redcurrant tang that cuts through any amount of cream.",
-    "recipeIdea": "Pile onto a baked sponge base, cover with meringue and bake briefly — the Johannisbeer-Baiser-Kuchen of every German bakery.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Scharf, hell und fast durchsichtig im Geschmack, mit einer Säure, die sich durch jede Menge Sahne schneidet.",
+    "recipeIdea": "Auf einen gebackenen Biskuitboden häufen, mit Baiser bedecken und kurz überbacken — der Johannisbeer-Baiser-Kuchen aus jeder deutschen Bäckerei.",
     "co2": {
       "local": 0.4,
       "imported": 2.4,
       "importMode": "sea",
-      "origin": "Poland"
+      "origin": "Polen"
     },
     "illustration": {
       "archetype": "berry-cluster"
@@ -1372,13 +1372,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "The fruit of the wild dog rose, best picked after the first frost when the flesh softens. Britain organised a national rosehip syrup collection during the Second World War when citrus imports stopped entirely.",
-    "storageTips": "Use within a few days of picking, or freeze whole — freezing does the same softening job as a frost. The hairs around the seeds are a genuine irritant and must be strained out.",
+    "description": "Die Frucht der wilden Heckenrose, am besten nach dem ersten Frost gepflückt, wenn das Fleisch weich wird. In England wurde im Zweiten Weltkrieg landesweit Hagebuttensirup gesammelt, als die Zitrusimporte komplett ausblieben.",
+    "storageTips": "Binnen weniger Tage nach dem Pflücken verarbeiten oder ganz einfrieren — Frost macht dasselbe weich wie Kälte draußen. Die Härchen um die Kerne reizen wirklich und müssen rausgesiebt werden.",
     "pairingIdeas": [
-      "Made into a syrup",
-      "Apple in a jelly",
-      "Tea with hibiscus",
-      "Spread on Christmas biscuits"
+      "Zu Sirup gekocht",
+      "Apfel im Gelee",
+      "Tee mit Hibiskus",
+      "Auf Weihnachtsplätzchen"
     ],
     "imageUrl": "/produce/rosehip.png",
     "region": [
@@ -1419,14 +1419,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Strain and sweeten",
-    "flavorProfile": "Tart, floral and faintly apple-like, with a distinctive vegetal depth once cooked down.",
-    "recipeIdea": "Simmer, press through a fine sieve twice to remove every hair, then cook with sugar into the thick Hagebuttenmark used in Linzer biscuits.",
+    "culinaryTag": "Passieren und süßen",
+    "flavorProfile": "Säuerlich, blumig und leicht apfelartig, eingekocht mit einer eigenen vegetabilen Tiefe.",
+    "recipeIdea": "Köcheln, zweimal durch ein feines Sieb streichen, damit kein Härchen bleibt, dann mit Zucker zu dickem Hagebuttenmark einkochen — für Linzer Plätzchen.",
     "co2": {
       "local": 0.2,
       "imported": 1.3,
       "importMode": "road",
-      "origin": "Eastern Europe"
+      "origin": "Osteuropa"
     },
     "illustration": {
       "archetype": "small-berry"
@@ -1443,13 +1443,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A thorny coastal shrub of the Baltic and North Sea dunes, and one of the richest sources of vitamin C in Northern Europe — several times that of an orange by weight. Too sour for anyone to eat straight.",
-    "storageTips": "Almost impossible to pick without crushing, so growers cut whole branches and freeze them, then shake the berries off. Freeze immediately; the juice keeps for months.",
+    "description": "Ein dorniger Küstenstrauch aus den Dünen an Ost- und Nordsee und eine der reichsten Vitamin-C-Quellen Nordeuropas — pro Gewicht ein Vielfaches einer Orange. Pur viel zu sauer für irgendwen.",
+    "storageTips": "Kaum zu pflücken, ohne sie zu zerdrücken, deshalb schneiden Betriebe ganze Zweige ab, frieren sie ein und schütteln die Beeren dann herunter. Sofort einfrieren; der Saft hält sich monatelang.",
     "pairingIdeas": [
-      "Honey and yoghurt",
-      "Buttermilk desserts",
-      "White chocolate",
-      "A sharp cordial"
+      "Honig und Joghurt",
+      "Buttermilchdesserts",
+      "Weiße Schokolade",
+      "Als spitzer Sirup"
     ],
     "imageUrl": "/produce/sea-buckthorn.png",
     "region": [
@@ -1479,14 +1479,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Sweeten heavily",
-    "flavorProfile": "Fiercely acidic and tropical — passion fruit and mango with a sour, oily finish.",
-    "recipeIdea": "Whisk the juice with honey into thick yoghurt and layer with toasted oats for a very Baltic breakfast.",
+    "culinaryTag": "Kräftig süßen",
+    "flavorProfile": "Brutal sauer und tropisch — Maracuja und Mango mit einem sauren, öligen Abgang.",
+    "recipeIdea": "Den Saft mit Honig unter dicken Joghurt schlagen und mit gerösteten Haferflocken schichten — ein sehr norddeutsches Frühstück.",
     "co2": {
       "local": 0.3,
       "imported": 1.4,
       "importMode": "road",
-      "origin": "Eastern Europe"
+      "origin": "Osteuropa"
     },
     "illustration": {
       "archetype": "berry-cluster"
@@ -1502,13 +1502,13 @@
       8
     ],
     "monthsInStorage": [],
-    "description": "Schattenmorelle is the German standard — too sharp to eat raw by the handful, and unbeatable baked. Almost the entire crop goes into cakes, compote and preserves, which is exactly what it is for.",
-    "storageTips": "Even more fragile than sweet cherries: three days in the fridge. Stone and freeze on a tray, then bag them — they keep a year and bake straight from frozen.",
+    "description": "Die Schattenmorelle ist hier der Standard — zu sauer, um sie handvollweise roh zu essen, und gebacken unschlagbar. Fast die ganze Ernte geht in Kuchen, Kompott und Eingemachtes, und genau dafür ist sie da.",
+    "storageTips": "Noch empfindlicher als Süßkirschen: drei Tage im Kühlschrank. Entsteint auf einem Blech einfrieren, dann in den Beutel — so halten sie ein Jahr und wandern gefroren direkt in den Kuchen.",
     "pairingIdeas": [
-      "Chocolate and kirsch",
-      "Streusel and quark",
-      "Vanilla custard",
-      "Game and red wine"
+      "Schokolade und Kirschwasser",
+      "Streusel und Quark",
+      "Vanillesauce",
+      "Wild und Rotwein"
     ],
     "imageUrl": "/produce/sour-cherry.png",
     "region": [
@@ -1538,14 +1538,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Perfect for baking",
-    "flavorProfile": "Bracingly tart with a deep, almost wine-like fruitiness that sugar and heat bring forward.",
-    "recipeIdea": "Fold stoned cherries into a quark-and-streusel tray bake — the acidity is the only thing that stops it being too rich.",
+    "culinaryTag": "Perfekt zum Backen",
+    "flavorProfile": "Erfrischend sauer mit einer tiefen, fast weinigen Fruchtigkeit, die Zucker und Hitze hervorholen.",
+    "recipeIdea": "Entsteinte Kirschen in einen Quark-Streusel-Blechkuchen heben — die Säure ist das Einzige, was ihn davor bewahrt, zu mächtig zu werden.",
     "co2": {
       "local": 0.4,
       "imported": 2.1,
       "importMode": "sea",
-      "origin": "Turkey / Poland"
+      "origin": "Türkei / Polen"
     },
     "illustration": {
       "archetype": "stone-fruit"
@@ -1562,13 +1562,13 @@
       7
     ],
     "monthsInStorage": [],
-    "description": "The opening act of the German fruit year, and the crop that pick-your-own fields are built around. Strawberries do not ripen further after picking, so a pale shoulder stays pale and sour forever.",
-    "storageTips": "Never wash before storing, never seal in plastic. Spread them in a single layer on paper in the fridge and eat within two days; bring to room temperature an hour before serving for the aroma.",
+    "description": "Der Auftakt des deutschen Obstjahres und die Kultur, um die herum die Selbstpflückfelder gebaut sind. Erdbeeren reifen nach dem Pflücken nicht nach, eine helle Schulter bleibt also für immer hell und sauer.",
+    "storageTips": "Vor dem Lagern nie waschen und nie luftdicht einpacken. In einer Lage auf Papier in den Kühlschrank und in zwei Tagen essen; fürs Aroma eine Stunde vorher auf Zimmertemperatur bringen.",
     "pairingIdeas": [
-      "Black pepper and balsamic",
-      "Rhubarb and vanilla",
-      "Basil and mascarpone",
-      "Whipped cream and shortcake"
+      "Schwarzer Pfeffer und Balsamico",
+      "Rhabarber und Vanille",
+      "Basilikum und Mascarpone",
+      "Schlagsahne und Mürbeteig"
     ],
     "imageUrl": "/produce/strawberry.png",
     "region": [
@@ -1623,14 +1623,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Perfumed and honeyed with a clean acidity; field-ripened fruit has an aroma that greenhouse fruit simply never develops.",
-    "recipeIdea": "Halve, macerate for twenty minutes with sugar, a grind of black pepper and a spoon of balsamic, then spoon over mascarpone.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Parfümiert und honigsüß mit klarer Säure; am Feld gereifte Früchte haben ein Aroma, das Gewächshausware schlicht nie entwickelt.",
+    "recipeIdea": "Halbieren, zwanzig Minuten mit Zucker, einer Mühle schwarzem Pfeffer und einem Löffel Balsamico ziehen lassen, dann über Mascarpone löffeln.",
     "co2": {
       "local": 0.3,
       "imported": 3.9,
       "importMode": "air",
-      "origin": "Egypt / Morocco"
+      "origin": "Ägypten / Marokko"
     },
     "illustration": {
       "archetype": "strawberry"
@@ -1646,13 +1646,13 @@
       7
     ],
     "monthsInStorage": [],
-    "description": "Six weeks, and then it is over. German growers sort the crop into numbered size classes, and the biggest fruit comes from the oldest trees — which is why old orchards are still worth keeping.",
-    "storageTips": "Keep the stems on and refrigerate unwashed for up to five days. Cherries absorb odours readily, so keep them well away from onions or anything strongly scented.",
+    "description": "Sechs Wochen, dann ist Schluss. Hier wird die Ernte in nummerierte Größenklassen sortiert, und die größten Früchte kommen von den ältesten Bäumen — weshalb alte Streuobstwiesen sich immer noch lohnen.",
+    "storageTips": "Mit Stiel und ungewaschen bis zu fünf Tage in den Kühlschrank. Kirschen ziehen Gerüche an, also weit weg von Zwiebeln oder allem stark Riechenden lagern.",
     "pairingIdeas": [
-      "Almond and marzipan",
-      "Dark chocolate",
-      "Baked in a clafoutis",
-      "Duck or venison"
+      "Mandel und Marzipan",
+      "Zartbitterschokolade",
+      "Als Clafoutis gebacken",
+      "Ente oder Wild"
     ],
     "imageUrl": "/produce/cherry.png",
     "region": [
@@ -1693,14 +1693,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Sweet and lightly tannic, with a bitter almond note in the skin around the stone.",
-    "recipeIdea": "Bake whole, stones in, under a loose almond batter for a clafoutis — the stones lend a faint amaretto perfume.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Süß und leicht gerbig, mit einer bittermandeligen Note in der Haut rund um den Kern.",
+    "recipeIdea": "Ganz und mit Kern unter einem lockeren Mandelteig als Clafoutis backen — die Kerne geben einen feinen Amaretto-Duft ab.",
     "co2": {
       "local": 0.4,
       "imported": 6.8,
       "importMode": "air",
-      "origin": "Chile / Turkey"
+      "origin": "Chile / Türkei"
     },
     "illustration": {
       "archetype": "stone-fruit"
@@ -1718,13 +1718,13 @@
     "monthsInStorage": [
       11
     ],
-    "description": "German vineyards are overwhelmingly for wine, but the warm valleys of Baden and the Pfalz produce table grapes too. Italy is Europe's real supplier, with a season running from August well into November.",
-    "storageTips": "Refrigerate unwashed in a perforated bag for up to two weeks. The pale bloom is natural yeast and a sign of freshness — washing it off shortens their life.",
+    "description": "Deutsche Weinberge stehen fast nur für Wein, aber in den warmen Lagen in Baden und der Pfalz wachsen auch Tafeltrauben. Der eigentliche Lieferant Europas ist Italien, mit einer Saison von August bis weit in den November.",
+    "storageTips": "Ungewaschen in einem perforierten Beutel bis zu zwei Wochen in den Kühlschrank. Der helle Belag ist natürliche Hefe und ein Frischezeichen — abwaschen verkürzt die Haltbarkeit.",
     "pairingIdeas": [
-      "Cheese and walnut",
-      "Roasted with sausages",
-      "Frozen as a snack",
-      "Rosemary focaccia"
+      "Käse und Walnuss",
+      "Mit Bratwurst geröstet",
+      "Gefroren als Snack",
+      "Rosmarin-Focaccia"
     ],
     "imageUrl": "/produce/grape.png",
     "region": [
@@ -1760,14 +1760,14 @@
         ]
       }
     },
-    "culinaryTag": "Eat it fresh",
-    "flavorProfile": "Sweet and grapey with a muscat perfume in the best varieties, and a tannic snap in the skins.",
-    "recipeIdea": "Roast whole bunches with olive oil, rosemary and salt until they blister, then serve alongside sausages or soft cheese.",
+    "culinaryTag": "Frisch essen",
+    "flavorProfile": "Süß und traubig, bei den besten Sorten mit Muskatduft und einem gerbigen Knack in der Schale.",
+    "recipeIdea": "Ganze Rispen mit Olivenöl, Rosmarin und Salz rösten, bis sie aufplatzen, dann zu Bratwurst oder Weichkäse servieren.",
     "co2": {
       "local": 0.4,
       "imported": 2.6,
       "importMode": "sea",
-      "origin": "South Africa / Peru"
+      "origin": "Südafrika / Peru"
     },
     "illustration": {
       "archetype": "grape-cluster"
@@ -1785,13 +1785,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "A tropical plant that sulks below 12 °C, which is why outdoor German basil has such a short window. Genovese basil grown for pesto has protected status in Liguria, where the leaves are picked small and never cut with metal.",
-    "storageTips": "Never refrigerate — cold turns the leaves black within hours. Keep a bunch in water on the counter like flowers, out of direct sun.",
+    "description": "Eine tropische Pflanze, die unter 12 °C schmollt — deshalb ist das Fenster für Basilikum im Freien hier so kurz. Genueser Basilikum für Pesto hat in Ligurien eine geschützte Herkunft: klein gepflückt und nie mit Metall geschnitten.",
+    "storageTips": "Nie in den Kühlschrank — Kälte macht die Blätter innerhalb von Stunden schwarz. Den Bund wie Blumen ins Wasser auf die Arbeitsplatte stellen, aber nicht in die pralle Sonne.",
     "pairingIdeas": [
-      "Tomato and olive oil",
-      "Mozzarella and peach",
-      "Pounded into pesto",
-      "Strawberries and pepper"
+      "Tomate und Olivenöl",
+      "Mozzarella und Pfirsich",
+      "Zu Pesto gestoßen",
+      "Erdbeeren und Pfeffer"
     ],
     "imageUrl": "/produce/basil.png",
     "region": [
@@ -1848,14 +1848,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Use it raw",
-    "flavorProfile": "Sweet, peppery and clove-like, with a fragility that disappears the moment it meets sustained heat.",
-    "recipeIdea": "Pound leaves with pine nuts, garlic, pecorino and oil in a mortar — a blade bruises and oxidises the leaves.",
+    "culinaryTag": "Roh verwenden",
+    "flavorProfile": "Süß, pfeffrig und nelkenartig, und so zart, dass davon nichts bleibt, sobald es länger Hitze abbekommt.",
+    "recipeIdea": "Blätter mit Pinienkernen, Knoblauch, Pecorino und Öl im Mörser zerstoßen — eine Klinge quetscht die Blätter und lässt sie oxidieren.",
     "co2": {
       "local": 0.4,
       "imported": 2.8,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -1876,13 +1876,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "One of the four fines herbes, and the first to appear in spring. Frankfurt's Grüne Soße and the Hessian tradition of Gründonnerstag soup both lean on it, yet it has almost disappeared from supermarkets.",
-    "storageTips": "Extremely delicate — two or three days in a damp cloth. Never cook it for more than a few seconds; the aniseed aroma is the first thing heat destroys.",
+    "description": "Eines der vier fines herbes und das erste Kraut im Frühjahr. Die Frankfurter Grüne Soße und die hessische Gründonnerstagssuppe leben davon, trotzdem ist er aus den Supermärkten fast verschwunden.",
+    "storageTips": "Extrem zart — zwei, drei Tage in einem feuchten Tuch. Nie länger als ein paar Sekunden mitkochen; das Anisaroma ist das Erste, was die Hitze zerstört.",
     "pairingIdeas": [
-      "Fines herbes with egg",
-      "Frankfurt green sauce",
-      "Spring soups",
-      "Young carrots and butter"
+      "Fines herbes zum Ei",
+      "Frankfurter Grüne Soße",
+      "Frühlingssuppen",
+      "Junge Möhren und Butter"
     ],
     "imageUrl": "/produce/chervil.png",
     "region": [
@@ -1935,14 +1935,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Softly aniseed and faintly grassy — parsley crossed with tarragon, but much more fragile than either.",
-    "recipeIdea": "Fold a generous handful into an omelette with chives and tarragon just before it sets.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Sanft nach Anis und leicht grasig — Petersilie gekreuzt mit Estragon, aber viel empfindlicher als beide.",
+    "recipeIdea": "Eine großzügige Handvoll kurz vorm Stocken mit Schnittlauch und Estragon ins Omelett falten.",
     "co2": {
       "local": 0.3,
       "imported": 2.3,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-frond"
@@ -1963,13 +1963,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The most forgiving herb in any garden: cut it to the base and it grows back within a fortnight, five or six times a season. The purple flowers are edible too, and taste like a milder version of the leaf.",
-    "storageTips": "Wrap in a damp cloth in the fridge for up to five days. Chives lose their character when dried, but chop and freeze them and they keep almost everything.",
+    "description": "Das gutmütigste Kraut im Garten: bodennah abschneiden und es kommt in zwei Wochen wieder, fünf-, sechsmal pro Saison. Die lila Blüten kann man auch essen, sie schmecken wie eine mildere Version der Halme.",
+    "storageTips": "In ein feuchtes Tuch wickeln, bis zu fünf Tage im Kühlschrank. Getrocknet verliert Schnittlauch seinen Charakter, klein geschnitten und eingefroren behält er fast alles.",
     "pairingIdeas": [
-      "Quark and potatoes",
-      "Scrambled egg",
-      "Soured cream on soup",
-      "Cold cucumber salad"
+      "Quark und Kartoffeln",
+      "Rührei",
+      "Saure Sahne auf der Suppe",
+      "Kalter Gurkensalat"
     ],
     "imageUrl": "/produce/chives.png",
     "region": [
@@ -2037,14 +2037,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Delicately oniony and grassy — heat destroys it, so it belongs on top of the dish, not in it.",
-    "recipeIdea": "Stir a whole bunch, finely cut, into quark with a little cream and salt, and eat it with hot boiled potatoes.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Fein zwieblig und grasig — Hitze zerstört das, also gehört er auf das Gericht und nicht hinein.",
+    "recipeIdea": "Einen ganzen Bund fein schneiden, mit etwas Sahne und Salz unter Quark rühren und zu heißen Pellkartoffeln essen.",
     "co2": {
       "local": 0.3,
       "imported": 2.4,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-grass"
@@ -2062,13 +2062,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Bolts to seed at the first hot spell, so growers sow small batches every fortnight. Roughly one person in seven carries a gene variant that makes the leaf taste of soap — a genuine difference in perception, not fussiness.",
-    "storageTips": "Stand the stems in water and cover loosely in the fridge for up to a week. The roots and stalks carry the most flavour and should never be thrown away.",
+    "description": "Schießt beim ersten heißen Tag ins Kraut, deshalb sät man alle zwei Wochen kleine Portionen nach. Etwa jeder Siebte trägt eine Genvariante, durch die die Blätter nach Seife schmecken — ein echter Wahrnehmungsunterschied, keine Zickerei.",
+    "storageTips": "Die Stiele ins Wasser stellen und locker abgedeckt bis zu eine Woche in den Kühlschrank. Wurzeln und Stiele haben das meiste Aroma und gehören nie in den Müll.",
     "pairingIdeas": [
-      "Lime and chilli",
-      "Yoghurt and cucumber",
-      "Blitzed into a green sauce",
-      "Roasted carrots and cumin"
+      "Limette und Chili",
+      "Joghurt und Gurke",
+      "Zu grüner Sauce gemixt",
+      "Geröstete Möhren und Kreuzkümmel"
     ],
     "imageUrl": "/produce/coriander.png",
     "region": [
@@ -2124,14 +2124,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Use it raw",
-    "flavorProfile": "Bright, citric and green, with an aldehyde note that some people read as soap and others as pure freshness.",
-    "recipeIdea": "Blitz the whole bunch — stalks, roots and all — with green chilli, lime and a little sugar into a fresh chutney.",
+    "culinaryTag": "Roh verwenden",
+    "flavorProfile": "Hell, zitrisch und grün, mit einer Aldehydnote, die die einen als Seife und die anderen als pure Frische lesen.",
+    "recipeIdea": "Den ganzen Bund — Stiele, Wurzeln und alles — mit grüner Chili, Limette und etwas Zucker zu einem frischen Chutney mixen.",
     "co2": {
       "local": 0.3,
       "imported": 2.5,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2149,13 +2149,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Two crops from one plant: the feathery fronds through summer, and the seed heads in late August that go into every jar of pickled cucumber in Northern Europe.",
-    "storageTips": "Keeps five days in a damp cloth in the fridge. Dill freezes better than almost any soft herb — chop and freeze in oil in an ice cube tray.",
+    "description": "Zwei Ernten von einer Pflanze: den ganzen Sommer das feine Kraut und Ende August die Samendolden, die in jedes Glas eingelegter Gurken in Nordeuropa wandern.",
+    "storageTips": "Hält fünf Tage in einem feuchten Tuch im Kühlschrank. Dill lässt sich besser einfrieren als fast jedes andere Weichkraut — klein schneiden und in Öl im Eiswürfelbehälter einfrieren.",
     "pairingIdeas": [
-      "Cucumber and soured cream",
-      "Cured or smoked salmon",
-      "New potatoes and butter",
-      "Pickling brine"
+      "Gurke und saure Sahne",
+      "Gebeizter oder geräucherter Lachs",
+      "Frühkartoffeln und Butter",
+      "Einlegesud"
     ],
     "imageUrl": "/produce/dill.png",
     "region": [
@@ -2199,14 +2199,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Grassy, faintly aniseed and slightly citric — unmistakable and impossible to substitute.",
-    "recipeIdea": "Bury a salmon fillet in salt, sugar and a forest of dill for 48 hours for gravlax that needs nothing but bread.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Grasig, leicht nach Anis und etwas zitrisch — unverwechselbar und durch nichts zu ersetzen.",
+    "recipeIdea": "Ein Lachsfilet 48 Stunden in Salz, Zucker und einem Wald aus Dill vergraben — Graved Lachs, der nur noch Brot braucht.",
     "co2": {
       "local": 0.3,
       "imported": 2.4,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-frond"
@@ -2225,13 +2225,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Known in German as Maggikraut because it tastes uncannily like the seasoning sauce, though the sauce has never actually contained it. One plant produces more than a household can use, for thirty years.",
-    "storageTips": "A few days fresh in the fridge. It dries and freezes well, and the flavour is so concentrated that a small jar lasts all winter.",
+    "description": "Heißt hier Maggikraut, weil es unheimlich nach der Würzsauce schmeckt, obwohl die es nie enthalten hat. Eine Pflanze liefert dreißig Jahre lang mehr, als ein Haushalt verbrauchen kann.",
+    "storageTips": "Frisch ein paar Tage im Kühlschrank. Trocknen und Einfrieren klappen beide gut, und das Aroma ist so konzentriert, dass ein kleines Glas den ganzen Winter reicht.",
     "pairingIdeas": [
-      "Broths and stocks",
-      "Potato soup",
-      "Tomato sauce",
-      "Egg dishes"
+      "Brühen und Fonds",
+      "Kartoffelsuppe",
+      "Tomatensauce",
+      "Eierspeisen"
     ],
     "imageUrl": "/produce/lovage.png",
     "region": [
@@ -2278,14 +2278,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Cook it long",
-    "flavorProfile": "Intensely savoury and celery-like, with a yeasty depth that reads as umami more than as a herb.",
-    "recipeIdea": "Add one leaf — no more — to a pot of potato soup and it tastes like it simmered for twice as long.",
+    "culinaryTag": "Lange kochen",
+    "flavorProfile": "Intensiv herzhaft und sellerieartig, mit einer hefigen Tiefe, die eher nach Umami schmeckt als nach Kraut.",
+    "recipeIdea": "Ein Blatt — mehr nicht — in den Topf Kartoffelsuppe, und sie schmeckt, als hätte sie doppelt so lange gezogen.",
     "co2": {
       "local": 0.2,
       "imported": 1.9,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2303,13 +2303,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Oregano's gentler cousin, and the defining herb of German sausage and liver dishes — Thuringian bratwurst is unimaginable without it. Grown as an annual north of the Alps because it will not survive the frost.",
-    "storageTips": "Keeps a week in the fridge and dries very well. Unlike oregano it loses potency fast once dried, so replace the jar each year.",
+    "description": "Der sanftere Vetter des Oregano und das prägende Kraut in deutscher Wurst und Leberküche — Thüringer Bratwurst ohne ihn ist undenkbar. Nördlich der Alpen einjährig gezogen, weil er keinen Frost übersteht.",
+    "storageTips": "Hält eine Woche im Kühlschrank und trocknet sehr gut. Anders als Oregano verliert er getrocknet schnell an Kraft, also das Glas jedes Jahr erneuern.",
     "pairingIdeas": [
-      "Sausage and potato",
-      "Liver and onions",
-      "Bean stews",
-      "Tomato and egg"
+      "Wurst und Kartoffel",
+      "Leber und Zwiebeln",
+      "Bohneneintöpfe",
+      "Tomate und Ei"
     ],
     "imageUrl": "/produce/marjoram.png",
     "region": [
@@ -2366,14 +2366,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Sweet, floral and warmly spiced — oregano with the bitterness removed and the perfume turned up.",
-    "recipeIdea": "Stir a heavy pinch into fried potatoes with onion and bacon in the last minute, off the heat.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Süß, blumig und warm gewürzt — Oregano ohne die Bitterkeit und mit mehr Parfüm.",
+    "recipeIdea": "Eine kräftige Prise in der letzten Minute und vom Herd genommen unter Bratkartoffeln mit Zwiebel und Speck rühren.",
     "co2": {
       "local": 0.3,
       "imported": 2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2392,13 +2392,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "So vigorous it will take over a bed in one season, which is why experienced gardeners keep it in a sunken pot. Peppermint, spearmint and Moroccan mint are quite different plants with quite different uses.",
-    "storageTips": "A week in a damp cloth in the fridge. Mint roots readily in a glass of water on the windowsill, so a supermarket bunch can become a plant.",
+    "description": "So wuchsfreudig, dass sie ein Beet in einer Saison übernimmt — deshalb setzen erfahrene Gärtner sie in einen eingegrabenen Topf. Pfefferminze, Grüne Minze und marokkanische Minze sind ziemlich verschiedene Pflanzen mit ziemlich verschiedenen Einsätzen.",
+    "storageTips": "Eine Woche in einem feuchten Tuch im Kühlschrank. Minze wurzelt bereitwillig in einem Glas Wasser auf der Fensterbank, aus einem Supermarktbund wird also eine Pflanze.",
     "pairingIdeas": [
-      "Peas and broad beans",
-      "Yoghurt and cucumber",
-      "Lamb",
-      "Steeped as a tea"
+      "Erbsen und dicke Bohnen",
+      "Joghurt und Gurke",
+      "Lamm",
+      "Als Tee aufgegossen"
     ],
     "imageUrl": "/produce/mint.png",
     "region": [
@@ -2459,14 +2459,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Use it raw",
-    "flavorProfile": "Cooling and sweet from menthol, with a pepperiness that varies enormously between varieties.",
-    "recipeIdea": "Crush with sugar and a splash of vinegar into a rough mint sauce, and let it sit an hour before serving with lamb.",
+    "culinaryTag": "Roh verwenden",
+    "flavorProfile": "Kühlend und süß durch Menthol, mit einer Schärfe, die sich je nach Sorte enorm unterscheidet.",
+    "recipeIdea": "Mit Zucker und einem Schuss Essig zu einer groben Minzsauce zerstoßen und eine Stunde ziehen lassen, bevor sie zum Lamm kommt.",
     "co2": {
       "local": 0.3,
       "imported": 2.6,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2484,13 +2484,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "The only common herb that is genuinely better dried than fresh — drying concentrates the carvacrol that gives it its punch. Wild Greek and Italian oregano is far stronger than anything grown in a German garden.",
-    "storageTips": "Hang bunches upside down in a dry, dark place for a week, then strip and store the leaves whole in a jar. Crush them between your palms as you add them.",
+    "description": "Das einzige gängige Kraut, das getrocknet wirklich besser ist als frisch — das Trocknen konzentriert das Carvacrol, das ihm seine Wucht gibt. Wilder griechischer und italienischer Oregano ist viel kräftiger als alles aus einem deutschen Garten.",
+    "storageTips": "Bündel kopfüber eine Woche an einen trockenen, dunklen Ort hängen, dann abstreifen und die Blätter ganz im Glas aufbewahren. Beim Verwenden zwischen den Handflächen zerreiben.",
     "pairingIdeas": [
-      "Tomato and olive oil",
-      "Lamb and lemon",
-      "Pizza, obviously",
-      "Feta and cucumber"
+      "Tomate und Olivenöl",
+      "Lamm und Zitrone",
+      "Pizza, klar",
+      "Feta und Gurke"
     ],
     "imageUrl": "/produce/oregano.png",
     "region": [
@@ -2547,14 +2547,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Dry it for winter",
-    "flavorProfile": "Pungent, peppery and slightly bitter, with a warmth that survives long cooking intact.",
-    "recipeIdea": "Dress a tomato salad with nothing but dried oregano, sea salt, olive oil and torn bread to soak up the juice.",
+    "culinaryTag": "Für den Winter trocknen",
+    "flavorProfile": "Kräftig, pfeffrig und leicht bitter, mit einer Wärme, die langes Kochen unbeschadet übersteht.",
+    "recipeIdea": "Einen Tomatensalat mit nichts als getrocknetem Oregano, Meersalz, Olivenöl und gezupftem Brot anmachen, das den Saft aufsaugt.",
     "co2": {
       "local": 0.3,
       "imported": 2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2575,13 +2575,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "A biennial that survives mild German winters under a fleece and comes back for a second spring. Flat-leaf has more flavour, curly has more structure — German kitchens traditionally use curly, which is why it ended up as a garnish everywhere else.",
-    "storageTips": "Stand the stems in a glass of water, cover loosely and refrigerate — it keeps for over a week that way. The stalks have more flavour than the leaves; use them in stock.",
+    "description": "Zweijährig, übersteht milde Winter unter einem Vlies und kommt für einen zweiten Frühling zurück. Glatte Petersilie hat mehr Geschmack, krause mehr Struktur — deutsche Küchen nehmen traditionell die krause, weshalb sie überall sonst als Deko endete.",
+    "storageTips": "Die Stiele in ein Glas Wasser stellen, locker abdecken und in den Kühlschrank — so hält sie über eine Woche. Die Stiele haben mehr Aroma als die Blätter; ab damit in den Fond.",
     "pairingIdeas": [
-      "Garlic and lemon zest",
-      "Tabbouleh with bulgur",
-      "Salsa verde with capers",
-      "Fried whole in butter"
+      "Knoblauch und Zitronenabrieb",
+      "Tabbouleh mit Bulgur",
+      "Salsa verde mit Kapern",
+      "Ganz in Butter gebraten"
     ],
     "imageUrl": "/produce/parsley.png",
     "region": [
@@ -2651,14 +2651,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Clean, green and peppery, with a bitterness that cuts richness better than any other soft herb.",
-    "recipeIdea": "Chop a huge handful with garlic, capers, anchovy and lemon into a salsa verde — it rescues anything plain.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Klar, grün und pfeffrig, mit einer Bitterkeit, die Fettes besser schneidet als jedes andere Weichkraut.",
+    "recipeIdea": "Eine riesige Handvoll mit Knoblauch, Kapern, Sardelle und Zitrone zu Salsa verde hacken — das rettet alles Fade.",
     "co2": {
       "local": 0.3,
       "imported": 2.3,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2678,13 +2678,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "Evergreen and technically harvestable year-round, but growth stops in the cold and the German winter kills unprotected plants. Italian and French rosemary keeps going through the whole year.",
-    "storageTips": "Sturdy enough to keep two weeks in the fridge, and it dries well. Strip the needles downward against the grain of the stem.",
+    "description": "Immergrün und theoretisch ganzjährig zu ernten, aber bei Kälte wächst nichts nach, und ungeschützte Pflanzen überstehen den deutschen Winter nicht. Italienischer und französischer Rosmarin läuft das ganze Jahr durch.",
+    "storageTips": "Robust genug für zwei Wochen im Kühlschrank, und er trocknet gut. Die Nadeln gegen die Wuchsrichtung nach unten abstreifen.",
     "pairingIdeas": [
-      "Roast potatoes and garlic",
-      "Lamb",
+      "Bratkartoffeln und Knoblauch",
+      "Lamm",
       "Focaccia",
-      "Infused into honey or oil"
+      "In Honig oder Öl angesetzt"
     ],
     "imageUrl": "/produce/rosemary.png",
     "region": [
@@ -2758,14 +2758,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Cook it long",
-    "flavorProfile": "Piney, camphorous and resinous — powerful enough to dominate anything if you use too much.",
-    "recipeIdea": "Warm a whole sprig in olive oil with crushed garlic for ten minutes off the heat, then toss through roast potatoes.",
+    "culinaryTag": "Lange kochen",
+    "flavorProfile": "Harzig, kampferartig und nach Kiefer — kräftig genug, um alles zu dominieren, wenn du zu viel nimmst.",
+    "recipeIdea": "Einen ganzen Zweig zehn Minuten vom Herd in Olivenöl mit zerdrücktem Knoblauch ziehen lassen, dann über Bratkartoffeln schwenken.",
     "co2": {
       "local": 0.3,
       "imported": 2.1,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-needle"
@@ -2785,13 +2785,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A hardy Mediterranean perennial that keeps its silver leaves through mild German winters. Strong enough that a few leaves season an entire dish — the classic partner for butter, pumpkin and anything fatty.",
-    "storageTips": "Keeps a week or more in the fridge and dries well, though dried sage turns musty within a year. Fry whole leaves in butter and they crisp in thirty seconds.",
+    "description": "Ein winterharter mediterraner Strauch, der seine silbrigen Blätter durch milde deutsche Winter behält. So kräftig, dass ein paar Blätter ein ganzes Gericht würzen — der Klassiker zu Butter, Kürbis und allem Fetten.",
+    "storageTips": "Hält eine Woche und länger im Kühlschrank und trocknet gut, wobei getrockneter Salbei binnen eines Jahres muffig wird. Ganze Blätter in Butter gebraten werden in dreißig Sekunden knusprig.",
     "pairingIdeas": [
-      "Brown butter and gnocchi",
-      "Pumpkin ravioli",
-      "Pork and apple",
-      "Fried whole as a garnish"
+      "Braune Butter und Gnocchi",
+      "Kürbisravioli",
+      "Schwein und Apfel",
+      "Ganz gebraten als Garnitur"
     ],
     "imageUrl": "/produce/sage.png",
     "region": [
@@ -2858,14 +2858,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Fry in butter",
-    "flavorProfile": "Musty, peppery and eucalyptus-like raw; nutty and savoury once fried until crisp.",
-    "recipeIdea": "Brown butter until it smells of hazelnuts, throw in a handful of sage leaves for thirty seconds, and pour over gnocchi.",
+    "culinaryTag": "In Butter braten",
+    "flavorProfile": "Roh muffig, pfeffrig und eukalyptusartig; knusprig gebraten nussig und herzhaft.",
+    "recipeIdea": "Butter bräunen, bis sie nach Haselnuss riecht, eine Handvoll Salbeiblätter dreißig Sekunden hineinwerfen und über Gnocchi gießen.",
     "co2": {
       "local": 0.3,
       "imported": 2.1,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2884,13 +2884,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "French tarragon cannot be grown from seed and must be propagated by division — anything sold as tarragon seed is the coarse Russian kind, which has almost no flavour. Worth checking before you plant.",
-    "storageTips": "Five days in a damp cloth in the fridge. Steep sprigs in white wine vinegar for a fortnight to carry the flavour through the winter.",
+    "description": "Französischer Estragon lässt sich nicht aus Samen ziehen und muss geteilt werden — was als Estragonsamen verkauft wird, ist der grobe russische, der fast kein Aroma hat. Vor dem Pflanzen lohnt sich ein Blick.",
+    "storageTips": "Fünf Tage in einem feuchten Tuch im Kühlschrank. Zweige zwei Wochen in Weißweinessig ziehen lassen, dann hast du das Aroma über den Winter.",
     "pairingIdeas": [
-      "Chicken and cream",
-      "Béarnaise sauce",
-      "Eggs and fines herbes",
-      "Steeped in vinegar"
+      "Huhn und Sahne",
+      "Sauce béarnaise",
+      "Eier und fines herbes",
+      "In Essig angesetzt"
     ],
     "imageUrl": "/produce/tarragon.png",
     "region": [
@@ -2938,14 +2938,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Add at the end",
-    "flavorProfile": "Sweetly aniseed with a faint numbing quality, and far more assertive than its delicate leaves suggest.",
-    "recipeIdea": "Reduce white wine vinegar with shallot and tarragon stalks, then build a béarnaise on it and finish with the chopped leaves.",
+    "culinaryTag": "Zum Schluss dazu",
+    "flavorProfile": "Süßlich nach Anis mit einer leicht betäubenden Note, und viel durchsetzungsfähiger, als die zarten Blätter vermuten lassen.",
+    "recipeIdea": "Weißweinessig mit Schalotte und Estragonstielen einkochen, darauf eine Sauce béarnaise aufbauen und mit den gehackten Blättern abschmecken.",
     "co2": {
       "local": 0.3,
       "imported": 2.2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-sprig"
@@ -2965,13 +2965,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A Mediterranean shrub hardy enough to survive German winters in a dry, sunny spot. Flavour peaks just before it flowers in June, when the essential oils are most concentrated.",
-    "storageTips": "One of the few herbs that dries genuinely well — hang bunches somewhere warm and airy. Fresh sprigs keep two weeks in the fridge.",
+    "description": "Ein mediterraner Strauch, der an einem trockenen, sonnigen Platz deutsche Winter übersteht. Das Aroma ist kurz vor der Blüte im Juni am stärksten, wenn die ätherischen Öle am konzentriertesten sind.",
+    "storageTips": "Eines der wenigen Kräuter, das wirklich gut trocknet — Bündel warm und luftig aufhängen. Frische Zweige halten zwei Wochen im Kühlschrank.",
     "pairingIdeas": [
-      "Roast chicken and lemon",
-      "Mushrooms and butter",
-      "Slow-cooked beef",
-      "Honey and goat's cheese"
+      "Brathähnchen und Zitrone",
+      "Pilze und Butter",
+      "Lang geschmortes Rind",
+      "Honig und Ziegenkäse"
     ],
     "imageUrl": "/produce/thyme.png",
     "region": [
@@ -3036,14 +3036,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Cook it long",
-    "flavorProfile": "Woody, warm and slightly medicinal from thymol, with a lemon note in the citrus varieties.",
-    "recipeIdea": "Throw whole sprigs under a chicken with lemon halves and garlic — the stalks come out clean after roasting.",
+    "culinaryTag": "Lange kochen",
+    "flavorProfile": "Holzig, warm und durch das Thymol leicht medizinisch, bei den Zitronensorten mit einer Zitrusnote.",
+    "recipeIdea": "Ganze Zweige mit halbierten Zitronen und Knoblauch unter ein Hähnchen legen — die Stiele kommen nach dem Braten sauber wieder raus.",
     "co2": {
       "local": 0.3,
       "imported": 2.2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Israel"
+      "origin": "Niederlande / Israel"
     },
     "illustration": {
       "archetype": "herb-needle"
@@ -3060,13 +3060,13 @@
       5
     ],
     "monthsInStorage": [],
-    "description": "Carpets shaded woodland floors across Germany in early spring and vanishes by June once it flowers. Foragers must be certain of their identification — lily of the valley and autumn crocus grow in the same places and are seriously poisonous.",
-    "storageTips": "Wilts within a day. Wrap in a damp cloth in the fridge for two days at most, or turn the whole lot into pesto or a herb butter and freeze it.",
+    "description": "Überzieht im zeitigen Frühjahr schattige Waldböden in ganz Deutschland und ist bis Juni verschwunden, sobald er blüht. Beim Sammeln musst du dir sicher sein — Maiglöckchen und Herbstzeitlose wachsen an denselben Stellen und sind ernsthaft giftig.",
+    "storageTips": "Fällt binnen eines Tages zusammen. Höchstens zwei Tage in einem feuchten Tuch im Kühlschrank, oder gleich alles zu Pesto oder Kräuterbutter verarbeiten und einfrieren.",
     "pairingIdeas": [
-      "Blitzed into pesto",
-      "Potato soup",
-      "Folded into gnocchi",
-      "Herb butter on steak"
+      "Zu Pesto gemixt",
+      "Kartoffelsuppe",
+      "Unter Gnocchi gehoben",
+      "Kräuterbutter aufs Steak"
     ],
     "imageUrl": "/produce/wild-garlic.png",
     "region": [
@@ -3117,14 +3117,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Use it raw",
-    "flavorProfile": "Garlicky and green without any of the harshness of a bulb — closer to chives with real depth.",
-    "recipeIdea": "Blitz with sunflower seeds, hard cheese and rapeseed oil for a pesto that costs nothing and tastes like March.",
+    "culinaryTag": "Roh verwenden",
+    "flavorProfile": "Knoblauchig und grün, ohne alles Scharfe einer Knolle — näher an Schnittlauch, aber mit echter Tiefe.",
+    "recipeIdea": "Mit Sonnenblumenkernen, Hartkäse und Rapsöl zu einem Pesto mixen, das nichts kostet und nach März schmeckt.",
     "co2": {
       "local": 0.2,
       "imported": 1.6,
       "importMode": "road",
-      "origin": "Eastern Europe"
+      "origin": "Osteuropa"
     },
     "illustration": {
       "archetype": "wild-garlic"
@@ -3141,13 +3141,13 @@
       6
     ],
     "monthsInStorage": [],
-    "description": "Germany's most ceremonial vegetable. White spears are grown under earth ridges to keep them pale and mild; green spears grow in daylight and taste grassier. Tradition ends the harvest on 24 June so the crowns can rebuild for next year.",
-    "storageTips": "Wrap unwashed spears in a damp cloth and keep them in the fridge drawer for up to three days. Standing cut ends in a glass of water works too. Never freeze raw — blanch for two minutes first.",
+    "description": "Deutschlands feierlichstes Gemüse. Weiße Stangen wachsen unter Erddämmen und bleiben dadurch hell und mild, grüne wachsen im Licht und schmecken grasiger. Traditionell ist am 24. Juni Schluss, damit sich die Pflanzen fürs nächste Jahr erholen.",
+    "storageTips": "Ungewaschen in ein feuchtes Tuch wickeln und bis zu drei Tage ins Gemüsefach. Die Schnittenden in ein Glas Wasser zu stellen geht auch. Roh nie einfrieren — vorher zwei Minuten blanchieren.",
     "pairingIdeas": [
-      "New potatoes and brown butter",
-      "Hollandaise and cured ham",
-      "Soft-boiled egg and chives",
-      "Fresh strawberries for dessert"
+      "Frühkartoffeln und braune Butter",
+      "Sauce hollandaise und roher Schinken",
+      "Weiches Ei und Schnittlauch",
+      "Frische Erdbeeren zum Nachtisch"
     ],
     "imageUrl": "/produce/asparagus.png",
     "region": [
@@ -3198,9 +3198,9 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Steam or roast whole",
-    "flavorProfile": "Delicate, faintly sweet and nutty, with a clean mineral bitterness in the white spears.",
-    "recipeIdea": "Roast green spears at 220 °C for 10 minutes with olive oil, then shower with lemon zest, toasted hazelnuts and shaved hard cheese.",
+    "culinaryTag": "Ganz dämpfen oder rösten",
+    "flavorProfile": "Fein, leicht süß und nussig, beim weißen Spargel mit einer klaren mineralischen Bitterkeit.",
+    "recipeIdea": "Grünen Spargel mit Olivenöl bei 220 °C 10 Minuten rösten, dann Zitronenabrieb, geröstete Haselnüsse und gehobelten Hartkäse drüber.",
     "co2": {
       "local": 0.4,
       "imported": 9.1,
@@ -3223,13 +3223,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A heat-lover at the northern edge of its range in Germany, where it needs a tunnel or a very good summer. Italian and French fruit arrive a month earlier and taste it.",
-    "storageTips": "Like cucumbers, aubergines suffer below 10 °C. Keep them in a cool room and use within four or five days — the flesh browns quickly once the skin dents.",
+    "description": "Eine Hitzepflanze am nördlichen Rand ihres Gebiets — in Deutschland braucht sie ein Folienhaus oder einen richtig guten Sommer. Italienische und französische Früchte kommen einen Monat früher und schmecken auch danach.",
+    "storageTips": "Wie Gurken mögen Auberginen nichts unter 10 °C. Kühl im Zimmer lagern und in vier, fünf Tagen aufbrauchen — sobald die Schale dellt, wird das Fleisch schnell braun.",
     "pairingIdeas": [
-      "Tahini and lemon",
-      "Tomato and basil",
-      "Miso glaze",
-      "Layered with cheese"
+      "Tahin und Zitrone",
+      "Tomate und Basilikum",
+      "Miso-Glasur",
+      "Mit Käse geschichtet"
     ],
     "imageUrl": "/produce/aubergine.png",
     "region": [
@@ -3278,14 +3278,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Bland and spongy raw; silky, smoky and deeply savoury once properly charred or roasted.",
-    "recipeIdea": "Char whole on a gas flame until collapsed, scoop out the smoky flesh and beat with tahini, lemon and garlic.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Roh fad und schwammig; richtig geröstet oder gegrillt seidig, rauchig und sehr herzhaft.",
+    "recipeIdea": "Ganz über der Gasflamme rösten, bis sie zusammenfällt, das rauchige Fleisch auslöffeln und mit Tahin, Zitrone und Knoblauch verrühren.",
     "co2": {
       "local": 0.4,
       "imported": 3.4,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "aubergine"
@@ -3310,13 +3310,13 @@
       3,
       4
     ],
-    "description": "Lifted in late summer and autumn, then cellared through the cold months. The earthiness people either love or hate comes from geosmin — the same compound that gives rain-soaked soil its smell.",
-    "storageTips": "Twist off the leaves, leaving 3 cm of stalk so the root does not bleed. Unwashed roots keep for months in a cool, dark, slightly humid place, or a month in the fridge.",
+    "description": "Im Spätsommer und Herbst gerodet und dann über die kalten Monate eingelagert. Das Erdige, das man liebt oder hasst, kommt von Geosmin — demselben Stoff, der nassen Boden nach Regen riechen lässt.",
+    "storageTips": "Das Laub abdrehen und 3 cm Stiel stehen lassen, dann blutet die Knolle nicht aus. Ungewaschen hält sie sich kühl, dunkel und leicht feucht monatelang, im Kühlschrank einen Monat.",
     "pairingIdeas": [
-      "Goat's cheese and walnut",
-      "Horseradish and soured cream",
-      "Orange and dill",
-      "Roasted with balsamic"
+      "Ziegenkäse und Walnuss",
+      "Meerrettich und saure Sahne",
+      "Orange und Dill",
+      "Mit Balsamico geröstet"
     ],
     "imageUrl": "/produce/beetroot.png",
     "region": [
@@ -3398,14 +3398,14 @@
         ]
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Deeply earthy and sugar-sweet — the highest sugar content of any common vegetable.",
-    "recipeIdea": "Wrap unpeeled in foil with thyme and roast at 190 °C for an hour; the skins slip off and the flesh concentrates into something almost jammy.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Tief erdig und zuckersüß — kein anderes gängiges Gemüse hat mehr Zucker.",
+    "recipeIdea": "Ungeschält mit Thymian in Folie wickeln und bei 190 °C eine Stunde backen; die Schale lässt sich danach abziehen und das Fleisch wird fast marmeladig.",
     "co2": {
       "local": 0.2,
       "imported": 0.6,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -3423,13 +3423,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "Green, yellow and red are usually the same fruit at three stages of ripeness — red ones stayed on the plant longest, which is why they are sweetest and cost the most. German field peppers are a late-summer crop only.",
-    "storageTips": "Cool but not cold: around 8 °C in the fridge door, unwashed, for up to two weeks. Peppers wrinkle rather than rot, so a soft one is still perfectly good roasted.",
+    "description": "Grün, gelb und rot sind meist dieselbe Frucht in drei Reifestadien — rote hingen am längsten dran, sind deshalb am süßesten und kosten am meisten. Vom deutschen Feld kommt Paprika nur im Spätsommer.",
+    "storageTips": "Kühl, aber nicht kalt: etwa 8 °C in der Kühlschranktür, ungewaschen, bis zu zwei Wochen. Paprika schrumpelt eher, als dass sie fault — eine weiche ist geröstet immer noch super.",
     "pairingIdeas": [
-      "Roasted with garlic and oil",
-      "Stuffed with rice and herbs",
-      "Smoked paprika and onion",
-      "Raw with quark dip"
+      "Mit Knoblauch und Öl geröstet",
+      "Mit Reis und Kräutern gefüllt",
+      "Rauchiges Paprikapulver und Zwiebel",
+      "Roh mit Quark-Dip"
     ],
     "imageUrl": "/produce/bell-pepper.png",
     "region": [
@@ -3490,14 +3490,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Sweet and juicy when red, greener and slightly bitter when picked early.",
-    "recipeIdea": "Blister whole over a flame until black, steam in a covered bowl for ten minutes, slip the skins off and dress with oil, garlic and sherry vinegar.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Rot süß und saftig, früh gepflückt grüner und leicht bitter.",
+    "recipeIdea": "Ganz über der Flamme schwarz werden lassen, zehn Minuten zugedeckt ausdampfen, die Haut abziehen und mit Öl, Knoblauch und Sherryessig anmachen.",
     "co2": {
       "local": 0.4,
       "imported": 3.2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "nightshade"
@@ -3518,13 +3518,13 @@
       4
     ],
     "monthsInStorage": [],
-    "description": "Nicknamed the winter asparagus, and genuinely worth the mess. The black skin bleeds a sticky latex that stains hands and boards, which is the only reason this excellent root is not more popular.",
-    "storageTips": "Store unwashed in a cool, dark place wrapped in newspaper for up to three weeks. Peel under running water wearing gloves, and drop the roots straight into water with lemon or vinegar.",
+    "description": "Wird Winterspargel genannt und ist die Sauerei wirklich wert. Die schwarze Schale gibt einen klebrigen Milchsaft ab, der Hände und Bretter färbt — der einzige Grund, warum diese hervorragende Wurzel nicht beliebter ist.",
+    "storageTips": "Ungewaschen in Zeitungspapier gewickelt bis zu drei Wochen kühl und dunkel lagern. Mit Handschuhen unter fließendem Wasser schälen und die Wurzeln sofort in Zitronen- oder Essigwasser legen.",
     "pairingIdeas": [
-      "Brown butter and breadcrumbs",
-      "Béchamel and nutmeg",
-      "Ham and parsley",
-      "Deep-fried as crisps"
+      "Braune Butter und Semmelbrösel",
+      "Béchamel und Muskat",
+      "Schinken und Petersilie",
+      "Frittiert als Chips"
     ],
     "imageUrl": "/produce/salsify.png",
     "region": [
@@ -3564,14 +3564,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Delicate, nutty and faintly oyster-like, with a texture between asparagus and salsify's cousin, scorzonera.",
-    "recipeIdea": "Simmer peeled roots in milk until tender, then finish in a pan with butter, breadcrumbs and parsley.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Fein, nussig und leicht nach Auster, mit einer Textur zwischen Spargel und Schwarzwurzel.",
+    "recipeIdea": "Geschälte Wurzeln in Milch weich köcheln, dann in der Pfanne mit Butter, Semmelbröseln und Petersilie fertig machen.",
     "co2": {
       "local": 0.3,
       "imported": 0.8,
       "importMode": "road",
-      "origin": "Belgium / Netherlands"
+      "origin": "Belgien / Niederlande"
     },
     "illustration": {
       "archetype": "root-taper"
@@ -3590,13 +3590,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A flower bud harvested before it opens — yellowing florets mean it went too far. Britain's purple sprouting variety fills the hungry gap in late winter when almost nothing else is cut.",
-    "storageTips": "Keep it cold and unwrapped in the fridge for up to five days; broccoli respires fast and yellows in a sealed bag. The stalk is the sweetest part — peel and use it.",
+    "description": "Eine Blütenknospe, geerntet bevor sie aufgeht — gelbe Röschen heißen, es war zu spät. Die violette Sorte aus England füllt im Spätwinter die Lücke, wenn sonst fast nichts geschnitten wird.",
+    "storageTips": "Kalt und unverpackt bis zu fünf Tage in den Kühlschrank; Brokkoli atmet stark und wird im geschlossenen Beutel gelb. Der Strunk ist das Süßeste — schälen und mitverwenden.",
     "pairingIdeas": [
-      "Garlic, chilli and anchovy",
-      "Almonds and lemon",
-      "Charred with soy",
-      "Cheese sauce"
+      "Knoblauch, Chili und Sardelle",
+      "Mandeln und Zitrone",
+      "Angeröstet mit Sojasauce",
+      "Käsesauce"
     ],
     "imageUrl": "/produce/broccoli.png",
     "region": [
@@ -3659,14 +3659,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Char it hard",
-    "flavorProfile": "Grassy and sulphurous when boiled, sweet and nutty when roasted or seared dry.",
-    "recipeIdea": "Break into florets, roast at 230 °C until the edges blacken, then toss with lemon, chilli flakes and toasted almonds.",
+    "culinaryTag": "Scharf anrösten",
+    "flavorProfile": "Gekocht grasig und schweflig, geröstet oder trocken angebraten süß und nussig.",
+    "recipeIdea": "In Röschen teilen, bei 230 °C rösten, bis die Ränder schwarz werden, dann mit Zitrone, Chiliflocken und gerösteten Mandeln mischen.",
     "co2": {
       "local": 0.4,
       "imported": 1.5,
       "importMode": "road",
-      "origin": "Spain"
+      "origin": "Spanien"
     },
     "illustration": {
       "archetype": "brassica-floret"
@@ -3687,13 +3687,13 @@
     "monthsInStorage": [
       3
     ],
-    "description": "Buds that grow up a single thick stalk, harvested from the bottom upward. Modern varieties have had most of the bitter glucosinolates bred out of them — the reputation is thirty years out of date.",
-    "storageTips": "Best bought still on the stalk, which keeps them fresh for over a week. Loose sprouts last five days in the fridge; trim the base only just before cooking.",
+    "description": "Knospen, die an einem dicken Stiel nach oben wachsen und von unten nach oben geerntet werden. Neueren Sorten hat man die bitteren Senfölglykoside weitgehend weggezüchtet — der schlechte Ruf ist dreißig Jahre alt.",
+    "storageTips": "Am besten noch am Stiel kaufen, so bleiben sie über eine Woche frisch. Lose halten sie fünf Tage im Kühlschrank; den Strunk erst kurz vorm Kochen anschneiden.",
     "pairingIdeas": [
-      "Bacon and chestnut",
-      "Roasted with balsamic",
-      "Shaved raw with parmesan",
-      "Brown butter and lemon"
+      "Speck und Maronen",
+      "Mit Balsamico geröstet",
+      "Roh gehobelt mit Parmesan",
+      "Braune Butter und Zitrone"
     ],
     "imageUrl": "/produce/brussels-sprouts.png",
     "region": [
@@ -3746,14 +3746,14 @@
         ]
       }
     },
-    "culinaryTag": "Char it hard",
-    "flavorProfile": "Nutty and faintly bitter, turning sweet and deeply savoury when roasted rather than boiled.",
-    "recipeIdea": "Halve, roast cut-side down at 220 °C until blackened, then hit them with balsamic and crisp bacon while still hot.",
+    "culinaryTag": "Scharf anrösten",
+    "flavorProfile": "Nussig und leicht bitter, geröstet statt gekocht süß und sehr herzhaft.",
+    "recipeIdea": "Halbieren, mit der Schnittfläche nach unten bei 220 °C rösten, bis sie schwarze Stellen haben, dann noch heiß mit Balsamico und knusprigem Speck mischen.",
     "co2": {
       "local": 0.3,
       "imported": 0.7,
       "importMode": "road",
-      "origin": "Netherlands"
+      "origin": "Niederlande"
     },
     "illustration": {
       "archetype": "sprouts"
@@ -3773,13 +3773,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The soft-leaved head lettuce that defines a German summer salad. Field-grown heads are looser and sweeter than the tight hydroponic ones sold in winter, and they bruise just as easily.",
-    "storageTips": "Do not wash until you use it. Wrap the whole head in a slightly damp tea towel inside a bag — it will stay perky for four or five days.",
+    "description": "Der weichblättrige Kopfsalat, der den deutschen Sommersalat ausmacht. Köpfe vom Feld sind lockerer und süßer als die festen aus der Hydrokultur im Winter — und genauso druckempfindlich.",
+    "storageTips": "Erst waschen, wenn du ihn brauchst. Den ganzen Kopf in ein leicht feuchtes Geschirrtuch wickeln und in einen Beutel — so bleibt er vier, fünf Tage munter.",
     "pairingIdeas": [
-      "Cream and vinegar dressing",
-      "Toasted seeds and radish",
-      "Soft herbs and shallot",
-      "Griddled in wedges"
+      "Sahne-Essig-Dressing",
+      "Geröstete Kerne und Radieschen",
+      "Feine Kräuter und Schalotte",
+      "Als Spalten gegrillt"
     ],
     "imageUrl": "/produce/lettuce.png",
     "region": [
@@ -3845,14 +3845,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Mild, buttery and faintly sweet, with almost no bitterness in young heads.",
-    "recipeIdea": "Dress torn leaves at the very last second with cream, white wine vinegar, sugar and lots of black pepper — the classic Rahmsalat.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Mild, buttrig und leicht süß, bei jungen Köpfen praktisch ohne Bitterkeit.",
+    "recipeIdea": "Die gezupften Blätter erst in letzter Sekunde mit Sahne, Weißweinessig, Zucker und viel schwarzem Pfeffer anmachen — der klassische Rahmsalat.",
     "co2": {
       "local": 0.3,
       "imported": 2.1,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "leafy-head"
@@ -3878,13 +3878,13 @@
       12
     ],
     "monthsInStorage": [],
-    "description": "Cultivated indoors on composted straw, so it is local and available every month of the year with no glasshouse heating to speak of. One of the few genuinely year-round items that carries no seasonal penalty.",
-    "storageTips": "Paper bag in the fridge, never plastic — trapped moisture makes them slimy within a day. Do not soak them; brush or wipe instead.",
+    "description": "Wächst drinnen auf kompostiertem Stroh, ist also regional und das ganze Jahr zu haben, ohne dass irgendwo ein Gewächshaus geheizt wird. Einer der wenigen Posten ohne Saison-Malus.",
+    "storageTips": "In der Papiertüte in den Kühlschrank, nie in Plastik — eingeschlossene Feuchtigkeit macht sie binnen eines Tages schmierig. Nicht wässern, nur abbürsten oder abwischen.",
     "pairingIdeas": [
-      "Garlic, parsley and butter",
-      "Cream and thyme",
-      "On toast with egg",
-      "Raw, shaved into salad"
+      "Knoblauch, Petersilie und Butter",
+      "Sahne und Thymian",
+      "Auf Toast mit Ei",
+      "Roh in den Salat gehobelt"
     ],
     "imageUrl": "/produce/button-mushroom.png",
     "region": [
@@ -3901,14 +3901,14 @@
       "NL": "Champignon",
       "GB": "Button Mushroom"
     },
-    "culinaryTag": "Sear in a dry pan",
-    "flavorProfile": "Mild and nutty raw, turning intensely savoury and meaty once the water has cooked out.",
-    "recipeIdea": "Sear in a dry hot pan until the water evaporates and they squeak, then add butter, garlic and parsley for the last minute only.",
+    "culinaryTag": "Trocken anbraten",
+    "flavorProfile": "Roh mild und nussig, sobald das Wasser raus ist intensiv herzhaft und fast fleischig.",
+    "recipeIdea": "In der trockenen heißen Pfanne anbraten, bis das Wasser verdampft ist und sie quietschen, dann erst in der letzten Minute Butter, Knoblauch und Petersilie dazu.",
     "co2": {
       "local": 0.7,
       "imported": 1.2,
       "importMode": "road",
-      "origin": "Poland / Netherlands"
+      "origin": "Polen / Niederlande"
     },
     "illustration": {
       "archetype": "mushroom"
@@ -3935,13 +3935,13 @@
       4,
       5
     ],
-    "description": "The backbone of the European winter larder. Bunched summer carrots are sweet and slender; the main crop is lifted in autumn and held in sand or cold store, which is why good local carrots never really run out.",
-    "storageTips": "Cut the tops off at once — they wick moisture from the root. Stored in a box of damp sand in a cool cellar, main-crop carrots keep for months; in the fridge, a sealed bag gives three weeks.",
+    "description": "Das Rückgrat der europäischen Wintervorräte. Bundmöhren im Sommer sind süß und schlank; die Haupternte kommt im Herbst rein und liegt in Sand oder im Kühllager — deshalb gehen gute regionale Möhren nie wirklich aus.",
+    "storageTips": "Das Grün sofort abschneiden, es zieht Feuchtigkeit aus der Wurzel. In einer Kiste mit feuchtem Sand im kühlen Keller halten Lagermöhren Monate, im Kühlschrank im geschlossenen Beutel drei Wochen.",
     "pairingIdeas": [
-      "Cumin and coriander",
-      "Honey and thyme",
-      "Ginger in soup",
-      "Raw with apple"
+      "Kreuzkümmel und Koriander",
+      "Honig und Thymian",
+      "Ingwer in der Suppe",
+      "Roh mit Apfel"
     ],
     "imageUrl": "/produce/carrot.png",
     "region": [
@@ -4030,14 +4030,14 @@
         ]
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Sugary and earthy, with a resinous, almost floral note in older stored roots.",
-    "recipeIdea": "Roast whole with cumin and honey until the edges blister, then scatter with yoghurt, dill and pistachios.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Zuckrig und erdig, bei älteren Lagermöhren mit einer harzigen, fast blumigen Note.",
+    "recipeIdea": "Ganz mit Kreuzkümmel und Honig rösten, bis die Ränder Blasen werfen, dann Joghurt, Dill und Pistazien drüberstreuen.",
     "co2": {
       "local": 0.2,
       "imported": 0.5,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "root-taper"
@@ -4057,13 +4057,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "Growers fold the outer leaves over the developing head to keep it white — sunlight turns it creamy yellow, which is harmless but sells badly. Italy runs its crop through the winter instead of the summer.",
-    "storageTips": "Stem-down in the fridge, loosely wrapped, up to a week. Black speckling on the curd is a mould that starts at the surface; cut it away and the head underneath is fine.",
+    "description": "Die Bauern klappen die äußeren Blätter über den wachsenden Kopf, damit er weiß bleibt — Sonne färbt ihn cremegelb, was harmlos ist, sich aber schlecht verkauft. Italien zieht seine Ernte im Winter statt im Sommer.",
+    "storageTips": "Mit dem Strunk nach unten, locker eingeschlagen, bis zu eine Woche in den Kühlschrank. Schwarze Sprenkel sind ein Schimmel, der an der Oberfläche anfängt; einfach wegschneiden, darunter ist alles gut.",
     "pairingIdeas": [
-      "Brown butter and capers",
-      "Curry spices",
-      "Béchamel and nutmeg",
-      "Raw, shaved into salad"
+      "Braune Butter und Kapern",
+      "Currygewürze",
+      "Béchamel und Muskat",
+      "Roh in den Salat gehobelt"
     ],
     "imageUrl": "/produce/cauliflower.png",
     "region": [
@@ -4129,14 +4129,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Mild and faintly sweet, developing real nuttiness and caramel notes with dry heat.",
-    "recipeIdea": "Roast a whole head, brushed with spiced butter, at 200 °C for 50 minutes until a knife slides through — then carve it like a joint.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Mild und leicht süß, entwickelt mit trockener Hitze echte Nussigkeit und Karamellnoten.",
+    "recipeIdea": "Einen ganzen Kopf mit Gewürzbutter einpinseln und bei 200 °C 50 Minuten backen, bis das Messer durchgleitet — dann wie einen Braten aufschneiden.",
     "co2": {
       "local": 0.4,
       "imported": 1.4,
       "importMode": "road",
-      "origin": "Spain / Italy"
+      "origin": "Spanien / Italien"
     },
     "illustration": {
       "archetype": "cauliflower"
@@ -4160,13 +4160,13 @@
       3,
       4
     ],
-    "description": "An ugly, knobbly root with one of the best flavours in the winter store. It is the backbone of German Suppengrün, the soup-vegetable bundle sold with carrot, leek and parsley.",
-    "storageTips": "Keeps two to three months in a cool cellar or a month in the fridge. Once cut, the flesh browns fast — drop peeled pieces into acidulated water.",
+    "description": "Eine hässliche, knubbelige Knolle mit einem der besten Aromen im Winterlager. Sie ist das Rückgrat vom Suppengrün, das hier zusammen mit Möhre, Lauch und Petersilie gebündelt verkauft wird.",
+    "storageTips": "Hält zwei bis drei Monate im kühlen Keller oder einen Monat im Kühlschrank. Angeschnitten wird das Fleisch schnell braun — geschälte Stücke gleich in Zitronenwasser legen.",
     "pairingIdeas": [
-      "Apple and mustard rémoulade",
-      "Potato in mash",
-      "Truffle or hazelnut oil",
-      "Baked whole in salt"
+      "Remoulade mit Apfel und Senf",
+      "Mit Kartoffel im Püree",
+      "Trüffel- oder Haselnussöl",
+      "Ganz in Salz gebacken"
     ],
     "imageUrl": "/produce/celeriac.png",
     "region": [
@@ -4241,14 +4241,14 @@
         ]
       }
     },
-    "culinaryTag": "Ideal for soups",
-    "flavorProfile": "Celery's aroma with a nutty, starchy body — savoury rather than sweet.",
-    "recipeIdea": "Bake a whole scrubbed root in a salt crust for 90 minutes, then crack it open and serve the steaming flesh with brown butter and hazelnuts.",
+    "culinaryTag": "Ideal für Suppen",
+    "flavorProfile": "Das Aroma von Sellerie mit nussigem, stärkehaltigem Körper — herzhaft statt süß.",
+    "recipeIdea": "Eine ganze, geschrubbte Knolle 90 Minuten in einer Salzkruste backen, dann aufschlagen und das dampfende Fleisch mit brauner Butter und Haselnüssen servieren.",
     "co2": {
       "local": 0.3,
       "imported": 0.7,
       "importMode": "road",
-      "origin": "Netherlands / Poland"
+      "origin": "Niederlande / Polen"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -4269,13 +4269,13 @@
     "monthsInStorage": [
       12
     ],
-    "description": "Grown for its stalks rather than its root, and a different plant habit from celeriac entirely. The pale, tender hearts are blanched by tying the outer stalks up around them as the plant grows.",
-    "storageTips": "Wrap the whole head tightly in foil, not plastic — it keeps the ethylene out and celery stays crisp for two weeks. Limp stalks revive in ice water.",
+    "description": "Wird für die Stangen gezogen, nicht für die Wurzel, und wächst ganz anders als Knollensellerie. Die hellen, zarten Herzen bleiben blass, weil man die äußeren Stangen beim Wachsen darum bindet.",
+    "storageTips": "Den ganzen Kopf fest in Alufolie wickeln, nicht in Plastik — das hält Ethylen draußen und der Sellerie bleibt zwei Wochen knackig. Schlaffe Stangen werden in Eiswasser wieder fest.",
     "pairingIdeas": [
-      "Blue cheese and walnut",
-      "Base of a soffritto",
-      "Raw with salt",
-      "Braised with stock"
+      "Blauschimmel und Walnuss",
+      "Basis fürs Soffritto",
+      "Roh mit Salz",
+      "In Brühe geschmort"
     ],
     "imageUrl": "/produce/celery.png",
     "region": [
@@ -4341,14 +4341,14 @@
         ]
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Salty-green and aromatic, with a bitter edge in the outer stalks and sweetness in the heart.",
-    "recipeIdea": "Braise whole hearts in chicken stock with butter for 40 minutes, then finish under the grill with parmesan.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Salzig-grün und aromatisch, außen mit bitterer Kante, im Herzen süß.",
+    "recipeIdea": "Ganze Herzen 40 Minuten in Hühnerbrühe mit Butter schmoren, dann mit Parmesan unter dem Grill fertig machen.",
     "co2": {
       "local": 0.3,
       "imported": 0.9,
       "importMode": "road",
-      "origin": "Spain / Italy"
+      "origin": "Spanien / Italien"
     },
     "illustration": {
       "archetype": "stalk-bundle"
@@ -4369,13 +4369,13 @@
       4
     ],
     "monthsInStorage": [],
-    "description": "Grown in two stages: a root is raised outdoors in summer, lifted, then forced in complete darkness so the bud grows pale and tight. Any light at all turns the leaf tips green and much more bitter.",
-    "storageTips": "Keep it wrapped and in the dark — a paper bag in the fridge drawer. Exposure to light makes it bitter within a day or two. Use within a week.",
+    "description": "Wächst in zwei Schritten: Im Sommer zieht man draußen eine Wurzel, holt sie rein und treibt sie in völliger Dunkelheit, damit der Spross hell und fest bleibt. Schon wenig Licht färbt die Blattspitzen grün und macht sie deutlich bitterer.",
+    "storageTips": "Eingepackt und dunkel halten — Papiertüte im Gemüsefach. Licht macht ihn binnen ein, zwei Tagen bitter. Innerhalb einer Woche aufbrauchen.",
     "pairingIdeas": [
-      "Ham and béchamel",
-      "Orange and walnut",
-      "Blue cheese and pear",
-      "Braised with butter and honey"
+      "Schinken und Béchamel",
+      "Orange und Walnuss",
+      "Blauschimmel und Birne",
+      "In Butter und Honig geschmort"
     ],
     "imageUrl": "/produce/chicory.png",
     "region": [
@@ -4428,14 +4428,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Crisp and cleanly bitter raw; caramel-sweet with just an edge of bitterness once braised.",
-    "recipeIdea": "Braise halved heads in butter, honey and orange juice until sticky, then roll in ham, cover in béchamel and bake — the Belgian classic.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Roh knackig und klar bitter; geschmort karamellsüß mit nur noch einer bitteren Kante.",
+    "recipeIdea": "Halbierte Köpfe in Butter, Honig und Orangensaft klebrig schmoren, dann in Schinken rollen, mit Béchamel übergießen und überbacken — der belgische Klassiker.",
     "co2": {
       "local": 0.5,
       "imported": 1.1,
       "importMode": "road",
-      "origin": "Belgium / France"
+      "origin": "Belgien / Frankreich"
     },
     "illustration": {
       "archetype": "chicory"
@@ -4459,13 +4459,13 @@
       1,
       2
     ],
-    "description": "Fast-growing, frost-tolerant and far milder than European cabbage. A useful bridge vegetable that gives crisp salad leaves well into the months when lettuce has to be flown in.",
-    "storageTips": "Wrapped in the fridge, a whole head holds for three weeks — remarkable for something this tender. Cut faces brown quickly, so slice from one end.",
+    "description": "Wächst schnell, verträgt Frost und ist viel milder als europäischer Kohl. Ein praktisches Brückengemüse, das knackige Salatblätter bis weit in die Monate liefert, in denen Kopfsalat eingeflogen werden müsste.",
+    "storageTips": "Eingepackt im Kühlschrank hält ein ganzer Kopf drei Wochen — bemerkenswert für etwas so Zartes. Schnittflächen werden schnell braun, also von einem Ende her abschneiden.",
     "pairingIdeas": [
-      "Sesame and soy",
-      "Fermented as kimchi",
-      "Raw with a sharp dressing",
-      "Quick-braised with ginger"
+      "Sesam und Sojasauce",
+      "Als Kimchi fermentiert",
+      "Roh mit kräftigem Dressing",
+      "Kurz mit Ingwer geschmort"
     ],
     "imageUrl": "/produce/chinese-cabbage.png",
     "region": [
@@ -4537,14 +4537,14 @@
         ]
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Juicy, sweet and barely brassica — crisp white ribs with soft, delicate leaf tips.",
-    "recipeIdea": "Salt shredded leaves for an hour, rinse, then pack with chilli, garlic, ginger and fish sauce and ferment three days for a fast kimchi.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Saftig, süß und kaum nach Kohl — knackige weiße Rippen mit weichen, feinen Blattspitzen.",
+    "recipeIdea": "Die geschnittenen Blätter eine Stunde salzen, abspülen, dann mit Chili, Knoblauch, Ingwer und Fischsauce einlegen und drei Tage fermentieren — schnelles Kimchi.",
     "co2": {
       "local": 0.2,
       "imported": 0.7,
       "importMode": "road",
-      "origin": "Spain / Italy"
+      "origin": "Spanien / Italien"
     },
     "illustration": {
       "archetype": "chicory"
@@ -4563,13 +4563,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "Prolific to the point of comedy — one healthy plant will out-produce a household. Small ones are dense and nutty; anything marrow-sized is mostly water. The golden flowers are a delicacy in their own right.",
-    "storageTips": "Fridge drawer, unwashed, up to a week. Do not wrap in plastic — trapped condensation makes them soften at the stem end within days.",
+    "description": "So ertragreich, dass es komisch wird — eine gesunde Pflanze produziert mehr, als ein Haushalt schafft. Kleine sind dicht und nussig, alles in Riesenkürbisgröße ist vor allem Wasser. Die gelben Blüten sind für sich schon eine Delikatesse.",
+    "storageTips": "Ungewaschen ins Gemüsefach, bis zu eine Woche. Nicht in Plastik wickeln — das Kondenswasser macht sie am Stielende innerhalb von Tagen weich.",
     "pairingIdeas": [
-      "Mint and lemon",
-      "Ricotta and basil",
-      "Grilled with garlic",
-      "Grated into fritters"
+      "Minze und Zitrone",
+      "Ricotta und Basilikum",
+      "Mit Knoblauch gegrillt",
+      "Gerieben in Puffern"
     ],
     "imageUrl": "/produce/courgette.png",
     "region": [
@@ -4630,14 +4630,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Great for grilling",
-    "flavorProfile": "Mild and faintly sweet, with a nuttiness that only appears under real heat and char.",
-    "recipeIdea": "Slice lengthways, griddle hard until striped, then marinate warm in olive oil, garlic, mint and red wine vinegar.",
+    "culinaryTag": "Super vom Grill",
+    "flavorProfile": "Mild und leicht süß, nussig wird sie erst bei richtiger Hitze und Röstaromen.",
+    "recipeIdea": "Längs aufschneiden, kräftig auf der Grillpfanne streifen, dann warm in Olivenöl, Knoblauch, Minze und Rotweinessig marinieren.",
     "co2": {
       "local": 0.3,
       "imported": 1.7,
       "importMode": "road",
-      "origin": "Spain"
+      "origin": "Spanien"
     },
     "illustration": {
       "archetype": "cucumber"
@@ -4655,13 +4655,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "Field cucumbers are bumpier, shorter and far more flavourful than the smooth glasshouse type. The Spreewald region south-east of Berlin turned the small pickling variety into a protected speciality.",
-    "storageTips": "Never below 10 °C — the fridge gives cucumbers cold damage and they go translucent. A cool, dark corner of the kitchen is better, and keep them away from tomatoes and apples.",
+    "description": "Freilandgurken sind knubbeliger, kürzer und viel aromatischer als die glatten aus dem Gewächshaus. Der Spreewald südöstlich von Berlin hat aus der kleinen Einlegegurke eine geschützte Spezialität gemacht.",
+    "storageTips": "Nie unter 10 °C — im Kühlschrank kriegen Gurken Kälteschäden und werden glasig. Eine kühle, dunkle Ecke in der Küche ist besser, und weg von Tomaten und Äpfeln.",
     "pairingIdeas": [
-      "Dill and sour cream",
-      "Smashed with garlic and sesame",
-      "Pickled with mustard seed",
-      "Cold soup with yoghurt"
+      "Dill und saure Sahne",
+      "Zerdrückt mit Knoblauch und Sesam",
+      "Mit Senfkörnern eingelegt",
+      "Kalte Suppe mit Joghurt"
     ],
     "imageUrl": "/produce/cucumber.png",
     "region": [
@@ -4727,14 +4727,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Watery-fresh and faintly melon-like, with a bitter green note concentrated in the skin near the stem.",
-    "recipeIdea": "Smash with the flat of a knife, salt for ten minutes, then dress with garlic, black vinegar, sesame oil and chilli.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Wässrig-frisch und leicht melonig, mit einer bitteren grünen Note in der Schale nahe am Stiel.",
+    "recipeIdea": "Mit der flachen Messerseite zerdrücken, zehn Minuten salzen, dann mit Knoblauch, schwarzem Essig, Sesamöl und Chili anmachen.",
     "co2": {
       "local": 0.3,
       "imported": 2.7,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "cucumber"
@@ -4754,13 +4754,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "A frilly, frost-tolerant salad that carries German plates from late summer into autumn. Frisée and escarole are the two forms — one spiky and fine, one broad-leaved and milder.",
-    "storageTips": "Store the whole head damp-wrapped in the fridge for up to five days. The pale inner heart is much less bitter than the dark outer leaves, so mix them deliberately.",
+    "description": "Ein krauser, frostfester Salat, der vom Spätsommer bis in den Herbst auf deutschen Tellern landet. Frisée und Eskariol sind die beiden Formen — die eine spitz und fein, die andere breitblättrig und milder.",
+    "storageTips": "Den ganzen Kopf feucht eingeschlagen bis zu fünf Tage in den Kühlschrank. Das helle Herz ist viel weniger bitter als die dunklen äußeren Blätter, also bewusst mischen.",
     "pairingIdeas": [
-      "Warm bacon dressing",
-      "Poached egg and croutons",
-      "Garlic and anchovy",
-      "Braised in stock"
+      "Warmes Speckdressing",
+      "Pochiertes Ei und Croûtons",
+      "Knoblauch und Sardelle",
+      "In Brühe geschmort"
     ],
     "imageUrl": "/produce/endive.png",
     "region": [
@@ -4823,14 +4823,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Crisp and cleanly bitter, standing up to dressings that would drown a soft lettuce.",
-    "recipeIdea": "Pour hot bacon fat and sherry vinegar straight over the leaves so they half-wilt, then top with a poached egg.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Knackig und klar bitter, hält Dressings stand, die jeden weichen Salat ertränken würden.",
+    "recipeIdea": "Heißes Speckfett und Sherryessig direkt über die Blätter gießen, sodass sie halb zusammenfallen, dann ein pochiertes Ei drauf.",
     "co2": {
       "local": 0.3,
       "imported": 1,
       "importMode": "road",
-      "origin": "Italy / Spain"
+      "origin": "Italien / Spanien"
     },
     "illustration": {
       "archetype": "rosette"
@@ -4850,13 +4850,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "The swollen leaf base of a herb, sold as a bulb. Italy grows the vast majority of Europe's crop and treats it as a winter vegetable; German fennel is a late-summer one.",
-    "storageTips": "Fridge drawer, up to a week, with the feathery fronds cut off and kept separately — they are a free herb and taste like a gentler dill.",
+    "description": "Die verdickte Blattbasis eines Krauts, verkauft als Knolle. Italien zieht den allergrößten Teil der europäischen Ernte und behandelt Fenchel als Wintergemüse; hierzulande ist er einer für den Spätsommer.",
+    "storageTips": "Bis zu eine Woche ins Gemüsefach, das feine Grün vorher abschneiden und getrennt aufheben — das ist ein Gratis-Kraut und schmeckt wie sanfterer Dill.",
     "pairingIdeas": [
-      "Orange and olives",
-      "Shaved raw with lemon",
-      "Braised with white wine",
-      "Pork and sausage"
+      "Orange und Oliven",
+      "Roh gehobelt mit Zitrone",
+      "In Weißwein geschmort",
+      "Schwein und Bratwurst"
     ],
     "imageUrl": "/produce/fennel.png",
     "region": [
@@ -4917,14 +4917,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Cleanly aniseed and crunchy raw; the liquorice note softens into sweetness when braised.",
-    "recipeIdea": "Shave paper-thin on a mandoline and dress with orange segments, black olives and good oil — a Sicilian winter salad.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Roh klar nach Anis und knackig; geschmort wird aus der Lakritznote Süße.",
+    "recipeIdea": "Auf der Mandoline hauchdünn hobeln und mit Orangenfilets, schwarzen Oliven und gutem Öl anmachen — ein sizilianischer Wintersalat.",
     "co2": {
       "local": 0.3,
       "imported": 1.3,
       "importMode": "road",
-      "origin": "Italy / Spain"
+      "origin": "Italien / Spanien"
     },
     "illustration": {
       "archetype": "fennel"
@@ -4941,13 +4941,13 @@
       8
     ],
     "monthsInStorage": [],
-    "description": "The shortest window of any summer vegetable. Sugars convert to starch within hours of picking, which is the one honest argument for frozen peas the rest of the year — they are frozen within ninety minutes of harvest.",
-    "storageTips": "Cook the same day you buy them, pods on. If you must wait, keep them cold in their pods; podded peas dry out and toughen fast.",
+    "description": "Das kürzeste Fenster von allem Sommergemüse. Der Zucker wird schon Stunden nach dem Pflücken zu Stärke — das ist das eine ehrliche Argument für Tiefkühlerbsen im Rest des Jahres: die sind binnen neunzig Minuten nach der Ernte eingefroren.",
+    "storageTips": "Am Kauftag kochen, in der Hülse. Wenn es warten muss, kalt und in der Hülse lassen; ausgepalte Erbsen trocknen aus und werden schnell mehlig.",
     "pairingIdeas": [
-      "Mint and butter",
-      "Smoked bacon or ham",
-      "Ricotta on toast",
-      "Cold in a herb salad"
+      "Minze und Butter",
+      "Geräucherter Speck oder Schinken",
+      "Ricotta auf Toast",
+      "Kalt im Kräutersalat"
     ],
     "imageUrl": "/produce/peas.png",
     "region": [
@@ -4998,14 +4998,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Blanch briefly",
-    "flavorProfile": "Grassy and intensely sweet at their peak, turning floury within a day of picking.",
-    "recipeIdea": "Blanch for 90 seconds, crush roughly with mint, lemon and olive oil, and pile onto ricotta toast.",
+    "culinaryTag": "Kurz blanchieren",
+    "flavorProfile": "Grasig und auf dem Höhepunkt intensiv süß, binnen eines Tages nach dem Pflücken mehlig.",
+    "recipeIdea": "90 Sekunden blanchieren, grob mit Minze, Zitrone und Olivenöl zerdrücken und auf Ricotta-Toast häufen.",
     "co2": {
       "local": 0.3,
       "imported": 1.6,
       "importMode": "air",
-      "origin": "Kenya / Guatemala"
+      "origin": "Kenia / Guatemala"
     },
     "illustration": {
       "archetype": "pod"
@@ -5029,13 +5029,13 @@
       2,
       3
     ],
-    "description": "Lifted in midsummer when the lower leaves brown, then cured for two weeks. Wet or green garlic, sold in June before curing, is mild and juicy and worth looking for at markets.",
-    "storageTips": "Dry, dark and airy at room temperature — cured bulbs keep six months. A green shoot in the middle means it is aging; the shoot is bitter, so pull it out.",
+    "description": "Wird im Hochsommer gerodet, wenn die unteren Blätter braun werden, und dann zwei Wochen getrocknet. Frischer grüner Knoblauch, der im Juni vor dem Trocknen verkauft wird, ist mild und saftig und auf dem Markt eine Suche wert.",
+    "storageTips": "Trocken, dunkel und luftig bei Zimmertemperatur — getrocknete Knollen halten sechs Monate. Ein grüner Trieb in der Mitte heißt, sie wird alt; der Trieb ist bitter, also rausziehen.",
     "pairingIdeas": [
-      "Roasted whole into a paste",
-      "Confit in olive oil",
-      "Raw in aioli",
-      "With parsley and lemon"
+      "Ganz geröstet zu Paste",
+      "In Olivenöl confiert",
+      "Roh in der Aioli",
+      "Mit Petersilie und Zitrone"
     ],
     "imageUrl": "/produce/garlic.png",
     "region": [
@@ -5116,14 +5116,14 @@
         ]
       }
     },
-    "culinaryTag": "Roast it whole",
-    "flavorProfile": "Fierce and acrid raw; sweet, mellow and almost caramel once slow-roasted.",
-    "recipeIdea": "Cut the top off a whole head, douse in oil, wrap in foil and roast at 180 °C for 45 minutes — then squeeze the cloves out like paste.",
+    "culinaryTag": "Ganz rösten",
+    "flavorProfile": "Roh scharf und beißend; langsam geröstet süß, weich und fast karamellig.",
+    "recipeIdea": "Einer ganzen Knolle den Deckel abschneiden, mit Öl übergießen, in Folie wickeln und bei 180 °C 45 Minuten backen — dann die Zehen wie Paste herausdrücken.",
     "co2": {
       "local": 0.3,
       "imported": 1.1,
       "importMode": "sea",
-      "origin": "China / Argentina"
+      "origin": "China / Argentinien"
     },
     "illustration": {
       "archetype": "garlic"
@@ -5142,13 +5142,13 @@
       9
     ],
     "monthsInStorage": [],
-    "description": "An edible thistle bud, and a Mediterranean staple rather than a German one. Brittany supplies most of Northern Europe from late spring; Italy's Roman varieties run right through the winter instead.",
-    "storageTips": "Stand the stems in water like cut flowers, or refrigerate in a bag for up to five days. Cut surfaces blacken in minutes — rub them with lemon immediately.",
+    "description": "Eine essbare Distelknospe, eher mediterran als deutsch. Die Bretagne versorgt ab dem späten Frühjahr halb Nordeuropa; die römischen Sorten aus Italien laufen dafür den ganzen Winter durch.",
+    "storageTips": "Die Stiele wie Schnittblumen ins Wasser stellen oder bis zu fünf Tage im Beutel in den Kühlschrank. Schnittflächen werden in Minuten schwarz — sofort mit Zitrone einreiben.",
     "pairingIdeas": [
-      "Lemon and olive oil",
-      "Vinaigrette, leaf by leaf",
-      "Braised with white wine",
-      "Fried whole, Roman style"
+      "Zitrone und Olivenöl",
+      "Vinaigrette, Blatt für Blatt",
+      "In Weißwein geschmort",
+      "Ganz frittiert, römische Art"
     ],
     "imageUrl": "/produce/artichoke.png",
     "region": [
@@ -5185,14 +5185,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Nutty, green and faintly bitter, with a compound that makes everything eaten after it taste sweeter.",
-    "recipeIdea": "Trim to the heart, braise in olive oil, white wine, garlic and mint, then serve at room temperature with the cooking liquid.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Nussig, grün und leicht bitter, mit einem Stoff, der alles danach süßer schmecken lässt.",
+    "recipeIdea": "Bis aufs Herz putzen, in Olivenöl, Weißwein, Knoblauch und Minze schmoren und lauwarm mit dem Sud servieren.",
     "co2": {
       "local": 0.6,
       "imported": 1.4,
       "importMode": "road",
-      "origin": "Egypt / Peru"
+      "origin": "Ägypten / Peru"
     },
     "illustration": {
       "archetype": "artichoke"
@@ -5210,13 +5210,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "High summer into early autumn, when the pods snap cleanly instead of bending. Always cooked, never raw — raw beans contain phasin, which breaks down within about ten minutes of boiling.",
-    "storageTips": "Keep in a perforated bag in the fridge for up to five days. Blanch for three minutes and freeze flat if the harvest outruns you.",
+    "description": "Hochsommer bis Frühherbst, wenn die Hülsen sauber brechen statt sich zu biegen. Immer garen, nie roh — rohe Bohnen enthalten Phasin, das nach etwa zehn Minuten Kochen abgebaut ist.",
+    "storageTips": "Im perforierten Beutel bis zu fünf Tage in den Kühlschrank. Wenn die Ernte über den Kopf wächst: drei Minuten blanchieren und flach einfrieren.",
     "pairingIdeas": [
-      "Savory herb and butter",
-      "Bacon and onion",
-      "Tomato and garlic",
-      "Almonds and brown butter"
+      "Bohnenkraut und Butter",
+      "Speck und Zwiebel",
+      "Tomate und Knoblauch",
+      "Mandeln und braune Butter"
     ],
     "imageUrl": "/produce/green-beans.png",
     "region": [
@@ -5269,14 +5269,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Always cook first",
-    "flavorProfile": "Squeaky and vegetal, with a sweetness that deepens the longer you cook them.",
-    "recipeIdea": "Simmer with a sprig of summer savory — Bohnenkraut, literally 'bean herb' — then toss in butter with crisped bacon.",
+    "culinaryTag": "Immer garen",
+    "flavorProfile": "Quietschig und grün, mit einer Süße, die umso tiefer wird, je länger man sie kocht.",
+    "recipeIdea": "Mit einem Zweig Bohnenkraut köcheln, dann in Butter mit knusprigem Speck schwenken.",
     "co2": {
       "local": 0.3,
       "imported": 6.4,
       "importMode": "air",
-      "origin": "Kenya / Morocco"
+      "origin": "Kenia / Marokko"
     },
     "illustration": {
       "archetype": "pod"
@@ -5303,13 +5303,13 @@
       7,
       8
     ],
-    "description": "Dug in autumn and cellared through the year. The heat only appears once the root is cut or grated, when enzymes and mustard-oil precursors meet — and it fades within an hour, which is why jarred horseradish is never the same.",
-    "storageTips": "Whole roots keep for months wrapped in damp cloth in the fridge or buried in cellar sand. Grate only what you need; stir vinegar in immediately to lock in the heat.",
+    "description": "Im Herbst gegraben und übers Jahr eingelagert. Die Schärfe entsteht erst beim Schneiden oder Reiben, wenn Enzyme und Senfölvorstufen aufeinandertreffen — und sie verfliegt binnen einer Stunde, weshalb Meerrettich aus dem Glas nie dasselbe ist.",
+    "storageTips": "Ganze Wurzeln halten Monate, in ein feuchtes Tuch gewickelt im Kühlschrank oder im Kellersand vergraben. Nur reiben, was du brauchst, und sofort Essig unterrühren, das hält die Schärfe fest.",
     "pairingIdeas": [
-      "Boiled beef and apple",
-      "Smoked fish and cream",
-      "Beetroot",
-      "Whipped into cream"
+      "Tafelspitz und Apfel",
+      "Räucherfisch und Sahne",
+      "Rote Bete",
+      "Unter Sahne geschlagen"
     ],
     "imageUrl": "/produce/horseradish.png",
     "region": [
@@ -5372,14 +5372,14 @@
         ]
       }
     },
-    "culinaryTag": "Grate it fresh",
-    "flavorProfile": "Volatile, sinus-clearing heat with a clean sweetness underneath — nothing like chilli's lingering burn.",
-    "recipeIdea": "Grate fresh into lightly whipped cream with a squeeze of lemon and a pinch of salt; serve with boiled beef or smoked trout.",
+    "culinaryTag": "Frisch reiben",
+    "flavorProfile": "Flüchtige Schärfe, die in die Nase steigt, mit klarer Süße darunter — ganz anders als das lange Brennen von Chili.",
+    "recipeIdea": "Frisch in leicht geschlagene Sahne reiben, mit einem Spritzer Zitrone und einer Prise Salz; zu Tafelspitz oder Räucherforelle.",
     "co2": {
       "local": 0.3,
       "imported": 0.7,
       "importMode": "road",
-      "origin": "Hungary / Poland"
+      "origin": "Ungarn / Polen"
     },
     "illustration": {
       "archetype": "root-taper"
@@ -5400,13 +5400,13 @@
       4
     ],
     "monthsInStorage": [],
-    "description": "Neither from Jerusalem nor an artichoke — it is a sunflower tuber, and it grows so readily in German gardens that it is classed as invasive. Its inulin content is famously hard on the digestion; start with a small portion.",
-    "storageTips": "The thin skin means it dries out fast. Leave the tubers in the ground and dig as needed, or keep them in a bag in the fridge for up to two weeks.",
+    "description": "Weder aus Jerusalem noch eine Artischocke — es ist die Knolle einer Sonnenblume, und sie wuchert in deutschen Gärten so bereitwillig, dass sie als invasiv gilt. Das Inulin ist bekanntlich schwer verdaulich; fang mit einer kleinen Portion an.",
+    "storageTips": "Die dünne Schale trocknet schnell aus. Die Knollen im Boden lassen und nach Bedarf ausgraben, oder bis zu zwei Wochen im Beutel in den Kühlschrank.",
     "pairingIdeas": [
-      "Hazelnut and brown butter",
-      "Puréed into soup",
-      "Roasted with thyme",
-      "Shaved raw with lemon"
+      "Haselnuss und braune Butter",
+      "Zu Suppe püriert",
+      "Mit Thymian geröstet",
+      "Roh gehobelt mit Zitrone"
     ],
     "imageUrl": "/produce/jerusalem-artichoke.png",
     "region": [
@@ -5455,14 +5455,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Sweet, smoky and nutty — somewhere between artichoke heart and water chestnut.",
-    "recipeIdea": "Roast whole and unpeeled at 200 °C until the skins crackle, then crush with brown butter, lemon and toasted hazelnuts.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Süß, rauchig und nussig — irgendwo zwischen Artischockenherz und Wasserkastanie.",
+    "recipeIdea": "Ganz und ungeschält bei 200 °C rösten, bis die Schale knistert, dann mit brauner Butter, Zitrone und gerösteten Haselnüssen zerdrücken.",
     "co2": {
       "local": 0.2,
       "imported": 0.6,
       "importMode": "road",
-      "origin": "France"
+      "origin": "Frankreich"
     },
     "illustration": {
       "archetype": "tuber"
@@ -5480,13 +5480,13 @@
       2
     ],
     "monthsInStorage": [],
-    "description": "Northern Germany's winter institution, eaten on Grünkohlfahrten — organised walks that end in a very large meal. Tradition holds that it should not be cut before the first frost, and the folklore has a basis: cold genuinely raises its sugar content.",
-    "storageTips": "Keeps a week in the fridge in a loose bag. Strip the leaves from the tough central ribs before cooking or freezing; the ribs never soften.",
+    "description": "Eine norddeutsche Winterinstitution, gegessen auf Grünkohlfahrten — organisierten Spaziergängen, die in einem sehr großen Essen enden. Angeblich soll man ihn nicht vor dem ersten Frost schneiden, und da ist was dran: Kälte erhöht den Zuckergehalt tatsächlich.",
+    "storageTips": "Hält eine Woche im locker geschlossenen Beutel im Kühlschrank. Die Blätter vor dem Kochen oder Einfrieren von den harten Mittelrippen zupfen; die Rippen werden nie weich.",
     "pairingIdeas": [
-      "Pinkel sausage and mustard",
-      "Smoked pork and oats",
-      "Garlic and chilli",
-      "Crisped in the oven"
+      "Pinkel und Senf",
+      "Kassler und Hafer",
+      "Knoblauch und Chili",
+      "Im Ofen knusprig gebacken"
     ],
     "imageUrl": "/produce/kale.png",
     "region": [
@@ -5533,14 +5533,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Robust, mineral and cabbage-sweet, with a bitterness that frost and long cooking both remove.",
-    "recipeIdea": "Stew stripped leaves for two hours with smoked pork, onion, mustard and a handful of oats — the classic North German Grünkohl.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Kräftig, mineralisch und kohlsüß, mit einer Bitterkeit, die Frost und langes Kochen beide wegnehmen.",
+    "recipeIdea": "Die abgezupften Blätter zwei Stunden mit Kassler, Zwiebel, Senf und einer Handvoll Hafer schmoren — der klassische Grünkohl.",
     "co2": {
       "local": 0.3,
       "imported": 0.8,
       "importMode": "road",
-      "origin": "Italy / Spain"
+      "origin": "Italien / Spanien"
     },
     "illustration": {
       "archetype": "leafy-loose"
@@ -5563,13 +5563,13 @@
       11,
       12
     ],
-    "description": "A swollen stem rather than a root, and one of the few German vegetable names that travelled into English untranslated. Small early bulbs are crisp and sweet; anything bigger than a fist turns woody.",
-    "storageTips": "Remove the leaves and keep the bulb in the fridge for up to two weeks. The leaves are excellent — treat them like kale and cook them the same day.",
+    "description": "Ein verdickter Spross, keine Wurzel, und einer der wenigen deutschen Gemüsenamen, der unübersetzt ins Englische gewandert ist. Kleine frühe Knollen sind knackig und süß; alles über Faustgröße wird holzig.",
+    "storageTips": "Die Blätter abmachen und die Knolle bis zu zwei Wochen in den Kühlschrank. Die Blätter sind hervorragend — behandle sie wie Grünkohl und koch sie am selben Tag.",
     "pairingIdeas": [
-      "Cream sauce and dill",
-      "Raw batons with salt",
-      "Schnitzel-style breadcrumbs",
-      "Apple in a slaw"
+      "Rahmsauce und Dill",
+      "Rohe Stifte mit Salz",
+      "Paniert wie Schnitzel",
+      "Apfel im Krautsalat"
     ],
     "imageUrl": "/produce/kohlrabi.png",
     "region": [
@@ -5641,14 +5641,14 @@
         ]
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Sweet, crunchy and faintly peppery — broccoli stem crossed with apple.",
-    "recipeIdea": "Cut into thick slices, bread them like a schnitzel and shallow-fry until golden; serve with a lemony herb quark.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Süß, knackig und leicht pfeffrig — Brokkolistrunk gekreuzt mit Apfel.",
+    "recipeIdea": "In dicke Scheiben schneiden, wie ein Schnitzel panieren und goldbraun braten; dazu einen Kräuterquark mit Zitrone.",
     "co2": {
       "local": 0.2,
       "imported": 1.1,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -5670,13 +5670,13 @@
       4
     ],
     "monthsInStorage": [],
-    "description": "The one salad leaf that genuinely belongs to the German winter. It survives hard frost in open ground, which is why it fills the months when every other lettuce is imported or grown under lights.",
-    "storageTips": "Extremely delicate — buy it dry and use within two days. Wash only at the last moment, in a big bowl of water so the grit sinks, and spin it properly dry.",
+    "description": "Das eine Salatblatt, das wirklich zum deutschen Winter gehört. Er übersteht harten Frost im Freiland und füllt damit genau die Monate, in denen jeder andere Salat importiert oder unter Lampen gezogen wird.",
+    "storageTips": "Extrem zart — trocken kaufen und binnen zwei Tagen aufbrauchen. Erst im letzten Moment waschen, in einer großen Schüssel Wasser, damit der Sand absinkt, und richtig trocken schleudern.",
     "pairingIdeas": [
-      "Bacon and walnut",
-      "Pumpkin seed oil",
-      "Mushrooms and croutons",
-      "Orange and hazelnut"
+      "Speck und Walnuss",
+      "Kürbiskernöl",
+      "Pilze und Croûtons",
+      "Orange und Haselnuss"
     ],
     "imageUrl": "/produce/lambs-lettuce.png",
     "region": [
@@ -5742,14 +5742,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Soft, nutty and slightly milky — nothing like the bitterness of other winter leaves.",
-    "recipeIdea": "Dress with pumpkin seed oil, cider vinegar and a little honey, then add warm bacon and croutons straight from the pan.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Weich, nussig und leicht milchig — nichts von der Bitterkeit anderer Winterblätter.",
+    "recipeIdea": "Mit Kürbiskernöl, Apfelessig und etwas Honig anmachen, dann warmen Speck und Croûtons direkt aus der Pfanne dazu.",
     "co2": {
       "local": 0.3,
       "imported": 2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "rosette"
@@ -5774,13 +5774,13 @@
       12
     ],
     "monthsInStorage": [],
-    "description": "Two crops in one name: slim summer leeks from June, then the thick, frost-hardy winter type that stands in the field through snow. Only May has no local leeks at all, while one crop ends and the next begins.",
-    "storageTips": "Whole, untrimmed leeks keep two weeks in the fridge. Once cut they release sulphur compounds that taint everything nearby, so wrap the cut end well.",
+    "description": "Zwei Ernten unter einem Namen: schlanker Sommerlauch ab Juni, dann der dicke, frostharte Winterlauch, der durch den Schnee auf dem Feld steht. Nur im Mai gibt es gar keinen von hier, wenn die eine Ernte endet und die nächste anfängt.",
+    "storageTips": "Ganze, ungeputzte Stangen halten zwei Wochen im Kühlschrank. Angeschnitten setzen sie Schwefelverbindungen frei, die alles in der Nähe übernehmen, also das Schnittende gut einpacken.",
     "pairingIdeas": [
-      "Butter and cream",
-      "Potato in soup",
-      "Mustard vinaigrette",
-      "Slow-braised with thyme"
+      "Butter und Sahne",
+      "Kartoffel in der Suppe",
+      "Senfvinaigrette",
+      "Lange mit Thymian geschmort"
     ],
     "imageUrl": "/produce/leek.png",
     "region": [
@@ -5856,14 +5856,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Gentler and sweeter than onion, with a silky texture once it gives up its structure.",
-    "recipeIdea": "Halve lengthways, braise cut-side down in butter and stock for 25 minutes, then dress warm with mustard vinaigrette and chopped egg.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Sanfter und süßer als Zwiebel, mit seidiger Textur, sobald er seine Struktur aufgibt.",
+    "recipeIdea": "Längs halbieren, mit der Schnittfläche nach unten 25 Minuten in Butter und Brühe schmoren, dann warm mit Senfvinaigrette und gehacktem Ei anmachen.",
     "co2": {
       "local": 0.3,
       "imported": 0.9,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "stalk-bundle"
@@ -5880,13 +5880,13 @@
       6
     ],
     "monthsInStorage": [],
-    "description": "Small, fast, white spring turnips pulled young before any woodiness sets in. A genuinely seasonal item with a window of barely ten weeks, and far more delicate than the autumn turnips most people picture.",
-    "storageTips": "Remove the greens and cook them separately — they are excellent. The roots keep only about a week; they are bred for tenderness, not for the cellar.",
+    "description": "Kleine, schnelle weiße Frühlingsrüben, jung gezogen, bevor irgendwas holzig wird. Ein wirklich saisonaler Posten mit einem Fenster von knapp zehn Wochen, und viel feiner als die Herbstrüben, die die meisten vor Augen haben.",
+    "storageTips": "Das Grün abmachen und getrennt kochen — es ist hervorragend. Die Rüben halten nur etwa eine Woche; sie sind auf Zartheit gezüchtet, nicht fürs Lager.",
     "pairingIdeas": [
-      "Glazed in butter and stock",
-      "Raw with salt",
-      "Spring lamb",
-      "Their own greens, wilted"
+      "In Butter und Brühe glasiert",
+      "Roh mit Salz",
+      "Frühlingslamm",
+      "Das eigene Grün, gedünstet"
     ],
     "imageUrl": "/produce/may-turnip.png",
     "region": [
@@ -5918,14 +5918,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Glaze in butter",
-    "flavorProfile": "Juicy, crisp and sweet with a faint radish heat that cooking removes entirely.",
-    "recipeIdea": "Glaze whole in butter, a spoon of sugar and just enough stock to cover, until the liquid reduces to a shine.",
+    "culinaryTag": "In Butter glasieren",
+    "flavorProfile": "Saftig, knackig und süß, mit einer leichten Radieschenschärfe, die beim Garen komplett verschwindet.",
+    "recipeIdea": "Ganz in Butter, einem Löffel Zucker und gerade so viel Brühe glasieren, bis die Flüssigkeit glänzend einkocht.",
     "co2": {
       "local": 0.2,
       "imported": 0.7,
       "importMode": "road",
-      "origin": "France"
+      "origin": "Frankreich"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -5952,13 +5952,13 @@
       5,
       6
     ],
-    "description": "Harvested in high summer, dried until the necks are papery, then stored for the best part of a year. A properly cured onion is one of the most energy-efficient foods in the European larder.",
-    "storageTips": "Dark, dry and well ventilated — a net bag or open crate, never plastic, never the fridge. Keep well away from potatoes: the moisture onions give off makes potatoes sprout.",
+    "description": "Im Hochsommer geerntet, getrocknet bis die Hälse papierig sind, und dann fast ein Jahr gelagert. Eine richtig abgetrocknete Zwiebel gehört zu den energieeffizientesten Lebensmitteln im europäischen Vorrat.",
+    "storageTips": "Dunkel, trocken und gut belüftet — Netz oder offene Kiste, nie Plastik, nie Kühlschrank. Weit weg von Kartoffeln: die Feuchtigkeit, die Zwiebeln abgeben, lässt Kartoffeln keimen.",
     "pairingIdeas": [
-      "Slow-caramelised in soup",
-      "Roasted whole with thyme",
-      "Pickled in red wine vinegar",
-      "Raw and thinly sliced"
+      "Langsam karamellisiert in der Suppe",
+      "Ganz mit Thymian geröstet",
+      "In Rotweinessig eingelegt",
+      "Roh und dünn geschnitten"
     ],
     "imageUrl": "/produce/onion.png",
     "region": [
@@ -6049,14 +6049,14 @@
         ]
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Pungent and sulphurous raw, turning profoundly sweet after forty minutes in a pan.",
-    "recipeIdea": "Cook thickly sliced onions in butter over low heat for 45 minutes without rushing, deglaze with wine, and you have the base of almost everything worth eating in winter.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Roh scharf und schwefelig, nach vierzig Minuten in der Pfanne zutiefst süß.",
+    "recipeIdea": "Dick geschnittene Zwiebeln 45 Minuten bei kleiner Hitze in Butter ziehen lassen, ohne zu drängeln, mit Wein ablöschen — und du hast die Basis für fast alles, was im Winter schmeckt.",
     "co2": {
       "local": 0.2,
       "imported": 0.4,
       "importMode": "sea",
-      "origin": "New Zealand / Chile"
+      "origin": "Neuseeland / Chile"
     },
     "illustration": {
       "archetype": "bulb"
@@ -6075,13 +6075,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "An East Asian brassica now grown widely in Dutch and German market gardens. It goes from sown to cut in about six weeks, so growers slot it in between other crops through the warm half of the year.",
-    "storageTips": "Keeps about five days in the fridge in a loose bag. Wash carefully between the stem bases, where grit collects and never rinses out once cooked.",
+    "description": "Ein ostasiatischer Kohl, der inzwischen im niederländischen und deutschen Gartenbau breit angebaut wird. Von der Aussaat bis zum Schnitt dauert es etwa sechs Wochen, also schieben ihn die Betriebe in der warmen Jahreshälfte zwischen andere Kulturen.",
+    "storageTips": "Hält etwa fünf Tage im locker geschlossenen Beutel im Kühlschrank. Zwischen den Stielansätzen gründlich waschen, dort sammelt sich Sand, der nach dem Garen nicht mehr rausgeht.",
     "pairingIdeas": [
-      "Ginger, garlic and soy",
-      "Sesame oil and chilli",
-      "Steamed under fish",
-      "Charred in a dry wok"
+      "Ingwer, Knoblauch und Sojasauce",
+      "Sesamöl und Chili",
+      "Unter Fisch gedämpft",
+      "Im trockenen Wok angeröstet"
     ],
     "imageUrl": "/produce/pak-choi.png",
     "region": [
@@ -6129,14 +6129,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Wilt, don't boil",
-    "flavorProfile": "Juicy, mild and faintly mustardy, with crisp stems and silky leaves that cook at different speeds.",
-    "recipeIdea": "Split lengthways, sear the cut faces in a smoking-hot pan, then add a splash of stock and soy and cover for one minute.",
+    "culinaryTag": "Nur kurz dünsten",
+    "flavorProfile": "Saftig, mild und leicht senfig, mit knackigen Stielen und seidigen Blättern, die unterschiedlich schnell garen.",
+    "recipeIdea": "Längs halbieren, die Schnittflächen in der rauchend heißen Pfanne anbraten, dann einen Schuss Brühe und Sojasauce dazu und eine Minute zugedeckt ziehen lassen.",
     "co2": {
       "local": 0.3,
       "imported": 1.6,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "chicory"
@@ -6159,13 +6159,13 @@
     "monthsInStorage": [
       4
     ],
-    "description": "A medieval staple that fell out of German kitchens for a century and came back through organic box schemes. Frost is not a problem but a requirement — cold converts the starch to sugar, so parsnips lifted after the first freeze taste markedly sweeter.",
-    "storageTips": "Leave them in the ground as long as you can; once lifted, store cold and humid for up to a month. Woody cores in large roots should be cut out before cooking.",
+    "description": "Ein mittelalterliches Grundnahrungsmittel, das hundert Jahre lang aus deutschen Küchen verschwand und über Bio-Kisten zurückkam. Frost ist kein Problem, sondern Voraussetzung — Kälte wandelt Stärke in Zucker, also schmecken Pastinaken nach dem ersten Frost deutlich süßer.",
+    "storageTips": "So lange wie möglich im Boden lassen; einmal geerntet kalt und feucht bis zu einem Monat lagern. Bei großen Wurzeln den holzigen Kern vor dem Kochen herausschneiden.",
     "pairingIdeas": [
-      "Honey and rosemary",
-      "Apple in soup",
-      "Curry spice",
-      "Roasted alongside beef"
+      "Honig und Rosmarin",
+      "Apfel in der Suppe",
+      "Currygewürz",
+      "Neben dem Rinderbraten geröstet"
     ],
     "imageUrl": "/produce/parsnip.png",
     "region": [
@@ -6223,14 +6223,14 @@
         ]
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Sweet, spicy and faintly aniseed — like a carrot with more perfume and more starch.",
-    "recipeIdea": "Quarter lengthways, parboil, then roast hard in goose fat with honey and rosemary until the edges are lacquered.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Süß, würzig und leicht nach Anis — wie eine Möhre mit mehr Parfüm und mehr Stärke.",
+    "recipeIdea": "Längs vierteln, vorkochen, dann in Gänsefett mit Honig und Rosmarin scharf rösten, bis die Kanten lackiert sind.",
     "co2": {
       "local": 0.2,
       "imported": 0.6,
       "importMode": "road",
-      "origin": "Netherlands / UK"
+      "origin": "Niederlande / UK"
     },
     "illustration": {
       "archetype": "root-taper"
@@ -6257,13 +6257,13 @@
       4,
       5
     ],
-    "description": "New potatoes come out of the ground from June with skins you can rub off with a thumb. The main crop is lifted through autumn and cellared, which is why local potatoes are genuinely available all twelve months.",
-    "storageTips": "Cool, dark and airy — never the fridge, where starch turns to sugar and frying goes brown and sweet. Keep them away from onions and apples; both accelerate sprouting.",
+    "description": "Frühkartoffeln kommen ab Juni aus dem Boden, mit Schalen, die sich mit dem Daumen abreiben lassen. Die Haupternte wird im Herbst gerodet und eingekellert — deshalb gibt es regionale Kartoffeln tatsächlich alle zwölf Monate.",
+    "storageTips": "Kühl, dunkel und luftig — nie in den Kühlschrank, dort wird Stärke zu Zucker und das Braten gerät braun und süß. Weg von Zwiebeln und Äpfeln, beide beschleunigen das Keimen.",
     "pairingIdeas": [
-      "Butter and parsley",
-      "Quark with linseed oil",
-      "Rosemary and sea salt",
-      "Cold in a vinegar salad"
+      "Butter und Petersilie",
+      "Quark mit Leinöl",
+      "Rosmarin und Meersalz",
+      "Kalt im Essigsalat"
     ],
     "imageUrl": "/produce/potato.png",
     "region": [
@@ -6354,14 +6354,14 @@
         ]
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Earthy and buttery; waxy types stay sweet and firm, floury ones turn fluffy and absorbent.",
-    "recipeIdea": "Boil new potatoes in heavily salted water, crush them lightly, then roast in butter until the torn edges go crisp.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Erdig und buttrig; festkochende bleiben süß und fest, mehligkochende werden locker und saugfähig.",
+    "recipeIdea": "Frühkartoffeln in kräftig gesalzenem Wasser kochen, leicht zerdrücken und dann in Butter rösten, bis die aufgerissenen Kanten knusprig sind.",
     "co2": {
       "local": 0.2,
       "imported": 0.4,
       "importMode": "road",
-      "origin": "Egypt / Israel"
+      "origin": "Ägypten / Israel"
     },
     "illustration": {
       "archetype": "tuber"
@@ -6382,13 +6382,13 @@
       12,
       1
     ],
-    "description": "Hokkaido is the German default — small, orange and the only common variety whose skin you can eat without peeling. Cut the stalk with 5 cm of stem attached or the fruit rots from the crown.",
-    "storageTips": "A whole, unblemished pumpkin keeps three to six months at cool room temperature — around 12 to 15 °C, not the fridge. Once cut, wrap and refrigerate, and use within four days.",
+    "description": "Hokkaido ist hier der Standard — klein, orange und die einzige gängige Sorte, deren Schale man ungeschält mitessen kann. Beim Schneiden 5 cm Stiel dranlassen, sonst fault die Frucht von der Krone her.",
+    "storageTips": "Ein ganzer, unbeschädigter Kürbis hält drei bis sechs Monate bei kühler Zimmertemperatur — etwa 12 bis 15 °C, nicht im Kühlschrank. Angeschnitten einpacken, kühlen und in vier Tagen aufbrauchen.",
     "pairingIdeas": [
-      "Sage and brown butter",
-      "Ginger and coconut",
-      "Roasted with chilli and feta",
-      "Pumpkin seed oil"
+      "Salbei und braune Butter",
+      "Ingwer und Kokos",
+      "Mit Chili und Feta geröstet",
+      "Kürbiskernöl"
     ],
     "imageUrl": "/produce/pumpkin.png",
     "region": [
@@ -6456,14 +6456,14 @@
         ]
       }
     },
-    "culinaryTag": "Best for roasting",
-    "flavorProfile": "Sweet, chestnut-like and slightly floury — Hokkaido has more flavour and less water than the big carving types.",
-    "recipeIdea": "Roast unpeeled Hokkaido wedges at 200 °C with chilli and cumin, then crumble over feta and toasted pumpkin seeds.",
+    "culinaryTag": "Am besten aus dem Ofen",
+    "flavorProfile": "Süß, maronenartig und leicht mehlig — Hokkaido hat mehr Geschmack und weniger Wasser als die großen Schnitzkürbisse.",
+    "recipeIdea": "Ungeschälte Hokkaido-Spalten bei 200 °C mit Chili und Kreuzkümmel rösten, dann Feta und geröstete Kürbiskerne darüberbröseln.",
     "co2": {
       "local": 0.2,
       "imported": 0.6,
       "importMode": "road",
-      "origin": "Spain / Italy"
+      "origin": "Spanien / Italien"
     },
     "illustration": {
       "archetype": "squash"
@@ -6484,13 +6484,13 @@
       3
     ],
     "monthsInStorage": [],
-    "description": "The red chicory of the Veneto, where Treviso and Castelfranco varieties have protected status. Cold weather deepens both its colour and its bitterness — the best heads come after the first frosts.",
-    "storageTips": "Keeps a week or more in the fridge, tightly wrapped. Soaking cut leaves in cold water for twenty minutes noticeably reduces the bitterness if it is too much.",
+    "description": "Der rote Chicorée aus dem Veneto, wo die Sorten aus Treviso und Castelfranco geschützte Herkunft haben. Kälte vertieft Farbe und Bitterkeit zugleich — die besten Köpfe kommen nach den ersten Frösten.",
+    "storageTips": "Hält fest eingeschlagen eine Woche und länger im Kühlschrank. Wenn es zu bitter wird: geschnittene Blätter zwanzig Minuten in kaltes Wasser legen, das nimmt spürbar etwas weg.",
     "pairingIdeas": [
-      "Grilled with balsamic",
-      "Gorgonzola and walnut",
-      "Risotto with red wine",
-      "Orange and fennel"
+      "Mit Balsamico gegrillt",
+      "Gorgonzola und Walnuss",
+      "Risotto mit Rotwein",
+      "Orange und Fenchel"
     ],
     "imageUrl": "/produce/radicchio.png",
     "region": [
@@ -6536,14 +6536,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Char it hard",
-    "flavorProfile": "Assertively bitter and peppery raw, sweetening dramatically under fire or long roasting.",
-    "recipeIdea": "Quarter, grill until the edges char, then dress hot with aged balsamic, olive oil and shaved parmesan.",
+    "culinaryTag": "Scharf anrösten",
+    "flavorProfile": "Roh selbstbewusst bitter und pfeffrig, über Feuer oder lange geröstet dramatisch süß.",
+    "recipeIdea": "Vierteln, grillen, bis die Kanten Röststellen haben, dann heiß mit altem Balsamico, Olivenöl und gehobeltem Parmesan anmachen.",
     "co2": {
       "local": 0.3,
       "imported": 0.9,
       "importMode": "road",
-      "origin": "Italy"
+      "origin": "Italien"
     },
     "illustration": {
       "archetype": "leafy-head"
@@ -6564,13 +6564,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The fastest crop in the garden — sown to pulled in four weeks. Field radishes arrive with the first real warmth and carry the peppery bite that greenhouse bunches never quite manage.",
-    "storageTips": "Twist the leaves off immediately, or they will draw moisture out of the roots overnight. Store the roots in a sealed box with a damp cloth for up to a week; revive limp ones in ice water.",
+    "description": "Die schnellste Kultur im Garten — von der Aussaat bis zum Ziehen vier Wochen. Freilandradieschen kommen mit der ersten echten Wärme und haben die pfeffrige Schärfe, die Bunde aus dem Gewächshaus nie ganz hinkriegen.",
+    "storageTips": "Das Laub sofort abdrehen, sonst zieht es über Nacht die Feuchtigkeit aus den Knollen. Die Knollen in einer geschlossenen Dose mit einem feuchten Tuch bis zu eine Woche lagern; schlaffe in Eiswasser wiederbeleben.",
     "pairingIdeas": [
-      "Butter and flaky salt on rye",
-      "Quark and chives",
-      "Shaved into slaws",
-      "Roasted whole with honey"
+      "Butter und Salzflocken auf Roggenbrot",
+      "Quark und Schnittlauch",
+      "In den Krautsalat gehobelt",
+      "Ganz mit Honig geröstet"
     ],
     "imageUrl": "/produce/radish.png",
     "region": [
@@ -6641,14 +6641,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Crisp and juicy with a mustard-oil heat that fades to sweetness when roasted.",
-    "recipeIdea": "Halve a bunch, sear cut-side down in butter for three minutes, then glaze with honey and a splash of vinegar — the heat turns them mellow.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Knackig und saftig mit einer Senfölschärfe, die beim Rösten zu Süße wird.",
+    "recipeIdea": "Ein Bund halbieren, drei Minuten mit der Schnittfläche nach unten in Butter anbraten, dann mit Honig und einem Spritzer Essig glasieren — die Hitze macht sie mild.",
     "co2": {
       "local": 0.2,
       "imported": 1.8,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -6673,13 +6673,13 @@
       3,
       4
     ],
-    "description": "The anthocyanins that colour it act as a pH indicator — add acid and it turns vivid red, add alkali and it goes blue. Cooking it without vinegar or apple is how you end up with grey cabbage.",
-    "storageTips": "Keeps for two months whole in a cool cellar, three weeks in the fridge. Cut halves hold up well wrapped tightly for a week.",
+    "description": "Die Anthocyane, die ihn färben, wirken wie ein pH-Indikator — Säure macht ihn leuchtend rot, Lauge blau. Wer ihn ohne Essig oder Apfel kocht, landet bei grauem Kohl.",
+    "storageTips": "Ganz hält er zwei Monate im kühlen Keller, drei Wochen im Kühlschrank. Angeschnittene Hälften halten fest eingepackt gut eine Woche.",
     "pairingIdeas": [
-      "Apple, clove and bay",
-      "Goose or duck",
-      "Chestnut and red wine",
-      "Raw with orange"
+      "Apfel, Nelke und Lorbeer",
+      "Gans oder Ente",
+      "Maronen und Rotwein",
+      "Roh mit Orange"
     ],
     "imageUrl": "/produce/red-cabbage.png",
     "region": [
@@ -6758,14 +6758,14 @@
         ]
       }
     },
-    "culinaryTag": "Braise low and slow",
-    "flavorProfile": "Sweeter and more peppery than white cabbage, with a tannic edge that red wine and apple soften.",
-    "recipeIdea": "Braise shredded cabbage for 90 minutes with grated apple, red wine vinegar, cloves and a spoon of redcurrant jelly.",
+    "culinaryTag": "Lange schmoren",
+    "flavorProfile": "Süßer und pfeffriger als Weißkohl, mit einer Gerbkante, die Rotwein und Apfel abmildern.",
+    "recipeIdea": "Den geschnittenen Kohl 90 Minuten mit geriebenem Apfel, Rotweinessig, Nelken und einem Löffel Johannisbeergelee schmoren.",
     "co2": {
       "local": 0.2,
       "imported": 0.5,
       "importMode": "road",
-      "origin": "Netherlands / Poland"
+      "origin": "Niederlande / Polen"
     },
     "illustration": {
       "archetype": "leafy-head"
@@ -6782,13 +6782,13 @@
       6
     ],
     "monthsInStorage": [],
-    "description": "Botanically a vegetable, treated as a fruit in every kitchen. Like asparagus it is cut only until midsummer, after which the stalks turn woody and the plant is left to recover. Yorkshire's forced rhubarb is grown in dark sheds and picked by candlelight from January.",
-    "storageTips": "Keep unwashed stalks loosely wrapped in the fridge for up to a week. Cut and freeze in chunks without blanching — it holds its shape well for crumbles.",
+    "description": "Botanisch ein Gemüse, in jeder Küche als Obst behandelt. Wie beim Spargel wird nur bis zur Sommermitte geschnitten, danach werden die Stangen holzig und die Pflanze darf sich erholen. In Yorkshire wird Treibrhabarber in dunklen Schuppen gezogen und ab Januar bei Kerzenlicht geerntet.",
+    "storageTips": "Ungewaschene Stangen locker eingeschlagen bis zu eine Woche in den Kühlschrank. In Stücken ohne Blanchieren einfrieren — er behält seine Form gut für Crumbles.",
     "pairingIdeas": [
-      "Strawberries and vanilla",
-      "Ginger and orange zest",
-      "Oat crumble and cream",
-      "Roast pork or duck"
+      "Erdbeeren und Vanille",
+      "Ingwer und Orangenabrieb",
+      "Haferstreusel und Sahne",
+      "Schweinebraten oder Ente"
     ],
     "imageUrl": "/produce/rhubarb.png",
     "region": [
@@ -6833,14 +6833,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Best stewed or baked",
-    "flavorProfile": "Sharply sour and astringent raw, turning floral and jammy the moment sugar and heat get involved.",
-    "recipeIdea": "Roast 3 cm batons with sugar, orange juice and a split vanilla pod at 180 °C for 15 minutes — they keep their shape instead of collapsing.",
+    "culinaryTag": "Gedünstet oder gebacken",
+    "flavorProfile": "Roh scharf sauer und herb, wird blumig und marmeladig, sobald Zucker und Hitze im Spiel sind.",
+    "recipeIdea": "3 cm lange Stücke mit Zucker, Orangensaft und einer aufgeschlitzten Vanilleschote bei 180 °C 15 Minuten backen — so behalten sie ihre Form, statt zu zerfallen.",
     "co2": {
       "local": 0.3,
       "imported": 1.2,
       "importMode": "greenhouse",
-      "origin": "Netherlands"
+      "origin": "Niederlande"
     },
     "illustration": {
       "archetype": "stalk-bundle"
@@ -6860,13 +6860,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "A brassica rather than a lettuce, which is where the mustard heat comes from. Wild rocket has narrow, deeply cut leaves and a far more aggressive bite than the broad-leaved cultivated kind.",
-    "storageTips": "Two or three days at most. Store dry in a box lined with kitchen paper; any moisture on the leaves turns them black at the edges overnight.",
+    "description": "Ein Kreuzblütler, kein Salat — daher die Senfschärfe. Wilde Rauke hat schmale, tief eingeschnittene Blätter und beißt viel aggressiver als die breitblättrige Kultursorte.",
+    "storageTips": "Höchstens zwei, drei Tage. Trocken in einer mit Küchenpapier ausgelegten Dose lagern; Feuchtigkeit auf den Blättern macht sie über Nacht an den Rändern schwarz.",
     "pairingIdeas": [
-      "Parmesan and lemon",
-      "Pear and pecorino",
-      "Scattered over pizza",
-      "Blitzed into pesto"
+      "Parmesan und Zitrone",
+      "Birne und Pecorino",
+      "Über die Pizza gestreut",
+      "Zu Pesto gemixt"
     ],
     "imageUrl": "/produce/rocket.png",
     "region": [
@@ -6933,14 +6933,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Peppery, nutty and faintly sulphurous, getting hotter as the plant runs to flower.",
-    "recipeIdea": "Blitz with walnuts, garlic, pecorino and oil for a pesto with far more character than the basil version.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Pfeffrig, nussig und leicht schweflig, und umso schärfer, je mehr die Pflanze in die Blüte geht.",
+    "recipeIdea": "Mit Walnüssen, Knoblauch, Pecorino und Öl zu einem Pesto mixen, das deutlich mehr Charakter hat als die Basilikumversion.",
     "co2": {
       "local": 0.3,
       "imported": 2.2,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "leafy-loose"
@@ -6965,13 +6965,13 @@
     "monthsInStorage": [
       3
     ],
-    "description": "The crinkle-leaved cabbage that stands in the field through frost, and the best of the family for cooking quickly. Winter heads are looser, darker and sweeter than the pale summer ones.",
-    "storageTips": "Less dense than white cabbage, so it keeps a shorter time — about two weeks in the fridge. Use the dark outer leaves rather than discarding them; they have the most flavour.",
+    "description": "Der krausblättrige Kohl, der durch den Frost auf dem Feld steht, und der beste der Familie zum schnellen Kochen. Winterköpfe sind lockerer, dunkler und süßer als die hellen im Sommer.",
+    "storageTips": "Weniger dicht als Weißkohl, hält also kürzer — etwa zwei Wochen im Kühlschrank. Die dunklen äußeren Blätter nicht wegwerfen, sondern mitverwenden; sie haben das meiste Aroma.",
     "pairingIdeas": [
-      "Cream and bacon",
-      "Chestnut and sage",
-      "Wrapped as cabbage rolls",
-      "Stir-fried with garlic"
+      "Sahne und Speck",
+      "Maronen und Salbei",
+      "Als Kohlrouladen gewickelt",
+      "Mit Knoblauch gebraten"
     ],
     "imageUrl": "/produce/savoy-cabbage.png",
     "region": [
@@ -7045,14 +7045,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Wilt, don't boil",
-    "flavorProfile": "Milder and more delicate than other cabbages, with a nutty sweetness after frost.",
-    "recipeIdea": "Shred and cook seven minutes in cream with bacon and nutmeg — long enough to soften, short enough to stay green.",
+    "culinaryTag": "Nur kurz dünsten",
+    "flavorProfile": "Milder und feiner als andere Kohlsorten, nach Frost mit nussiger Süße.",
+    "recipeIdea": "In Streifen schneiden und sieben Minuten in Sahne mit Speck und Muskat kochen — lang genug zum Weichwerden, kurz genug, dass er grün bleibt.",
     "co2": {
       "local": 0.2,
       "imported": 0.5,
       "importMode": "road",
-      "origin": "Italy / Netherlands"
+      "origin": "Italien / Niederlande"
     },
     "illustration": {
       "archetype": "leafy-head"
@@ -7072,13 +7072,13 @@
       11
     ],
     "monthsInStorage": [],
-    "description": "A cool-weather crop with two distinct windows: tender spring leaves in March to May, then a heartier autumn cut. It bolts in midsummer heat, which is why field spinach disappears from June to August.",
-    "storageTips": "Highly perishable — use within two days. Store dry and loosely packed; moisture on the leaves turns them to slime. Blanch and freeze in portions if you have a glut.",
+    "description": "Eine Kultur für kühles Wetter mit zwei klaren Fenstern: zarte Frühlingsblätter von März bis Mai, dann ein kräftigerer Herbstschnitt. In der Sommerhitze schießt er, deshalb verschwindet Freilandspinat von Juni bis August.",
+    "storageTips": "Sehr schnell verderblich — in zwei Tagen aufbrauchen. Trocken und locker lagern; Feuchtigkeit auf den Blättern macht sie schmierig. Bei zu viel auf einmal blanchieren und portionsweise einfrieren.",
     "pairingIdeas": [
-      "Nutmeg and cream",
-      "Garlic and lemon",
-      "Feta in filo",
-      "Poached egg and brown butter"
+      "Muskat und Sahne",
+      "Knoblauch und Zitrone",
+      "Feta im Filoteig",
+      "Pochiertes Ei und braune Butter"
     ],
     "imageUrl": "/produce/spinach.png",
     "region": [
@@ -7140,14 +7140,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Wilt, don't boil",
-    "flavorProfile": "Green and mineral with a slight chalky edge from oxalic acid, sweetening after frost.",
-    "recipeIdea": "Wilt in a dry pan, squeeze out every drop of water, then fold into ricotta with nutmeg and lemon zest for a fast pasta filling.",
+    "culinaryTag": "Nur kurz dünsten",
+    "flavorProfile": "Grün und mineralisch mit einer leicht kreidigen Kante von der Oxalsäure, nach Frost süßer.",
+    "recipeIdea": "In der trockenen Pfanne zusammenfallen lassen, jeden Tropfen Wasser ausdrücken, dann mit Muskat und Zitronenabrieb unter Ricotta heben — schnelle Nudelfüllung.",
     "co2": {
       "local": 0.3,
       "imported": 1.9,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "leafy-loose"
@@ -7168,13 +7168,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "Young onions pulled before the bulb swells. The whole plant is usable, and the green tops carry a fresher, grassier flavour than the white base.",
-    "storageTips": "Stand the roots in a centimetre of water on the windowsill and they will keep growing for a week. In the fridge, wrap loosely — they perfume everything nearby.",
+    "description": "Junge Zwiebeln, gezogen bevor die Knolle dick wird. Die ganze Pflanze ist verwendbar, und das Grün schmeckt frischer und grasiger als der weiße Teil.",
+    "storageTips": "Die Wurzeln in einen Zentimeter Wasser auf die Fensterbank stellen, dann wachsen sie eine Woche weiter. Im Kühlschrank locker einpacken — sie parfümieren alles in der Nähe.",
     "pairingIdeas": [
-      "Charred whole on the grill",
-      "Folded into potato salad",
-      "Soy and sesame",
-      "Sprinkled over soup"
+      "Ganz auf dem Grill geröstet",
+      "Unter den Kartoffelsalat gehoben",
+      "Sojasauce und Sesam",
+      "Über die Suppe gestreut"
     ],
     "imageUrl": "/produce/spring-onion.png",
     "region": [
@@ -7242,14 +7242,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Great for grilling",
-    "flavorProfile": "Bright and mildly sharp raw; sweet and almost creamy once blackened over fire.",
-    "recipeIdea": "Grill whole until the outer layer chars, then peel and dress with romesco — the Catalan calçot treatment works on any spring onion.",
+    "culinaryTag": "Super vom Grill",
+    "flavorProfile": "Roh hell und mild scharf; über Feuer geschwärzt süß und fast cremig.",
+    "recipeIdea": "Ganz grillen, bis die äußere Schicht schwarz wird, dann abziehen und mit Romesco anmachen — die katalanische Calçot-Nummer klappt mit jeder Frühlingszwiebel.",
     "co2": {
       "local": 0.2,
       "imported": 1.4,
       "importMode": "road",
-      "origin": "Egypt / Spain"
+      "origin": "Ägypten / Spanien"
     },
     "illustration": {
       "archetype": "herb-grass"
@@ -7272,13 +7272,13 @@
       3,
       4
     ],
-    "description": "Long remembered in Germany as the famine food of the Steckrübenwinter of 1916–17, and unfairly dismissed ever since. Treated well — roasted, mashed with butter — it is one of the sweetest roots in the cellar.",
-    "storageTips": "Keeps three or four months in a cold, humid cellar; a month in the fridge. Shop-bought swedes are often waxed, which extends life but must be peeled thickly.",
+    "description": "In Deutschland lange als Hungerkost aus dem Steckrübenwinter 1916/17 in Erinnerung und seitdem zu Unrecht abgetan. Gut behandelt — geröstet, mit Butter gestampft — ist sie eine der süßesten Wurzeln im Keller.",
+    "storageTips": "Hält drei, vier Monate im kalten, feuchten Keller, einen Monat im Kühlschrank. Gekaufte sind oft gewachst, das verlängert die Haltbarkeit, muss aber dick abgeschält werden.",
     "pairingIdeas": [
-      "Butter and white pepper",
-      "Mashed with potato",
-      "Roasted with maple",
-      "Beef stew"
+      "Butter und weißer Pfeffer",
+      "Mit Kartoffel gestampft",
+      "Mit Ahornsirup geröstet",
+      "Rindergulasch"
     ],
     "imageUrl": "/produce/swede.png",
     "region": [
@@ -7334,14 +7334,14 @@
         ]
       }
     },
-    "culinaryTag": "Ideal for soups",
-    "flavorProfile": "Sweet and mildly mustardy, with an earthiness that butter and pepper tame completely.",
-    "recipeIdea": "Steam chunks until collapsing, mash hard with a lot of butter and white pepper, and serve under something braised.",
+    "culinaryTag": "Ideal für Suppen",
+    "flavorProfile": "Süß und leicht senfig, mit einer Erdigkeit, die Butter und Pfeffer komplett zähmen.",
+    "recipeIdea": "Stücke weich dämpfen, mit viel Butter und weißem Pfeffer kräftig stampfen und unter etwas Geschmortes geben.",
     "co2": {
       "local": 0.2,
       "imported": 0.5,
       "importMode": "road",
-      "origin": "UK / Netherlands"
+      "origin": "UK / Niederlande"
     },
     "illustration": {
       "archetype": "root-bulbous"
@@ -7358,13 +7358,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "Late summer only, and the clearest case of eat-it-today produce there is: sugar starts converting to starch the moment the cob leaves the stalk. Look for tight green husks and pale, damp silks.",
-    "storageTips": "Leave the husks on and refrigerate immediately — cold slows the sugar loss. Cook within 48 hours; after that you are eating starch.",
+    "description": "Nur Spätsommer, und der klarste Fall von Heute-essen-Ware überhaupt: Der Zucker wird in dem Moment zu Stärke, in dem der Kolben von der Pflanze kommt. Achte auf fest anliegende grüne Blätter und helle, feuchte Fäden.",
+    "storageTips": "Die Blätter dranlassen und sofort kühlen — Kälte bremst den Zuckerverlust. Binnen 48 Stunden kochen, danach isst du Stärke.",
     "pairingIdeas": [
-      "Butter and coarse salt",
-      "Chilli, lime and cheese",
-      "Charred in salads",
-      "Chowder with potato"
+      "Butter und grobes Salz",
+      "Chili, Limette und Käse",
+      "Angeröstet im Salat",
+      "Chowder mit Kartoffel"
     ],
     "imageUrl": "/produce/sweetcorn.png",
     "region": [
@@ -7413,14 +7413,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Great for grilling",
-    "flavorProfile": "Milky and sugar-sweet, with a toasty depth once the kernels catch colour.",
-    "recipeIdea": "Grill husked cobs until spotted black, roll in butter, lime juice, chilli and grated hard cheese.",
+    "culinaryTag": "Super vom Grill",
+    "flavorProfile": "Milchig und zuckersüß, mit einer gerösteten Tiefe, sobald die Körner Farbe nehmen.",
+    "recipeIdea": "Geschälte Kolben grillen, bis sie schwarze Flecken haben, dann in Butter, Limettensaft, Chili und geriebenem Hartkäse wälzen.",
     "co2": {
       "local": 0.3,
       "imported": 1.3,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "corn"
@@ -7440,13 +7440,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The same species as beetroot, bred for leaves instead of roots. Rainbow varieties have stems in yellow, pink and crimson; the colour is all in the stalk and mostly washes out in cooking.",
-    "storageTips": "Separate stalks from leaves before storing. Leaves keep two or three days; stalks last over a week. Both freeze well after a short blanch.",
+    "description": "Dieselbe Art wie Rote Bete, nur auf Blätter gezüchtet statt auf Wurzeln. Bei den bunten Sorten sind die Stiele gelb, pink und karmesinrot; die Farbe sitzt nur im Stiel und verschwindet beim Kochen meist.",
+    "storageTips": "Stiele und Blätter vor dem Lagern trennen. Blätter halten zwei, drei Tage, Stiele über eine Woche. Kurz blanchiert lassen sich beide gut einfrieren.",
     "pairingIdeas": [
-      "Garlic, raisins and pine nuts",
-      "Cream and nutmeg",
-      "Lentils and lemon",
-      "Baked with cheese"
+      "Knoblauch, Rosinen und Pinienkerne",
+      "Sahne und Muskat",
+      "Linsen und Zitrone",
+      "Mit Käse überbacken"
     ],
     "imageUrl": "/produce/chard.png",
     "region": [
@@ -7510,14 +7510,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Cook stalks first",
-    "flavorProfile": "Earthy and mineral like young beetroot leaves, with sweet, celery-crisp stalks.",
-    "recipeIdea": "Fry the diced stalks with garlic for five minutes, add the shredded leaves, then finish with raisins, pine nuts and a squeeze of lemon.",
+    "culinaryTag": "Stiele zuerst",
+    "flavorProfile": "Erdig und mineralisch wie junges Rote-Bete-Laub, mit süßen, sellerieknackigen Stielen.",
+    "recipeIdea": "Die gewürfelten Stiele fünf Minuten mit Knoblauch braten, die geschnittenen Blätter dazu, zum Schluss Rosinen, Pinienkerne und ein Spritzer Zitrone.",
     "co2": {
       "local": 0.3,
       "imported": 1.2,
       "importMode": "road",
-      "origin": "Southern Europe"
+      "origin": "Südeuropa"
     },
     "illustration": {
       "archetype": "leafy-loose"
@@ -7535,13 +7535,13 @@
       10
     ],
     "monthsInStorage": [],
-    "description": "The single biggest seasonal-eating win. A tomato ripened on the vine in August tastes nothing like a January one grown under heated glass, and costs roughly a tenth of the carbon.",
-    "storageTips": "Room temperature, stem side down, out of direct sun. Refrigeration destroys the volatile compounds that make a tomato taste of anything — below 12 °C the flavour is gone for good.",
+    "description": "Der mit Abstand größte Gewinn beim saisonalen Einkaufen. Eine im August an der Rispe gereifte Tomate schmeckt völlig anders als eine im Januar unter beheiztem Glas, und kostet etwa ein Zehntel an CO₂.",
+    "storageTips": "Zimmertemperatur, Stielansatz nach unten, nicht in die pralle Sonne. Der Kühlschrank zerstört die Aromastoffe, die eine Tomate überhaupt nach etwas schmecken lassen — unter 12 °C ist der Geschmack endgültig weg.",
     "pairingIdeas": [
-      "Basil and olive oil",
-      "Mozzarella and salt",
-      "Bread salad",
-      "Slow-roasted with garlic"
+      "Basilikum und Olivenöl",
+      "Mozzarella und Salz",
+      "Brotsalat",
+      "Langsam mit Knoblauch geröstet"
     ],
     "imageUrl": "/produce/tomato.png",
     "region": [
@@ -7602,14 +7602,14 @@
         "monthsInStorage": []
       }
     },
-    "culinaryTag": "Raw in salads",
-    "flavorProfile": "Sweet, acidic and savoury all at once — ripe field fruit has a glutamate depth that greenhouse fruit lacks.",
-    "recipeIdea": "Halve, salt generously, and roast at 140 °C for two hours with garlic and thyme; freeze what you don't eat as winter's pasta sauce.",
+    "culinaryTag": "Roh im Salat",
+    "flavorProfile": "Süß, sauer und herzhaft zugleich — reife Freilandware hat eine Glutamattiefe, die Gewächshausware fehlt.",
+    "recipeIdea": "Halbieren, großzügig salzen und bei 140 °C zwei Stunden mit Knoblauch und Thymian rösten; was du nicht isst, wird eingefroren zur Nudelsauce für den Winter.",
     "co2": {
       "local": 0.3,
       "imported": 2.9,
       "importMode": "greenhouse",
-      "origin": "Netherlands / Spain"
+      "origin": "Niederlande / Spanien"
     },
     "illustration": {
       "archetype": "round-fruit"
@@ -7636,13 +7636,13 @@
       4,
       5
     ],
-    "description": "The most stored vegetable in Northern Europe and the raw material for sauerkraut, which kept German households in vitamin C through winters long before greenhouses existed.",
-    "storageTips": "A dense head keeps two to three months in a cold cellar or several weeks in the fridge. Do not wash before storing; peel off the outer leaves as they tire.",
+    "description": "Das am meisten eingelagerte Gemüse Nordeuropas und der Rohstoff für Sauerkraut, das deutsche Haushalte lange vor allen Gewächshäusern durch den Winter mit Vitamin C versorgt hat.",
+    "storageTips": "Ein fester Kopf hält zwei bis drei Monate im kalten Keller oder mehrere Wochen im Kühlschrank. Vor dem Lagern nicht waschen; die äußeren Blätter abziehen, wenn sie schlapp werden.",
     "pairingIdeas": [
-      "Caraway and bacon",
-      "Fermented as sauerkraut",
-      "Apple and vinegar slaw",
-      "Charred in wedges"
+      "Kümmel und Speck",
+      "Als Sauerkraut fermentiert",
+      "Krautsalat mit Apfel und Essig",
+      "Als Spalten angeröstet"
     ],
     "imageUrl": "/produce/white-cabbage.png",
     "region": [
@@ -7728,14 +7728,14 @@
         ]
       }
     },
-    "culinaryTag": "Ferment or braise",
-    "flavorProfile": "Peppery and sulphurous raw, sweet and mellow braised, sharply sour fermented.",
-    "recipeIdea": "Shred, salt at 2 % of its weight, pack tight in a jar under its own brine and leave two weeks at room temperature — sauerkraut needs nothing else.",
+    "culinaryTag": "Fermentieren oder schmoren",
+    "flavorProfile": "Roh pfeffrig und schweflig, geschmort süß und mild, fermentiert scharf sauer.",
+    "recipeIdea": "Hobeln, mit 2 % seines Gewichts salzen, fest in ein Glas unter die eigene Lake drücken und zwei Wochen bei Zimmertemperatur stehen lassen — mehr braucht Sauerkraut nicht.",
     "co2": {
       "local": 0.2,
       "imported": 0.5,
       "importMode": "road",
-      "origin": "Poland / Netherlands"
+      "origin": "Polen / Niederlande"
     },
     "illustration": {
       "archetype": "leafy-head"

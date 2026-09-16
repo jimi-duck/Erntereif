@@ -31,7 +31,7 @@ export function calendarFor(
 }
 
 export const localNameFor = (item: ProduceItem, country: CountryCode): string =>
-  item.localNames?.[country] ?? item.nameEN
+  item.localNames?.[country] ?? item.nameDE
 
 /** Resolve one item against a specific month and country. */
 export function resolveItem(
@@ -72,22 +72,22 @@ export interface StatusPresentation {
 }
 
 export const STATUS_PRESENTATION: Record<SeasonStatus, StatusPresentation> = {
-  peak: { label: 'In season', className: 'bg-ink-900 text-white', rank: 0 },
-  starting: { label: 'Just started', className: 'bg-neon-500 text-ink-900', rank: 1 },
-  ending: { label: 'Last weeks', className: 'bg-coral-500 text-white', rank: 2 },
-  stored: { label: 'From store', className: 'bg-corn-500 text-ink-900', rank: 3 },
-  soon: { label: 'Next month', className: 'bg-white text-ink-900 ring-1 ring-ink-900', rank: 4 },
+  peak: { label: 'In Saison', className: 'bg-ink-900 text-white', rank: 0 },
+  starting: { label: 'Geht los', className: 'bg-neon-500 text-ink-900', rank: 1 },
+  ending: { label: 'Letzte Wochen', className: 'bg-coral-500 text-white', rank: 2 },
+  stored: { label: 'Aus dem Lager', className: 'bg-corn-500 text-ink-900', rank: 3 },
+  soon: { label: 'Nächsten Monat', className: 'bg-white text-ink-900 ring-1 ring-ink-900', rank: 4 },
   'out-of-season': {
-    label: 'Out of season',
+    label: 'Außer Saison',
     className: 'bg-white text-ink-400 ring-1 ring-line',
     rank: 5,
   },
 }
 
 export const CATEGORY_LABEL: Record<Category, string> = {
-  vegetable: 'Vegetable',
-  fruit: 'Fruit',
-  herb: 'Herb',
+  vegetable: 'Gemüse',
+  fruit: 'Obst',
+  herb: 'Kräuter',
 }
 
 /** Every item grown in the given country, resolved for the given month. */
@@ -128,8 +128,8 @@ export function summariseMonth(month: Month, country: CountryCode): SeasonSummar
 
   if (ratio >= 0.8) {
     return {
-      label: 'Peak season',
-      description: 'The fullest weeks of the year. Buy widely, and put up what you cannot eat.',
+      label: 'Hochsaison',
+      description: 'Die vollsten Wochen im Jahr. Kauf reichlich und mach ein, was du nicht schaffst.',
       tone: 'peak',
       inSeason,
       total,
@@ -137,8 +137,8 @@ export function summariseMonth(month: Month, country: CountryCode): SeasonSummar
   }
   if (ratio >= 0.6) {
     return {
-      label: 'High season',
-      description: 'Plenty is coming out of the ground. Very little needs to travel.',
+      label: 'Volle Saison',
+      description: 'Es kommt viel aus dem Boden. Kaum etwas muss weit reisen.',
       tone: 'high',
       inSeason,
       total,
@@ -147,23 +147,23 @@ export function summariseMonth(month: Month, country: CountryCode): SeasonSummar
   if (ratio >= 0.3) {
     return rising
       ? {
-          label: 'The year opening',
-          description: 'The first cuts are in. New crops land every week from here.',
+          label: 'Das Jahr geht los',
+          description: 'Die ersten Ernten sind da. Ab jetzt kommt jede Woche Neues dazu.',
           tone: 'rising',
           inSeason,
           total,
         }
       : {
-          label: 'The last cuts',
-          description: 'The final field crops, before the cellar and cold store take over.',
+          label: 'Die letzten Ernten',
+          description: 'Die letzten Sachen vom Feld, bevor Keller und Lager übernehmen.',
           tone: 'fading',
           inSeason,
           total,
         }
   }
   return {
-    label: 'Cellar & cold store',
-    description: 'Almost nothing is being cut. What is left was lifted in autumn and kept well.',
+    label: 'Keller & Lager',
+    description: 'Fast nichts wird geerntet. Was da ist, kam im Herbst rein und hält sich gut.',
     tone: 'lean',
     inSeason,
     total,

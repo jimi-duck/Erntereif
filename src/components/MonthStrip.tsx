@@ -27,7 +27,7 @@ export function MonthStrip() {
     <div
       ref={railRef}
       role="group"
-      aria-label="Month"
+      aria-label="Monat"
       className="no-scrollbar flex overflow-x-auto scroll-p-4 border-t border-line"
     >
       {MONTHS.map((m) => {

@@ -44,11 +44,11 @@ export default function App() {
             <ProduceSections sections={sections} country={country} onSelect={select} />
           ) : (
             <EmptyState
-              title={search ? `Nothing matches “${search}”` : 'Nothing here this month'}
+              title={search ? `Nichts gefunden für „${search}“` : 'Diesen Monat ist hier nichts'}
               body={
                 search
-                  ? `No produce grown in ${countryByCode(country).name} matches that search. Try an English, German, French, Italian or Dutch name.`
-                  : `Nothing fits these filters for ${monthName(month)}. Widen the category or supply filter to see the rest of the month.`
+                  ? `In ${countryByCode(country).name} wächst nichts, das dazu passt. Probier es auf Deutsch, Englisch, Französisch, Italienisch oder Niederländisch.`
+                  : `Für ${monthName(month)} passt nichts zu diesen Filtern. Nimm mehr Kategorien oder Herkünfte dazu, dann siehst du den Rest.`
               }
               onReset={clearFilters}
             />

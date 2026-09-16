@@ -32,22 +32,22 @@ export function SeasonHero({ month, countryName, summary }: Props) {
                 className="label ml-auto flex items-center gap-1.5 text-ink-400 transition hover:text-ink-900"
               >
                 <CornerUpLeft className="size-3.5" aria-hidden />
-                Back to {monthName(currentMonth())}
+                Zurück zum {monthName(currentMonth())}
               </button>
             )}
           </div>
 
-          <h1 className="display mt-6 max-w-4xl text-[2.75rem] leading-[0.9] tracking-[-0.045em] text-ink-900 sm:text-[4.5rem] lg:text-[5.5rem]">
-            What <span className="underscore">{monthName(month)}</span> is giving
+          <h1 className="display-black mt-7 max-w-5xl text-[3.25rem] leading-[0.84] text-ink-900 sm:text-[5.5rem] lg:text-[7rem]">
+            Was der <span className="underscore">{monthName(month)}</span> bringt
           </h1>
 
-          <p className="mt-7 max-w-md text-[0.95rem] leading-relaxed text-ink-500">
+          <p className="mt-8 max-w-sm text-[0.95rem] leading-relaxed text-ink-500">
             {summary.description}
           </p>
 
           <dl className="mt-10 flex flex-wrap gap-x-14 gap-y-5 border-t border-line pt-6">
-            <Stat value={summary.inSeason} label="Being harvested" />
-            <Stat value={summary.total} label="Available now" />
+            <Stat value={summary.inSeason} label="Wird geerntet" />
+            <Stat value={summary.total} label="Jetzt zu haben" />
           </dl>
         </div>
       </div>
@@ -62,7 +62,7 @@ export function SeasonHero({ month, countryName, summary }: Props) {
 function Stat({ value, label }: { value: number; label: string }) {
   return (
     <div>
-      <dd className="display text-[2.75rem] tabular-nums leading-[0.85] tracking-[-0.04em] text-ink-900 sm:text-5xl">
+      <dd className="display-black text-[3.25rem] tabular-nums leading-[0.82] text-ink-900 sm:text-[4rem]">
         {value}
       </dd>
       <dt className="label mt-2.5 text-ink-400">{label}</dt>

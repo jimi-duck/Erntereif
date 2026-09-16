@@ -3,16 +3,16 @@ import { cn } from '@/lib/cn'
 import { useAppStore, type CategoryFilter, type SupplyFilter } from '@/store/useAppStore'
 
 const CATEGORY_TABS: Array<{ value: CategoryFilter; label: string }> = [
-  { value: 'all', label: 'Everything' },
-  { value: 'vegetable', label: 'Vegetables' },
-  { value: 'fruit', label: 'Fruit' },
-  { value: 'herb', label: 'Herbs' },
+  { value: 'all', label: 'Alles' },
+  { value: 'vegetable', label: 'Gemüse' },
+  { value: 'fruit', label: 'Obst' },
+  { value: 'herb', label: 'Kräuter' },
 ]
 
 const SUPPLY_TABS: Array<{ value: SupplyFilter; label: string; icon: typeof Sprout | null }> = [
-  { value: 'all', label: 'All', icon: null },
-  { value: 'harvest', label: 'Direct harvest', icon: Sprout },
-  { value: 'storage', label: 'Cellar goods', icon: Warehouse },
+  { value: 'all', label: 'Alle', icon: null },
+  { value: 'harvest', label: 'Frisch geerntet', icon: Sprout },
+  { value: 'storage', label: 'Aus dem Lager', icon: Warehouse },
 ]
 
 interface Props {
@@ -27,7 +27,7 @@ export function FilterBar({ resultCount }: Props) {
     <div className="sticky top-[61px] z-20 border-y border-line bg-white/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2.5 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2.5">
-          <div role="group" aria-label="Filter by category" className="flex items-center gap-4">
+          <div role="group" aria-label="Nach Kategorie filtern" className="flex items-center gap-4">
             {CATEGORY_TABS.map((tab) => (
               <button
                 key={tab.value}
@@ -51,7 +51,7 @@ export function FilterBar({ resultCount }: Props) {
             ))}
           </div>
 
-          <div role="group" aria-label="Filter by supply" className="flex items-center gap-1.5">
+          <div role="group" aria-label="Nach Herkunft filtern" className="flex items-center gap-1.5">
             {SUPPLY_TABS.map((tab) => {
               const Icon = tab.icon
               const selected = supply === tab.value
@@ -87,14 +87,14 @@ export function FilterBar({ resultCount }: Props) {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Spargel, fraise, kale…"
-            aria-label="Search produce"
+            aria-label="Suchen"
             className="w-full rounded-sm border border-line bg-surface py-2 pl-9 pr-8 text-sm text-ink-900 placeholder:text-ink-400 transition focus:border-ink-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-neon-500"
           />
           {search && (
             <button
               type="button"
               onClick={() => setSearch('')}
-              aria-label="Clear search"
+              aria-label="Suche löschen"
               className="absolute right-2 top-1/2 flex size-6 -translate-y-1/2 items-center justify-center rounded-sm text-ink-400 transition hover:bg-surface-deep hover:text-ink-900"
             >
               <X className="size-3.5" aria-hidden />
@@ -103,7 +103,7 @@ export function FilterBar({ resultCount }: Props) {
         </div>
       </div>
       <p aria-live="polite" className="sr-only">
-        {resultCount} items match the current filters.
+        {resultCount} Sorten passen zu den Filtern.
       </p>
     </div>
   )

@@ -5,9 +5,13 @@ and see what is actually being harvested nearby — what is coming out of the
 cellar, what starts next month, and what a kilo of the imported alternative
 costs in carbon.
 
-Simple, clean, bold: white space, one neutral grotesque set Swiss, near-black
-green and a single neon accent. All 87 items are photographed on white and cut
-out, so the produce itself supplies the colour and the interface stays quiet.
+The interface is in German throughout, set informally — it says `du`, not
+`Sie`, and keeps its sentences short.
+
+Simple, clean, bold: white space, one neutral grotesque set Swiss and heavy,
+near-black green and a single neon accent. All 87 items are photographed on
+white and cut out, so the produce itself supplies the colour and the interface
+stays quiet.
 
 ## What it does
 
@@ -18,19 +22,23 @@ out, so the produce itself supplies the colour and the interface stays quiet.
 - **A season badge for the month** — peak, high, early, late, or stored and
   winter stock — derived from how much of the year's range is being harvested
   and whether the curve is rising or falling.
-- **Produce grouped into printed sections** — in season now, from the cellar,
-  coming next month — each headed in English and in the selected country's own
-  language (`Saison`, `De saison`, `Di stagione`, `In het seizoen`).
+- **Produce grouped into printed sections** — `Jetzt in Saison`, `Aus dem
+  Lager`, `Kommt nächsten Monat`. Pick a country other than Germany and the
+  heading also carries that country's own word for it (`De saison`,
+  `Di stagione`, `In het seizoen`, `In season`), the way a bilingual grower's
+  calendar prints it.
 - **Filters** by category (vegetables / fruit / herbs) and by supply: direct
   harvest versus cellar goods.
 - **Per-item status**: cards only badge what the section heading cannot say —
-  `Just started` and `Last weeks`. The rest is in the detail view.
+  `Geht los` and `Letzte Wochen`. The rest is in the detail view.
 - **Detail view** with a twelve-month season ribbon, flavour notes, storage
   advice, pairing ideas, a recipe suggestion, and a local-versus-imported
   carbon comparison.
 - **Search across five languages.** Typing `Spargel`, `asperge`, `asparago` or
   `asparagus` all find the same crop, and searching widens the grid beyond
   what is in season so you can look up when something comes back.
+- **Names follow the country.** The card shows the crop's name in the selected
+  country's language, with the German name under it when the two differ.
 
 ## Running it
 
@@ -100,13 +108,20 @@ Two inks and a lot of white, now carrying photographs. The tokens live in
   the artwork — the produce brings its own colour.
 - **Surfaces** — white page, `#f2f3f0` for picture tiles and quiet blocks.
 - **Data-only accents** — corn yellow and coral, used nowhere except the
-  `From store` badge and the imported-carbon bar.
-- **Type** — Inter throughout, set Swiss: flush left, sentence case, tight
-  negative tracking that increases with size, leading down to `0.9` on the
-  headline, tabular figures everywhere. `.display` sets weight and tracking only
-  — no colour — so the same utility works on white and on the dark blocks.
-  `.label` (10px, uppercase, `0.08em`) indexes the page. Hierarchy comes from
-  size and weight against hairline rules, not from decoration.
+  `Aus dem Lager` badge and the imported-carbon bar.
+- **Type** — Inter throughout, set Swiss and set heavy: flush left, sentence
+  case, tight negative tracking that increases with size, leading down to
+  `0.84` on the headline, tabular figures everywhere. Two weights carry it.
+  `.display` is extrabold at `-0.03em` and does the general work; `.display-black`
+  is the full 900 cut at `-0.045em` and is reserved for the four things that
+  should stop you — the headline, the two counters, the section titles and the
+  footer statement. Neither sets a colour, so both work on white and on the
+  dark blocks. `.label` (10px, uppercase, `0.09em`) indexes the page, and
+  sections are numbered `01`–`04` down the left. Hierarchy comes from size and
+  weight against hairline rules, not from decoration.
+- **German breaks** — compounds like `Frühlingszwiebel` are long and the grid
+  is tight, so card names carry `.hyphenate` and the document is `lang="de"`,
+  which lets the browser hyphenate them properly.
 
 ### The pictures
 
@@ -117,10 +132,11 @@ sheet of all 87 crops, so the whole set shares one light, one camera angle and
 one white ground, which is what keeps it reading as a series.
 
 The source frames are small — roughly 100px per crop — so the layout is built
-to suit them rather than to fight them. Tiles are `object-contain` with 14%
-padding inside a five-column grid, which lands the produce near its native
-size instead of scaling it up to fill the tile. Widening the grid or dropping
-the padding will make them visibly soft; if you want them larger, you need
+to suit them rather than to fight them. Tiles are `object-contain` with 12%
+padding inside a six-column grid, which renders the produce at about 130 CSS
+pixels: near enough 1:1 with the 256px file on a retina screen, and far more
+of the month in view at once. Widening the tiles is what makes them soft, so
+the dense grid is doing two jobs at once. If you want them bigger, you need
 larger originals, not more CSS.
 
 The earlier duotone generator is still in the tree at

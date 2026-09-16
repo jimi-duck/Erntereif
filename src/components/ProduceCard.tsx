@@ -1,6 +1,6 @@
 import { assetUrl } from '@/lib/assets'
 import { cn } from '@/lib/cn'
-import { CATEGORY_LABEL, STATUS_PRESENTATION } from '@/lib/seasonality'
+import { STATUS_PRESENTATION } from '@/lib/seasonality'
 import type { ResolvedProduce } from '@/types/produce'
 
 interface Props {
@@ -12,7 +12,7 @@ interface Props {
 
 export function ProduceCard({ resolved, onSelect, index }: Props) {
   const { item, status, localName } = resolved
-  const showEnglish = localName !== item.nameEN
+  const showGerman = localName !== item.nameDE
   // The section heading already says "in season" / "from the cellar", so only
   // badge the two statuses that carry urgency the heading cannot.
   const urgent = status === 'starting' || status === 'ending'
@@ -35,7 +35,7 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
           decoding="async"
           width={256}
           height={256}
-          className="aspect-square w-full object-contain p-[14%] transition duration-500 ease-organic group-hover:scale-[1.06]"
+          className="aspect-square w-full object-contain p-[12%] transition duration-500 ease-organic group-hover:scale-[1.06]"
         />
         {urgent && (
           <span
@@ -49,15 +49,15 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
         )}
       </div>
 
-      <div className="flex flex-1 flex-col pt-3">
-        <h3 className="display text-[0.95rem] leading-tight text-ink-900 transition group-hover:text-neon-600">
+      <div className="flex flex-1 flex-col pt-2.5">
+        <h3 className="display hyphenate text-[0.8rem] leading-[1.15] text-ink-900 transition group-hover:text-neon-600">
           {localName}
         </h3>
-        {showEnglish && (
-          <p className="mt-0.5 text-[0.8rem] leading-snug text-ink-400">{item.nameEN}</p>
+        {showGerman && (
+          <p className="hyphenate mt-0.5 text-[0.72rem] leading-tight text-ink-400">{item.nameDE}</p>
         )}
-        <p className="label mt-auto pt-2.5 text-ink-300">
-          {CATEGORY_LABEL[item.category]} · {item.culinaryTag}
+        <p className="label mt-auto pt-2 text-[9px] tracking-[0.07em] text-ink-300">
+          {item.culinaryTag}
         </p>
       </div>
     </button>

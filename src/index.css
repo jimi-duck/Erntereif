@@ -81,17 +81,29 @@
     display: none;
   }
 
-  /* Headlines: neutral grotesque, set tight and flush left. Colour is left to
-     the caller so the same utility works on white and on the dark blocks.
-     Larger sizes want tighter tracking — override per call site. */
+  /* Headlines: neutral grotesque, set heavy, tight and flush left. Colour is
+     left to the caller so the same utility works on white and on the dark
+     blocks. Larger sizes want tighter tracking — override per call site. */
   .display {
-    @apply font-bold tracking-[-0.025em];
+    @apply font-extrabold tracking-[-0.03em];
+    font-feature-settings: 'tnum' 1;
+  }
+
+  /* The full-weight cut, for the two statements that carry the page. */
+  .display-black {
+    @apply font-black tracking-[-0.045em];
     font-feature-settings: 'tnum' 1;
   }
 
   /* The small uppercase labels that index the page. */
   .label {
-    @apply text-[10px] font-semibold uppercase tracking-[0.08em];
+    @apply text-[10px] font-bold uppercase tracking-[0.09em];
+  }
+
+  /* German compounds are long and the grid is tight — let them break. */
+  .hyphenate {
+    hyphens: auto;
+    overflow-wrap: break-word;
   }
 
   /* A rule under a key phrase in a headline. */

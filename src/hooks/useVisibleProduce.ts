@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { STATUS_PRESENTATION, resolveAll } from '@/lib/seasonality'
+import { CATEGORY_LABEL, STATUS_PRESENTATION, resolveAll } from '@/lib/seasonality'
 import { useAppStore } from '@/store/useAppStore'
 import type { ResolvedProduce } from '@/types/produce'
 
@@ -11,6 +11,7 @@ const haystack = (resolved: ResolvedProduce): string =>
     ...Object.values(resolved.item.localNames ?? {}),
     resolved.item.culinaryTag,
     resolved.item.category,
+    CATEGORY_LABEL[resolved.item.category],
   ]
     .join(' ')
     .toLowerCase()
@@ -44,7 +45,7 @@ export function useVisibleProduce(): ResolvedProduce[] {
     return list.sort(
       (a, b) =>
         STATUS_PRESENTATION[a.status].rank - STATUS_PRESENTATION[b.status].rank ||
-        a.localName.localeCompare(b.localName),
+        a.localName.localeCompare(b.localName, 'de'),
     )
   }, [month, country, category, supply, search])
 }

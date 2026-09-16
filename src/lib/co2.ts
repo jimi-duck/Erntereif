@@ -14,10 +14,10 @@ import type { Co2Profile, ImportMode } from '@/types/produce'
 export const CAR_KG_CO2E_PER_KM = 0.12
 
 export const IMPORT_MODE_LABEL: Record<ImportMode, string> = {
-  air: 'air-freighted',
-  sea: 'shipped',
-  road: 'trucked in',
-  greenhouse: 'heated glasshouse',
+  air: 'eingeflogen',
+  sea: 'per Schiff',
+  road: 'per Lkw',
+  greenhouse: 'beheiztes Gewächshaus',
 }
 
 export interface Co2Comparison {
@@ -40,7 +40,11 @@ export function compareCo2(co2: Co2Profile): Co2Comparison {
   }
 }
 
-export const formatKg = (value: number) => `${value.toFixed(value < 10 ? 1 : 0)} kg`
+/** German decimal comma — 0,5 kg, not 0.5 kg. */
+const de = (value: number, digits: number) =>
+  value.toLocaleString('de-DE', { minimumFractionDigits: digits, maximumFractionDigits: digits })
+
+export const formatKg = (value: number) => `${de(value, value < 10 ? 1 : 0)} kg`
 
 export const formatCarKm = (km: number) =>
-  km >= 10 ? `${Math.round(km)} km` : `${km.toFixed(1)} km`
+  km >= 10 ? `${de(km, 0)} km` : `${de(km, 1)} km`

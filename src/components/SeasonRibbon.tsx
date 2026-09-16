@@ -16,7 +16,7 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
           const harvest = months.monthsInSeason.includes(m.number)
           const stored = months.monthsInStorage.includes(m.number)
           const active = m.number === activeMonth
-          const state = harvest ? 'harvested locally' : stored ? 'from local store' : 'not local'
+          const state = harvest ? 'wird hier geerntet' : stored ? 'aus dem Lager' : 'nicht von hier'
           return (
             <li key={m.number} className="flex-1">
               <div
@@ -40,13 +40,13 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
       </ul>
       <div className="label mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-ink-400">
         <span className="flex items-center gap-1.5">
-          <span className="size-2.5 rounded-sm bg-ink-900" aria-hidden /> Harvested
+          <span className="size-2.5 rounded-sm bg-ink-900" aria-hidden /> Geerntet
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="size-2.5 rounded-sm bg-neon-500" aria-hidden /> From store
+          <span className="size-2.5 rounded-sm bg-neon-500" aria-hidden /> Aus dem Lager
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="size-2.5 rounded-sm bg-surface" aria-hidden /> Not local
+          <span className="size-2.5 rounded-sm bg-surface" aria-hidden /> Nicht von hier
         </span>
       </div>
     </div>

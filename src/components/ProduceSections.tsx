@@ -23,21 +23,24 @@ export function ProduceSections({ sections, country, onSelect }: Props) {
 
         return (
           <section key={section.key} aria-labelledby={`section-${section.key}`}>
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t border-ink-900 pt-3.5">
+            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t-2 border-ink-900 pt-3">
+              <span className="label tabular-nums text-ink-300" aria-hidden>
+                {String(sectionIndex + 1).padStart(2, '0')}
+              </span>
               <h2
                 id={`section-${section.key}`}
-                className="display text-lg leading-none tracking-[-0.03em] text-ink-900"
+                className="display-black text-[1.6rem] leading-none text-ink-900 sm:text-[2rem]"
               >
                 {section.title}
               </h2>
               {local && <span className="label text-ink-300">{local}</span>}
-              <span className="display ml-auto text-lg tabular-nums leading-none text-ink-400">
+              <span className="display-black ml-auto text-[1.6rem] tabular-nums leading-none text-ink-300 sm:text-[2rem]">
                 {section.items.length}
               </span>
             </div>
-            <p className="mt-2.5 max-w-sm text-sm leading-relaxed text-ink-400">{section.blurb}</p>
+            <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-400">{section.blurb}</p>
 
-            <div className="mt-6 grid grid-cols-2 gap-x-4 gap-y-7 sm:grid-cols-3 sm:gap-x-5 md:grid-cols-4 lg:grid-cols-5">
+            <div className="mt-7 grid grid-cols-3 gap-x-3 gap-y-6 sm:grid-cols-4 sm:gap-x-4 md:grid-cols-5 lg:grid-cols-6">
               {section.items.map((resolved, i) => (
                 <ProduceCard
                   key={resolved.item.id}

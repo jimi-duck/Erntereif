@@ -11,7 +11,7 @@ export function Header() {
             stay local
           </span>
           <span className="label hidden border-l border-line pl-2.5 text-ink-400 sm:block">
-            Seasonal Almanac
+            Saisonkalender
           </span>
         </a>
         <CountrySelect />

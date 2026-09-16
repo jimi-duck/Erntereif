@@ -1,18 +1,18 @@
 import type { CountryCode, Month } from '@/types/produce'
 
 export const MONTHS = [
-  { number: 1, long: 'January', short: 'Jan', initial: 'J' },
-  { number: 2, long: 'February', short: 'Feb', initial: 'F' },
-  { number: 3, long: 'March', short: 'Mar', initial: 'M' },
+  { number: 1, long: 'Januar', short: 'Jan', initial: 'J' },
+  { number: 2, long: 'Februar', short: 'Feb', initial: 'F' },
+  { number: 3, long: 'März', short: 'Mär', initial: 'M' },
   { number: 4, long: 'April', short: 'Apr', initial: 'A' },
-  { number: 5, long: 'May', short: 'May', initial: 'M' },
-  { number: 6, long: 'June', short: 'Jun', initial: 'J' },
-  { number: 7, long: 'July', short: 'Jul', initial: 'J' },
+  { number: 5, long: 'Mai', short: 'Mai', initial: 'M' },
+  { number: 6, long: 'Juni', short: 'Jun', initial: 'J' },
+  { number: 7, long: 'Juli', short: 'Jul', initial: 'J' },
   { number: 8, long: 'August', short: 'Aug', initial: 'A' },
   { number: 9, long: 'September', short: 'Sep', initial: 'S' },
-  { number: 10, long: 'October', short: 'Oct', initial: 'O' },
+  { number: 10, long: 'Oktober', short: 'Okt', initial: 'O' },
   { number: 11, long: 'November', short: 'Nov', initial: 'N' },
-  { number: 12, long: 'December', short: 'Dec', initial: 'D' },
+  { number: 12, long: 'Dezember', short: 'Dez', initial: 'D' },
 ] as const
 
 export const monthName = (month: Month) => MONTHS[month - 1].long
@@ -33,11 +33,11 @@ export interface Country {
 }
 
 export const COUNTRIES: Country[] = [
-  { code: 'DE', name: 'Germany', shortName: 'Germany', flag: '🇩🇪', calendarSource: 'BZfE seasonal calendar' },
-  { code: 'FR', name: 'France', shortName: 'France', flag: '🇫🇷', calendarSource: 'Interfel / regional calendars' },
-  { code: 'IT', name: 'Italy', shortName: 'Italy', flag: '🇮🇹', calendarSource: 'Regional harvest calendars' },
-  { code: 'NL', name: 'Netherlands', shortName: 'Netherlands', flag: '🇳🇱', calendarSource: 'Milieu Centraal groentekalender' },
-  { code: 'GB', name: 'United Kingdom', shortName: 'UK', flag: '🇬🇧', calendarSource: 'Seasonal UK grower calendars' },
+  { code: 'DE', name: 'Deutschland', shortName: 'Deutschland', flag: '🇩🇪', calendarSource: 'BZfE-Saisonkalender' },
+  { code: 'FR', name: 'Frankreich', shortName: 'Frankreich', flag: '🇫🇷', calendarSource: 'Interfel / regionale Kalender' },
+  { code: 'IT', name: 'Italien', shortName: 'Italien', flag: '🇮🇹', calendarSource: 'Regionale Erntekalender' },
+  { code: 'NL', name: 'Niederlande', shortName: 'Niederlande', flag: '🇳🇱', calendarSource: 'Milieu Centraal Groentekalender' },
+  { code: 'GB', name: 'Großbritannien', shortName: 'UK', flag: '🇬🇧', calendarSource: 'Britische Anbaukalender' },
 ]
 
 export const countryByCode = (code: CountryCode): Country =>
