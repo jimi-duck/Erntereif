@@ -1,0 +1,7744 @@
+[
+  {
+    "id": "apple",
+    "nameEN": "Apple",
+    "nameDE": "Apfel",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "Picked from late summer through autumn, then held in controlled-atmosphere stores where low oxygen effectively pauses the fruit. That technology is why a German apple in March is still a local apple, and still a low-carbon one.",
+    "storageTips": "Cool and slightly humid, away from everything else — apples give off ethylene and will ripen or spoil their neighbours. One bad apple really does ruin the box.",
+    "pairingIdeas": [
+      "Cinnamon and butter",
+      "Sharp cheddar or blue cheese",
+      "Pork and sage",
+      "Raw with walnut and celery"
+    ],
+    "imageUrl": "/produce/apple.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Apfel",
+      "FR": "Pomme",
+      "IT": "Mela",
+      "NL": "Appel",
+      "GB": "Apple"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Anywhere from sharp and grassy to honeyed and aromatic depending on variety — the range within one species is enormous.",
+    "recipeIdea": "Core whole apples, stuff with marzipan, raisins and butter, and bake at 180 °C for 35 minutes until the skins split — Bratapfel.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.8,
+      "importMode": "sea",
+      "origin": "New Zealand / Chile"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "apricot",
+    "nameEN": "Apricot",
+    "nameDE": "Aprikose",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8
+    ],
+    "monthsInStorage": [],
+    "description": "Marginal in Germany, mainstream in the Rhône valley and northern Italy. Apricots stop developing sugar the moment they are picked, so any fruit shipped hard will soften but never actually sweeten.",
+    "storageTips": "Ripen at room temperature until they smell of apricot, then eat. Refrigeration makes the flesh mealy, so only chill fully ripe fruit and only for a day or two.",
+    "pairingIdeas": [
+      "Almond and honey",
+      "Rosemary or lavender",
+      "Roasted with vanilla",
+      "Lamb tagine"
+    ],
+    "imageUrl": "/produce/apricot.png",
+    "region": [
+      "FR",
+      "IT",
+      "DE"
+    ],
+    "localNames": {
+      "DE": "Aprikose",
+      "FR": "Abricot",
+      "IT": "Albicocca"
+    },
+    "regionalSeasons": {
+      "DE": {
+        "monthsInSeason": [
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Musky and floral with a distinct tartness at the skin; concentrates enormously when roasted.",
+    "recipeIdea": "Halve, roast cut-side up with honey, vanilla and a sprig of rosemary at 190 °C for 20 minutes.",
+    "co2": {
+      "local": 0.4,
+      "imported": 4.8,
+      "importMode": "air",
+      "origin": "South Africa / Chile"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "blackberry",
+    "nameEN": "Blackberry",
+    "nameDE": "Brombeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The last free fruit of the year, in hedgerows across all of Northern Europe. British folklore says to stop picking after Michaelmas at the end of September, when the autumn rains make the late fruit go mouldy — sound advice dressed as superstition.",
+    "storageTips": "Two or three days, refrigerated in a shallow layer. A berry that pulls off with its white core still attached was picked too early and will stay sour.",
+    "pairingIdeas": [
+      "Apple in a crumble",
+      "Bay leaf and red wine",
+      "Cream and meringue",
+      "Gin or vodka, infused"
+    ],
+    "imageUrl": "/produce/blackberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Brombeere",
+      "FR": "Mûre",
+      "IT": "Mora",
+      "NL": "Braam",
+      "GB": "Blackberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Deep, winey and musky, with a tannic edge that makes it a better cooking fruit than a raw one.",
+    "recipeIdea": "Bake with apple under an oat crumble — the blackberries collapse into the apple and stain the whole thing purple.",
+    "co2": {
+      "local": 0.4,
+      "imported": 6.5,
+      "importMode": "air",
+      "origin": "Mexico / Morocco"
+    },
+    "illustration": {
+      "archetype": "cane-berry"
+    }
+  },
+  {
+    "id": "blueberry",
+    "nameEN": "Blueberry",
+    "nameDE": "Heidelbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Two quite different fruits share the name: the small wild Heidelbeere, which stains everything purple including the eater, and the large cultivated bush blueberry, which has pale flesh and stains nothing.",
+    "storageTips": "The waxy bloom on the skin is natural protection — do not rub it off. Unwashed and refrigerated they keep a week, longer than any other soft fruit.",
+    "pairingIdeas": [
+      "Lemon and buttermilk",
+      "Cinnamon pancakes",
+      "Yoghurt and honey",
+      "Warm with vanilla ice cream"
+    ],
+    "imageUrl": "/produce/blueberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Heidelbeere",
+      "FR": "Myrtille",
+      "NL": "Blauwe bes",
+      "GB": "Blueberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Mildly sweet with a resinous, almost piney note that is much stronger in the wild kind.",
+    "recipeIdea": "Warm briefly with lemon zest and a spoon of sugar until a few burst, then pour hot over cold yoghurt.",
+    "co2": {
+      "local": 0.5,
+      "imported": 7.4,
+      "importMode": "air",
+      "origin": "Peru / Chile"
+    },
+    "illustration": {
+      "archetype": "small-berry"
+    }
+  },
+  {
+    "id": "plum",
+    "nameEN": "Damson Plum",
+    "nameDE": "Zwetschge",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The oval, deep-purple Zwetschge is the baking plum of Southern Germany, firm enough to hold its shape in a tray bake and to come cleanly away from the stone. Round Pflaumen are juicier and better eaten out of hand.",
+    "storageTips": "Ripen at room temperature, then refrigerate for up to a week. The dusty bloom is a sign of careful handling — fruit that has been rubbed shiny has been over-handled.",
+    "pairingIdeas": [
+      "Cinnamon and yeast dough",
+      "Streusel and cream",
+      "Roast pork",
+      "Slow-cooked into Powidl"
+    ],
+    "imageUrl": "/produce/plum.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Zwetschge",
+      "FR": "Quetsche",
+      "IT": "Susina",
+      "GB": "Damson Plum"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Winey and honeyed with a tart skin; the flesh turns jammy and almost spiced under heat.",
+    "recipeIdea": "Overlap halved plums cut-side up on a yeasted base, bake, and finish with cinnamon sugar — Zwetschgenkuchen, and nothing else needed.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.9,
+      "importMode": "sea",
+      "origin": "Chile / South Africa"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "elderberry",
+    "nameEN": "Elderberry",
+    "nameDE": "Holunderbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Free, everywhere, and thoroughly underused. The flowers make cordial in June and the berries follow in late August — but raw elderberries contain sambunigrin and must be cooked before eating.",
+    "storageTips": "Process the day you pick. Strip the berries from the stalks with a fork, freeze them on the umbel if you are short of time, and never eat them raw.",
+    "pairingIdeas": [
+      "Apple and cinnamon",
+      "Cooked into a syrup",
+      "Semolina pudding",
+      "Port and game sauce"
+    ],
+    "imageUrl": "/produce/elderberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Holunderbeere",
+      "FR": "Baie de sureau",
+      "NL": "Vlierbes",
+      "GB": "Elderberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Always cook first",
+    "flavorProfile": "Musky, tannic and darkly fruity — closer to a wine grape than a garden berry.",
+    "recipeIdea": "Simmer with apple, sugar and cinnamon, sieve out the seeds, and drink it hot as Fliederbeersuppe with semolina dumplings.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.5,
+      "importMode": "road",
+      "origin": "Eastern Europe"
+    },
+    "illustration": {
+      "archetype": "berry-cluster"
+    }
+  },
+  {
+    "id": "fig",
+    "nameEN": "Fig",
+    "nameDE": "Feige",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A Mediterranean crop with two harvests in a good year: an early one on last season's wood in June, then the main autumn crop. Figs do not ripen at all after picking, so a hard fig is a lost cause.",
+    "storageTips": "Ripe figs last two days at most. Keep them at room temperature, stem up, in a single layer. A drop of syrup at the base is a sign of perfect ripeness, not spoilage.",
+    "pairingIdeas": [
+      "Prosciutto and rocket",
+      "Goat's cheese and honey",
+      "Roasted with thyme",
+      "Walnut and blue cheese"
+    ],
+    "imageUrl": "/produce/fig.png",
+    "region": [
+      "IT",
+      "FR"
+    ],
+    "localNames": {
+      "FR": "Figue",
+      "IT": "Fico"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Honeyed and jammy with a faint berry acidity and a texture that is somehow both silky and seedy.",
+    "recipeIdea": "Quarter without cutting through the base, drop in a knob of goat's cheese and a spoon of honey, and roast for eight minutes.",
+    "co2": {
+      "local": 0.5,
+      "imported": 3.6,
+      "importMode": "air",
+      "origin": "Brazil / Turkey"
+    },
+    "illustration": {
+      "archetype": "fig"
+    }
+  },
+  {
+    "id": "gooseberry",
+    "nameEN": "Gooseberry",
+    "nameDE": "Stachelbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      6,
+      7,
+      8
+    ],
+    "monthsInStorage": [],
+    "description": "Picked green and hard for cooking in early summer, or left on the bush until it turns soft, red and honeyed. Two completely different fruits from the same plant a month apart.",
+    "storageTips": "Firm green berries keep a week or more in the fridge; ripe ones go in two days. Top and tail before freezing, and they need no blanching.",
+    "pairingIdeas": [
+      "Elderflower",
+      "Custard and cream",
+      "Mackerel or pork",
+      "Crumble with almonds"
+    ],
+    "imageUrl": "/produce/gooseberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Stachelbeere",
+      "FR": "Groseille à maquereau",
+      "NL": "Kruisbes",
+      "GB": "Gooseberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Fiercely sour and green when unripe; muscat-sweet and slightly floral when left to redden.",
+    "recipeIdea": "Stew green berries with sugar and a splash of elderflower cordial, then fold through whipped cream and custard for a fool.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.2,
+      "importMode": "sea",
+      "origin": "Poland"
+    },
+    "illustration": {
+      "archetype": "small-berry"
+    }
+  },
+  {
+    "id": "lemon",
+    "nameEN": "Lemon",
+    "nameDE": "Zitrone",
+    "category": "fruit",
+    "monthsInSeason": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [
+      5,
+      6
+    ],
+    "description": "Sicily and the Amalfi coast are Europe's lemon groves, and their main harvest runs right through the northern winter — which makes lemons one of the few citrus fruits that are genuinely in season when Europe most wants them.",
+    "storageTips": "Room temperature for a week if you want maximum juice; the fridge for a month if you want them to last. Unwaxed fruit is essential whenever you need the zest.",
+    "pairingIdeas": [
+      "Olive oil and sea salt",
+      "Preserved in salt",
+      "Ricotta in a cake",
+      "Fish, of any kind"
+    ],
+    "imageUrl": "/produce/lemon.png",
+    "region": [
+      "IT",
+      "FR"
+    ],
+    "localNames": {
+      "FR": "Citron",
+      "IT": "Limone"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monthsInStorage": [
+          5
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": [
+          6,
+          7
+        ]
+      }
+    },
+    "culinaryTag": "Zest and juice",
+    "flavorProfile": "Sharply acidic with a perfumed, resinous oil in the peel that carries most of the actual flavour.",
+    "recipeIdea": "Pack quartered lemons in coarse salt for a month; the preserved peel transforms anything braised or roasted.",
+    "co2": {
+      "local": 0.4,
+      "imported": 1.7,
+      "importMode": "sea",
+      "origin": "Argentina / South Africa"
+    },
+    "illustration": {
+      "archetype": "citrus"
+    }
+  },
+  {
+    "id": "melon",
+    "nameEN": "Melon",
+    "nameDE": "Melone",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "A high-summer crop of southern France and Italy — Cavaillon and Charentais melons are named for the places that made them famous. German field melons exist but are rare and very weather-dependent.",
+    "storageTips": "Ripe melons smell strongly at the stem end and give slightly when pressed. Whole they keep a few days at room temperature; once cut, wrap well or the whole fridge will smell of melon.",
+    "pairingIdeas": [
+      "Prosciutto and black pepper",
+      "Mint and lime",
+      "Feta and olive",
+      "Chilled as a soup"
+    ],
+    "imageUrl": "/produce/melon.png",
+    "region": [
+      "FR",
+      "IT",
+      "DE"
+    ],
+    "localNames": {
+      "DE": "Melone",
+      "FR": "Melon",
+      "IT": "Melone"
+    },
+    "regionalSeasons": {
+      "DE": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Musky, floral and watery-sweet, with the perfume concentrated just under the rind.",
+    "recipeIdea": "Wedge and drape with prosciutto, then grind over more black pepper than feels reasonable.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.9,
+      "importMode": "air",
+      "origin": "Brazil / Costa Rica"
+    },
+    "illustration": {
+      "archetype": "melon"
+    }
+  },
+  {
+    "id": "mirabelle",
+    "nameEN": "Mirabelle",
+    "nameDE": "Mirabelle",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "A tiny golden plum, with three quarters of the world's crop grown in Lorraine. The season lasts about six weeks and almost none of it leaves the region fresh — most becomes tart filling or eau-de-vie.",
+    "storageTips": "Ripe mirabelles bruise if you look at them. Use within two or three days; they freeze well once stoned and are excellent straight into a tart.",
+    "pairingIdeas": [
+      "Almond frangipane",
+      "Vanilla and butter",
+      "Thyme and honey",
+      "Distilled as eau-de-vie"
+    ],
+    "imageUrl": "/produce/mirabelle.png",
+    "region": [
+      "FR",
+      "DE"
+    ],
+    "localNames": {
+      "DE": "Mirabelle",
+      "FR": "Mirabelle"
+    },
+    "regionalSeasons": {
+      "DE": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Intensely sweet and honeyed with a little acidity in the skin — far more concentrated than a large plum.",
+    "recipeIdea": "Pack halved mirabelles tightly into a shortcrust case over frangipane and bake until the tops caramelise.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.8,
+      "importMode": "sea",
+      "origin": "outside Europe"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "orange",
+    "nameEN": "Orange",
+    "nameDE": "Orange",
+    "category": "fruit",
+    "monthsInSeason": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [
+      5
+    ],
+    "description": "Southern Italy and Spain supply Europe through the winter — the blood oranges of Sicily, coloured by anthocyanins that only develop with cold nights, have a season of barely three months.",
+    "storageTips": "A week at room temperature, a month in the fridge. Oranges give up far more juice at room temperature, so take them out well before you squeeze them.",
+    "pairingIdeas": [
+      "Fennel and olive",
+      "Dark chocolate",
+      "Almond in a cake",
+      "Chicory and walnut"
+    ],
+    "imageUrl": "/produce/orange.png",
+    "region": [
+      "IT",
+      "FR"
+    ],
+    "localNames": {
+      "FR": "Orange",
+      "IT": "Arancia"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": [
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": [
+          6
+        ]
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Sweet and floral with a bitter edge in the pith; blood oranges add a distinct raspberry note.",
+    "recipeIdea": "Slice blood oranges into rounds and dress with fennel, black olives, red onion and good oil — the Sicilian winter salad.",
+    "co2": {
+      "local": 0.4,
+      "imported": 1.5,
+      "importMode": "sea",
+      "origin": "South Africa / Egypt"
+    },
+    "illustration": {
+      "archetype": "citrus"
+    }
+  },
+  {
+    "id": "peach",
+    "nameEN": "Peach",
+    "nameDE": "Pfirsich",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Grown in the warmest corners of Germany — the Pfalz and the Rhine valley — but really an Italian and French crop. The flat, doughnut-shaped Weinbergpfirsich is a regional speciality worth hunting down.",
+    "storageTips": "Ripen shoulder-down on the counter so the weight does not bruise the fruit. Once it gives to a gentle press, refrigerate and eat within two days.",
+    "pairingIdeas": [
+      "Raspberry and cream",
+      "Basil and mozzarella",
+      "Grilled with honey",
+      "White wine, sliced in"
+    ],
+    "imageUrl": "/produce/peach.png",
+    "region": [
+      "FR",
+      "IT",
+      "DE"
+    ],
+    "localNames": {
+      "DE": "Pfirsich",
+      "FR": "Pêche",
+      "IT": "Pesca"
+    },
+    "regionalSeasons": {
+      "DE": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Floral, honeyed and dripping when ripe, with an almond bitterness near the stone.",
+    "recipeIdea": "Grill halves cut-side down until striped, then serve warm with cold cream and a spoon of raspberry purée.",
+    "co2": {
+      "local": 0.4,
+      "imported": 4.5,
+      "importMode": "air",
+      "origin": "South Africa / Chile"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "pear",
+    "nameEN": "Pear",
+    "nameDE": "Birne",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "description": "The one fruit that is genuinely better picked unripe — left on the tree, pears go grainy from the core outwards. They ripen from the inside, which is why the skin still looks perfect when the middle has gone.",
+    "storageTips": "Ripen at room temperature and test at the neck, not the belly: if it yields near the stem, it is ready. Then refrigerate to hold it for two or three days.",
+    "pairingIdeas": [
+      "Blue cheese and walnut",
+      "Poached in red wine",
+      "Chocolate and almond",
+      "Beans and bacon"
+    ],
+    "imageUrl": "/produce/pear.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Birne",
+      "FR": "Poire",
+      "IT": "Pera",
+      "NL": "Peer",
+      "GB": "Pear"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1
+        ]
+      }
+    },
+    "culinaryTag": "Poach or bake",
+    "flavorProfile": "Perfumed, buttery and honey-sweet with very low acidity — which is why it needs cheese or wine alongside.",
+    "recipeIdea": "Poach peeled pears in red wine with cinnamon, star anise and orange peel, then reduce the liquid to a syrup.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.9,
+      "importMode": "sea",
+      "origin": "Argentina / South Africa"
+    },
+    "illustration": {
+      "archetype": "pear"
+    }
+  },
+  {
+    "id": "persimmon",
+    "nameEN": "Persimmon",
+    "nameDE": "Kaki",
+    "category": "fruit",
+    "monthsInSeason": [
+      10,
+      11,
+      12
+    ],
+    "monthsInStorage": [],
+    "description": "Italy is Europe's biggest producer, picking from October once the leaves have dropped and the fruit hangs on bare branches like lanterns. The astringent varieties are inedible until almost jelly-soft; Sharon fruit has had that bred out.",
+    "storageTips": "Ripen astringent types on the counter until they feel like a water balloon — any earlier and the tannins will dry your mouth out completely. Firm Sharon types can be eaten like an apple.",
+    "pairingIdeas": [
+      "Ricotta and honey",
+      "Prosciutto",
+      "Lime and chilli",
+      "Spooned straight from the skin"
+    ],
+    "imageUrl": "/produce/persimmon.png",
+    "region": [
+      "IT",
+      "FR"
+    ],
+    "localNames": {
+      "FR": "Kaki",
+      "IT": "Cachi"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Honey, apricot and date, with a custard texture when fully ripe.",
+    "recipeIdea": "Chill a ripe astringent persimmon, cut the top off and eat the flesh with a spoon — it needs nothing at all.",
+    "co2": {
+      "local": 0.5,
+      "imported": 2.8,
+      "importMode": "sea",
+      "origin": "Spain / South America"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "quince",
+    "nameEN": "Quince",
+    "nameDE": "Quitte",
+    "category": "fruit",
+    "monthsInSeason": [
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12
+    ],
+    "description": "Rock-hard, downy and inedible raw, yet it perfumes an entire room from a bowl. Long cooking turns the white flesh deep rose — a slow reaction between its tannins and heat, not any added colour.",
+    "storageTips": "Keeps for weeks in a cool room and perfumes everything nearby, so store it away from butter and milk. Rub the grey down off before cooking.",
+    "pairingIdeas": [
+      "Set as a membrillo paste",
+      "Roast pork or lamb",
+      "Apple in a tart",
+      "Manchego or hard cheese"
+    ],
+    "imageUrl": "/produce/quince.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Quitte",
+      "FR": "Coing",
+      "IT": "Mela cotogna",
+      "GB": "Quince"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Astringent and floral raw; honeyed, spiced and faintly tropical after two hours of cooking.",
+    "recipeIdea": "Simmer chopped quince with equal sugar until it turns deep red, then set it in a tray as membrillo for the cheese board.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.1,
+      "importMode": "sea",
+      "origin": "Turkey"
+    },
+    "illustration": {
+      "archetype": "pear"
+    }
+  },
+  {
+    "id": "raspberry",
+    "nameEN": "Raspberry",
+    "nameDE": "Himbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Summer varieties fruit on last year's canes in June and July; autumn-fruiting ones carry on into October on this year's growth. Between them they cover a remarkably long stretch of the year.",
+    "storageTips": "The most fragile fruit in the shop. Do not stack, do not wash, use within 48 hours. Freeze on a tray in one layer, then bag, and they will not fuse into a block.",
+    "pairingIdeas": [
+      "Dark chocolate",
+      "Peach and almond",
+      "Rose and cream",
+      "Vinegar for a shrub"
+    ],
+    "imageUrl": "/produce/raspberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Himbeere",
+      "FR": "Framboise",
+      "IT": "Lampone",
+      "NL": "Framboos",
+      "GB": "Raspberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Intensely perfumed, sweet-sour and delicate, with a faint tannic note from the seeds.",
+    "recipeIdea": "Crush lightly with sugar and lemon and leave for ten minutes — an uncooked coulis with far more aroma than a boiled one.",
+    "co2": {
+      "local": 0.4,
+      "imported": 7.2,
+      "importMode": "air",
+      "origin": "Morocco / Mexico"
+    },
+    "illustration": {
+      "archetype": "cane-berry"
+    }
+  },
+  {
+    "id": "redcurrant",
+    "nameEN": "Redcurrant",
+    "nameDE": "Johannisbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      6,
+      7,
+      8
+    ],
+    "monthsInStorage": [],
+    "description": "Named for St John's Day on 24 June, around which the first strings ripen. Naturally high in pectin, which is why redcurrant jelly sets without anything added to it.",
+    "storageTips": "Keep them on the strings until the moment you use them — stripped berries collapse fast. Four days in the fridge; they freeze perfectly on their stalks.",
+    "pairingIdeas": [
+      "Meringue and cream",
+      "Set as a jelly",
+      "Vanilla sponge",
+      "Game and roast meats"
+    ],
+    "imageUrl": "/produce/redcurrant.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Johannisbeere",
+      "FR": "Groseille",
+      "NL": "Aalbes",
+      "GB": "Redcurrant"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Sharp, bright and almost translucent in flavour, with a redcurrant tang that cuts through any amount of cream.",
+    "recipeIdea": "Pile onto a baked sponge base, cover with meringue and bake briefly — the Johannisbeer-Baiser-Kuchen of every German bakery.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.4,
+      "importMode": "sea",
+      "origin": "Poland"
+    },
+    "illustration": {
+      "archetype": "berry-cluster"
+    }
+  },
+  {
+    "id": "rosehip",
+    "nameEN": "Rosehip",
+    "nameDE": "Hagebutte",
+    "category": "fruit",
+    "monthsInSeason": [
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "The fruit of the wild dog rose, best picked after the first frost when the flesh softens. Britain organised a national rosehip syrup collection during the Second World War when citrus imports stopped entirely.",
+    "storageTips": "Use within a few days of picking, or freeze whole — freezing does the same softening job as a frost. The hairs around the seeds are a genuine irritant and must be strained out.",
+    "pairingIdeas": [
+      "Made into a syrup",
+      "Apple in a jelly",
+      "Tea with hibiscus",
+      "Spread on Christmas biscuits"
+    ],
+    "imageUrl": "/produce/rosehip.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Hagebutte",
+      "FR": "Cynorrhodon",
+      "NL": "Rozenbottel",
+      "GB": "Rosehip"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Strain and sweeten",
+    "flavorProfile": "Tart, floral and faintly apple-like, with a distinctive vegetal depth once cooked down.",
+    "recipeIdea": "Simmer, press through a fine sieve twice to remove every hair, then cook with sugar into the thick Hagebuttenmark used in Linzer biscuits.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.3,
+      "importMode": "road",
+      "origin": "Eastern Europe"
+    },
+    "illustration": {
+      "archetype": "small-berry"
+    }
+  },
+  {
+    "id": "sea-buckthorn",
+    "nameEN": "Sea Buckthorn",
+    "nameDE": "Sanddorn",
+    "category": "fruit",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A thorny coastal shrub of the Baltic and North Sea dunes, and one of the richest sources of vitamin C in Northern Europe — several times that of an orange by weight. Too sour for anyone to eat straight.",
+    "storageTips": "Almost impossible to pick without crushing, so growers cut whole branches and freeze them, then shake the berries off. Freeze immediately; the juice keeps for months.",
+    "pairingIdeas": [
+      "Honey and yoghurt",
+      "Buttermilk desserts",
+      "White chocolate",
+      "A sharp cordial"
+    ],
+    "imageUrl": "/produce/sea-buckthorn.png",
+    "region": [
+      "DE",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Sanddorn",
+      "NL": "Duindoorn",
+      "GB": "Sea Buckthorn"
+    },
+    "regionalSeasons": {
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Sweeten heavily",
+    "flavorProfile": "Fiercely acidic and tropical — passion fruit and mango with a sour, oily finish.",
+    "recipeIdea": "Whisk the juice with honey into thick yoghurt and layer with toasted oats for a very Baltic breakfast.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.4,
+      "importMode": "road",
+      "origin": "Eastern Europe"
+    },
+    "illustration": {
+      "archetype": "berry-cluster"
+    }
+  },
+  {
+    "id": "sour-cherry",
+    "nameEN": "Sour Cherry",
+    "nameDE": "Sauerkirsche",
+    "category": "fruit",
+    "monthsInSeason": [
+      7,
+      8
+    ],
+    "monthsInStorage": [],
+    "description": "Schattenmorelle is the German standard — too sharp to eat raw by the handful, and unbeatable baked. Almost the entire crop goes into cakes, compote and preserves, which is exactly what it is for.",
+    "storageTips": "Even more fragile than sweet cherries: three days in the fridge. Stone and freeze on a tray, then bag them — they keep a year and bake straight from frozen.",
+    "pairingIdeas": [
+      "Chocolate and kirsch",
+      "Streusel and quark",
+      "Vanilla custard",
+      "Game and red wine"
+    ],
+    "imageUrl": "/produce/sour-cherry.png",
+    "region": [
+      "DE",
+      "FR",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Sauerkirsche",
+      "FR": "Griotte",
+      "GB": "Sour Cherry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Perfect for baking",
+    "flavorProfile": "Bracingly tart with a deep, almost wine-like fruitiness that sugar and heat bring forward.",
+    "recipeIdea": "Fold stoned cherries into a quark-and-streusel tray bake — the acidity is the only thing that stops it being too rich.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.1,
+      "importMode": "sea",
+      "origin": "Turkey / Poland"
+    },
+    "illustration": {
+      "archetype": "stone-fruit"
+    }
+  },
+  {
+    "id": "strawberry",
+    "nameEN": "Strawberry",
+    "nameDE": "Erdbeere",
+    "category": "fruit",
+    "monthsInSeason": [
+      5,
+      6,
+      7
+    ],
+    "monthsInStorage": [],
+    "description": "The opening act of the German fruit year, and the crop that pick-your-own fields are built around. Strawberries do not ripen further after picking, so a pale shoulder stays pale and sour forever.",
+    "storageTips": "Never wash before storing, never seal in plastic. Spread them in a single layer on paper in the fridge and eat within two days; bring to room temperature an hour before serving for the aroma.",
+    "pairingIdeas": [
+      "Black pepper and balsamic",
+      "Rhubarb and vanilla",
+      "Basil and mascarpone",
+      "Whipped cream and shortcake"
+    ],
+    "imageUrl": "/produce/strawberry.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Erdbeere",
+      "FR": "Fraise",
+      "IT": "Fragola",
+      "NL": "Aardbei",
+      "GB": "Strawberry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Perfumed and honeyed with a clean acidity; field-ripened fruit has an aroma that greenhouse fruit simply never develops.",
+    "recipeIdea": "Halve, macerate for twenty minutes with sugar, a grind of black pepper and a spoon of balsamic, then spoon over mascarpone.",
+    "co2": {
+      "local": 0.3,
+      "imported": 3.9,
+      "importMode": "air",
+      "origin": "Egypt / Morocco"
+    },
+    "illustration": {
+      "archetype": "strawberry"
+    }
+  },
+  {
+    "id": "cherry",
+    "nameEN": "Sweet Cherry",
+    "nameDE": "Süßkirsche",
+    "category": "fruit",
+    "monthsInSeason": [
+      6,
+      7
+    ],
+    "monthsInStorage": [],
+    "description": "Six weeks, and then it is over. German growers sort the crop into numbered size classes, and the biggest fruit comes from the oldest trees — which is why old orchards are still worth keeping.",
+    "storageTips": "Keep the stems on and refrigerate unwashed for up to five days. Cherries absorb odours readily, so keep them well away from onions or anything strongly scented.",
+    "pairingIdeas": [
+      "Almond and marzipan",
+      "Dark chocolate",
+      "Baked in a clafoutis",
+      "Duck or venison"
+    ],
+    "imageUrl": "/produce/cherry.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Süßkirsche",
+      "FR": "Cerise",
+      "IT": "Ciliegia",
+      "GB": "Sweet Cherry"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Sweet and lightly tannic, with a bitter almond note in the skin around the stone.",
+    "recipeIdea": "Bake whole, stones in, under a loose almond batter for a clafoutis — the stones lend a faint amaretto perfume.",
+    "co2": {
+      "local": 0.4,
+      "imported": 6.8,
+      "importMode": "air",
+      "origin": "Chile / Turkey"
+    },
+    "illustration": {
+      "archetype": "stone-fruit"
+    }
+  },
+  {
+    "id": "grape",
+    "nameEN": "Table Grapes",
+    "nameDE": "Weintrauben",
+    "category": "fruit",
+    "monthsInSeason": [
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11
+    ],
+    "description": "German vineyards are overwhelmingly for wine, but the warm valleys of Baden and the Pfalz produce table grapes too. Italy is Europe's real supplier, with a season running from August well into November.",
+    "storageTips": "Refrigerate unwashed in a perforated bag for up to two weeks. The pale bloom is natural yeast and a sign of freshness — washing it off shortens their life.",
+    "pairingIdeas": [
+      "Cheese and walnut",
+      "Roasted with sausages",
+      "Frozen as a snack",
+      "Rosemary focaccia"
+    ],
+    "imageUrl": "/produce/grape.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT"
+    ],
+    "localNames": {
+      "DE": "Weintrauben",
+      "FR": "Raisin",
+      "IT": "Uva"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      }
+    },
+    "culinaryTag": "Eat it fresh",
+    "flavorProfile": "Sweet and grapey with a muscat perfume in the best varieties, and a tannic snap in the skins.",
+    "recipeIdea": "Roast whole bunches with olive oil, rosemary and salt until they blister, then serve alongside sausages or soft cheese.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.6,
+      "importMode": "sea",
+      "origin": "South Africa / Peru"
+    },
+    "illustration": {
+      "archetype": "grape-cluster"
+    }
+  },
+  {
+    "id": "basil",
+    "nameEN": "Basil",
+    "nameDE": "Basilikum",
+    "category": "herb",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "A tropical plant that sulks below 12 °C, which is why outdoor German basil has such a short window. Genovese basil grown for pesto has protected status in Liguria, where the leaves are picked small and never cut with metal.",
+    "storageTips": "Never refrigerate — cold turns the leaves black within hours. Keep a bunch in water on the counter like flowers, out of direct sun.",
+    "pairingIdeas": [
+      "Tomato and olive oil",
+      "Mozzarella and peach",
+      "Pounded into pesto",
+      "Strawberries and pepper"
+    ],
+    "imageUrl": "/produce/basil.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Basilikum",
+      "FR": "Basilic",
+      "IT": "Basilico",
+      "NL": "Basilicum",
+      "GB": "Basil"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Use it raw",
+    "flavorProfile": "Sweet, peppery and clove-like, with a fragility that disappears the moment it meets sustained heat.",
+    "recipeIdea": "Pound leaves with pine nuts, garlic, pecorino and oil in a mortar — a blade bruises and oxidises the leaves.",
+    "co2": {
+      "local": 0.4,
+      "imported": 2.8,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "chervil",
+    "nameEN": "Chervil",
+    "nameDE": "Kerbel",
+    "category": "herb",
+    "monthsInSeason": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "One of the four fines herbes, and the first to appear in spring. Frankfurt's Grüne Soße and the Hessian tradition of Gründonnerstag soup both lean on it, yet it has almost disappeared from supermarkets.",
+    "storageTips": "Extremely delicate — two or three days in a damp cloth. Never cook it for more than a few seconds; the aniseed aroma is the first thing heat destroys.",
+    "pairingIdeas": [
+      "Fines herbes with egg",
+      "Frankfurt green sauce",
+      "Spring soups",
+      "Young carrots and butter"
+    ],
+    "imageUrl": "/produce/chervil.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Kerbel",
+      "FR": "Cerfeuil",
+      "NL": "Kervel",
+      "GB": "Chervil"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Softly aniseed and faintly grassy — parsley crossed with tarragon, but much more fragile than either.",
+    "recipeIdea": "Fold a generous handful into an omelette with chives and tarragon just before it sets.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.3,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-frond"
+    }
+  },
+  {
+    "id": "chives",
+    "nameEN": "Chives",
+    "nameDE": "Schnittlauch",
+    "category": "herb",
+    "monthsInSeason": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The most forgiving herb in any garden: cut it to the base and it grows back within a fortnight, five or six times a season. The purple flowers are edible too, and taste like a milder version of the leaf.",
+    "storageTips": "Wrap in a damp cloth in the fridge for up to five days. Chives lose their character when dried, but chop and freeze them and they keep almost everything.",
+    "pairingIdeas": [
+      "Quark and potatoes",
+      "Scrambled egg",
+      "Soured cream on soup",
+      "Cold cucumber salad"
+    ],
+    "imageUrl": "/produce/chives.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Schnittlauch",
+      "FR": "Ciboulette",
+      "IT": "Erba cipollina",
+      "NL": "Bieslook",
+      "GB": "Chives"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Delicately oniony and grassy — heat destroys it, so it belongs on top of the dish, not in it.",
+    "recipeIdea": "Stir a whole bunch, finely cut, into quark with a little cream and salt, and eat it with hot boiled potatoes.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.4,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-grass"
+    }
+  },
+  {
+    "id": "coriander",
+    "nameEN": "Coriander",
+    "nameDE": "Koriander",
+    "category": "herb",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Bolts to seed at the first hot spell, so growers sow small batches every fortnight. Roughly one person in seven carries a gene variant that makes the leaf taste of soap — a genuine difference in perception, not fussiness.",
+    "storageTips": "Stand the stems in water and cover loosely in the fridge for up to a week. The roots and stalks carry the most flavour and should never be thrown away.",
+    "pairingIdeas": [
+      "Lime and chilli",
+      "Yoghurt and cucumber",
+      "Blitzed into a green sauce",
+      "Roasted carrots and cumin"
+    ],
+    "imageUrl": "/produce/coriander.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Koriander",
+      "FR": "Coriandre",
+      "IT": "Coriandolo",
+      "NL": "Koriander",
+      "GB": "Coriander"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Use it raw",
+    "flavorProfile": "Bright, citric and green, with an aldehyde note that some people read as soap and others as pure freshness.",
+    "recipeIdea": "Blitz the whole bunch — stalks, roots and all — with green chilli, lime and a little sugar into a fresh chutney.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.5,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "dill",
+    "nameEN": "Dill",
+    "nameDE": "Dill",
+    "category": "herb",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Two crops from one plant: the feathery fronds through summer, and the seed heads in late August that go into every jar of pickled cucumber in Northern Europe.",
+    "storageTips": "Keeps five days in a damp cloth in the fridge. Dill freezes better than almost any soft herb — chop and freeze in oil in an ice cube tray.",
+    "pairingIdeas": [
+      "Cucumber and soured cream",
+      "Cured or smoked salmon",
+      "New potatoes and butter",
+      "Pickling brine"
+    ],
+    "imageUrl": "/produce/dill.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Dill",
+      "FR": "Aneth",
+      "NL": "Dille",
+      "GB": "Dill"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Grassy, faintly aniseed and slightly citric — unmistakable and impossible to substitute.",
+    "recipeIdea": "Bury a salmon fillet in salt, sugar and a forest of dill for 48 hours for gravlax that needs nothing but bread.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.4,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-frond"
+    }
+  },
+  {
+    "id": "lovage",
+    "nameEN": "Lovage",
+    "nameDE": "Liebstöckel",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Known in German as Maggikraut because it tastes uncannily like the seasoning sauce, though the sauce has never actually contained it. One plant produces more than a household can use, for thirty years.",
+    "storageTips": "A few days fresh in the fridge. It dries and freezes well, and the flavour is so concentrated that a small jar lasts all winter.",
+    "pairingIdeas": [
+      "Broths and stocks",
+      "Potato soup",
+      "Tomato sauce",
+      "Egg dishes"
+    ],
+    "imageUrl": "/produce/lovage.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Liebstöckel",
+      "FR": "Livèche",
+      "NL": "Lavas",
+      "GB": "Lovage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Cook it long",
+    "flavorProfile": "Intensely savoury and celery-like, with a yeasty depth that reads as umami more than as a herb.",
+    "recipeIdea": "Add one leaf — no more — to a pot of potato soup and it tastes like it simmered for twice as long.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.9,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "marjoram",
+    "nameEN": "Marjoram",
+    "nameDE": "Majoran",
+    "category": "herb",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Oregano's gentler cousin, and the defining herb of German sausage and liver dishes — Thuringian bratwurst is unimaginable without it. Grown as an annual north of the Alps because it will not survive the frost.",
+    "storageTips": "Keeps a week in the fridge and dries very well. Unlike oregano it loses potency fast once dried, so replace the jar each year.",
+    "pairingIdeas": [
+      "Sausage and potato",
+      "Liver and onions",
+      "Bean stews",
+      "Tomato and egg"
+    ],
+    "imageUrl": "/produce/marjoram.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Majoran",
+      "FR": "Marjolaine",
+      "IT": "Maggiorana",
+      "NL": "Marjolein",
+      "GB": "Marjoram"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Sweet, floral and warmly spiced — oregano with the bitterness removed and the perfume turned up.",
+    "recipeIdea": "Stir a heavy pinch into fried potatoes with onion and bacon in the last minute, off the heat.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "mint",
+    "nameEN": "Mint",
+    "nameDE": "Minze",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "So vigorous it will take over a bed in one season, which is why experienced gardeners keep it in a sunken pot. Peppermint, spearmint and Moroccan mint are quite different plants with quite different uses.",
+    "storageTips": "A week in a damp cloth in the fridge. Mint roots readily in a glass of water on the windowsill, so a supermarket bunch can become a plant.",
+    "pairingIdeas": [
+      "Peas and broad beans",
+      "Yoghurt and cucumber",
+      "Lamb",
+      "Steeped as a tea"
+    ],
+    "imageUrl": "/produce/mint.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Minze",
+      "FR": "Menthe",
+      "IT": "Menta",
+      "NL": "Munt",
+      "GB": "Mint"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Use it raw",
+    "flavorProfile": "Cooling and sweet from menthol, with a pepperiness that varies enormously between varieties.",
+    "recipeIdea": "Crush with sugar and a splash of vinegar into a rough mint sauce, and let it sit an hour before serving with lamb.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.6,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "oregano",
+    "nameEN": "Oregano",
+    "nameDE": "Oregano",
+    "category": "herb",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "The only common herb that is genuinely better dried than fresh — drying concentrates the carvacrol that gives it its punch. Wild Greek and Italian oregano is far stronger than anything grown in a German garden.",
+    "storageTips": "Hang bunches upside down in a dry, dark place for a week, then strip and store the leaves whole in a jar. Crush them between your palms as you add them.",
+    "pairingIdeas": [
+      "Tomato and olive oil",
+      "Lamb and lemon",
+      "Pizza, obviously",
+      "Feta and cucumber"
+    ],
+    "imageUrl": "/produce/oregano.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Oregano",
+      "FR": "Origan",
+      "IT": "Origano",
+      "NL": "Oregano",
+      "GB": "Oregano"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Dry it for winter",
+    "flavorProfile": "Pungent, peppery and slightly bitter, with a warmth that survives long cooking intact.",
+    "recipeIdea": "Dress a tomato salad with nothing but dried oregano, sea salt, olive oil and torn bread to soak up the juice.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "parsley",
+    "nameEN": "Parsley",
+    "nameDE": "Petersilie",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "A biennial that survives mild German winters under a fleece and comes back for a second spring. Flat-leaf has more flavour, curly has more structure — German kitchens traditionally use curly, which is why it ended up as a garnish everywhere else.",
+    "storageTips": "Stand the stems in a glass of water, cover loosely and refrigerate — it keeps for over a week that way. The stalks have more flavour than the leaves; use them in stock.",
+    "pairingIdeas": [
+      "Garlic and lemon zest",
+      "Tabbouleh with bulgur",
+      "Salsa verde with capers",
+      "Fried whole in butter"
+    ],
+    "imageUrl": "/produce/parsley.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Petersilie",
+      "FR": "Persil",
+      "IT": "Prezzemolo",
+      "NL": "Peterselie",
+      "GB": "Parsley"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Clean, green and peppery, with a bitterness that cuts richness better than any other soft herb.",
+    "recipeIdea": "Chop a huge handful with garlic, capers, anchovy and lemon into a salsa verde — it rescues anything plain.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.3,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "rosemary",
+    "nameEN": "Rosemary",
+    "nameDE": "Rosmarin",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "Evergreen and technically harvestable year-round, but growth stops in the cold and the German winter kills unprotected plants. Italian and French rosemary keeps going through the whole year.",
+    "storageTips": "Sturdy enough to keep two weeks in the fridge, and it dries well. Strip the needles downward against the grain of the stem.",
+    "pairingIdeas": [
+      "Roast potatoes and garlic",
+      "Lamb",
+      "Focaccia",
+      "Infused into honey or oil"
+    ],
+    "imageUrl": "/produce/rosemary.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rosmarin",
+      "FR": "Romarin",
+      "IT": "Rosmarino",
+      "NL": "Rozemarijn",
+      "GB": "Rosemary"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Cook it long",
+    "flavorProfile": "Piney, camphorous and resinous — powerful enough to dominate anything if you use too much.",
+    "recipeIdea": "Warm a whole sprig in olive oil with crushed garlic for ten minutes off the heat, then toss through roast potatoes.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.1,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-needle"
+    }
+  },
+  {
+    "id": "sage",
+    "nameEN": "Sage",
+    "nameDE": "Salbei",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A hardy Mediterranean perennial that keeps its silver leaves through mild German winters. Strong enough that a few leaves season an entire dish — the classic partner for butter, pumpkin and anything fatty.",
+    "storageTips": "Keeps a week or more in the fridge and dries well, though dried sage turns musty within a year. Fry whole leaves in butter and they crisp in thirty seconds.",
+    "pairingIdeas": [
+      "Brown butter and gnocchi",
+      "Pumpkin ravioli",
+      "Pork and apple",
+      "Fried whole as a garnish"
+    ],
+    "imageUrl": "/produce/sage.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Salbei",
+      "FR": "Sauge",
+      "IT": "Salvia",
+      "NL": "Salie",
+      "GB": "Sage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Fry in butter",
+    "flavorProfile": "Musty, peppery and eucalyptus-like raw; nutty and savoury once fried until crisp.",
+    "recipeIdea": "Brown butter until it smells of hazelnuts, throw in a handful of sage leaves for thirty seconds, and pour over gnocchi.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.1,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "tarragon",
+    "nameEN": "Tarragon",
+    "nameDE": "Estragon",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "French tarragon cannot be grown from seed and must be propagated by division — anything sold as tarragon seed is the coarse Russian kind, which has almost no flavour. Worth checking before you plant.",
+    "storageTips": "Five days in a damp cloth in the fridge. Steep sprigs in white wine vinegar for a fortnight to carry the flavour through the winter.",
+    "pairingIdeas": [
+      "Chicken and cream",
+      "Béarnaise sauce",
+      "Eggs and fines herbes",
+      "Steeped in vinegar"
+    ],
+    "imageUrl": "/produce/tarragon.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Estragon",
+      "FR": "Estragon",
+      "NL": "Dragon",
+      "GB": "Tarragon"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Add at the end",
+    "flavorProfile": "Sweetly aniseed with a faint numbing quality, and far more assertive than its delicate leaves suggest.",
+    "recipeIdea": "Reduce white wine vinegar with shallot and tarragon stalks, then build a béarnaise on it and finish with the chopped leaves.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-sprig"
+    }
+  },
+  {
+    "id": "thyme",
+    "nameEN": "Thyme",
+    "nameDE": "Thymian",
+    "category": "herb",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A Mediterranean shrub hardy enough to survive German winters in a dry, sunny spot. Flavour peaks just before it flowers in June, when the essential oils are most concentrated.",
+    "storageTips": "One of the few herbs that dries genuinely well — hang bunches somewhere warm and airy. Fresh sprigs keep two weeks in the fridge.",
+    "pairingIdeas": [
+      "Roast chicken and lemon",
+      "Mushrooms and butter",
+      "Slow-cooked beef",
+      "Honey and goat's cheese"
+    ],
+    "imageUrl": "/produce/thyme.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Thymian",
+      "FR": "Thym",
+      "IT": "Timo",
+      "NL": "Tijm",
+      "GB": "Thyme"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Cook it long",
+    "flavorProfile": "Woody, warm and slightly medicinal from thymol, with a lemon note in the citrus varieties.",
+    "recipeIdea": "Throw whole sprigs under a chicken with lemon halves and garlic — the stalks come out clean after roasting.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Israel"
+    },
+    "illustration": {
+      "archetype": "herb-needle"
+    }
+  },
+  {
+    "id": "wild-garlic",
+    "nameEN": "Wild Garlic",
+    "nameDE": "Bärlauch",
+    "category": "herb",
+    "monthsInSeason": [
+      3,
+      4,
+      5
+    ],
+    "monthsInStorage": [],
+    "description": "Carpets shaded woodland floors across Germany in early spring and vanishes by June once it flowers. Foragers must be certain of their identification — lily of the valley and autumn crocus grow in the same places and are seriously poisonous.",
+    "storageTips": "Wilts within a day. Wrap in a damp cloth in the fridge for two days at most, or turn the whole lot into pesto or a herb butter and freeze it.",
+    "pairingIdeas": [
+      "Blitzed into pesto",
+      "Potato soup",
+      "Folded into gnocchi",
+      "Herb butter on steak"
+    ],
+    "imageUrl": "/produce/wild-garlic.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Bärlauch",
+      "FR": "Ail des ours",
+      "IT": "Aglio orsino",
+      "NL": "Daslook",
+      "GB": "Wild Garlic"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Use it raw",
+    "flavorProfile": "Garlicky and green without any of the harshness of a bulb — closer to chives with real depth.",
+    "recipeIdea": "Blitz with sunflower seeds, hard cheese and rapeseed oil for a pesto that costs nothing and tastes like March.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.6,
+      "importMode": "road",
+      "origin": "Eastern Europe"
+    },
+    "illustration": {
+      "archetype": "wild-garlic"
+    }
+  },
+  {
+    "id": "asparagus",
+    "nameEN": "Asparagus",
+    "nameDE": "Spargel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      4,
+      5,
+      6
+    ],
+    "monthsInStorage": [],
+    "description": "Germany's most ceremonial vegetable. White spears are grown under earth ridges to keep them pale and mild; green spears grow in daylight and taste grassier. Tradition ends the harvest on 24 June so the crowns can rebuild for next year.",
+    "storageTips": "Wrap unwashed spears in a damp cloth and keep them in the fridge drawer for up to three days. Standing cut ends in a glass of water works too. Never freeze raw — blanch for two minutes first.",
+    "pairingIdeas": [
+      "New potatoes and brown butter",
+      "Hollandaise and cured ham",
+      "Soft-boiled egg and chives",
+      "Fresh strawberries for dessert"
+    ],
+    "imageUrl": "/produce/asparagus.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Spargel",
+      "FR": "Asperge",
+      "IT": "Asparago",
+      "NL": "Asperge",
+      "GB": "Asparagus"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Steam or roast whole",
+    "flavorProfile": "Delicate, faintly sweet and nutty, with a clean mineral bitterness in the white spears.",
+    "recipeIdea": "Roast green spears at 220 °C for 10 minutes with olive oil, then shower with lemon zest, toasted hazelnuts and shaved hard cheese.",
+    "co2": {
+      "local": 0.4,
+      "imported": 9.1,
+      "importMode": "air",
+      "origin": "Peru"
+    },
+    "illustration": {
+      "archetype": "stalk-bundle"
+    }
+  },
+  {
+    "id": "aubergine",
+    "nameEN": "Aubergine",
+    "nameDE": "Aubergine",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A heat-lover at the northern edge of its range in Germany, where it needs a tunnel or a very good summer. Italian and French fruit arrive a month earlier and taste it.",
+    "storageTips": "Like cucumbers, aubergines suffer below 10 °C. Keep them in a cool room and use within four or five days — the flesh browns quickly once the skin dents.",
+    "pairingIdeas": [
+      "Tahini and lemon",
+      "Tomato and basil",
+      "Miso glaze",
+      "Layered with cheese"
+    ],
+    "imageUrl": "/produce/aubergine.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL"
+    ],
+    "localNames": {
+      "DE": "Aubergine",
+      "FR": "Aubergine",
+      "IT": "Melanzana",
+      "NL": "Aubergine"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Bland and spongy raw; silky, smoky and deeply savoury once properly charred or roasted.",
+    "recipeIdea": "Char whole on a gas flame until collapsed, scoop out the smoky flesh and beat with tahini, lemon and garlic.",
+    "co2": {
+      "local": 0.4,
+      "imported": 3.4,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "aubergine"
+    }
+  },
+  {
+    "id": "beetroot",
+    "nameEN": "Beetroot",
+    "nameDE": "Rote Bete",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "description": "Lifted in late summer and autumn, then cellared through the cold months. The earthiness people either love or hate comes from geosmin — the same compound that gives rain-soaked soil its smell.",
+    "storageTips": "Twist off the leaves, leaving 3 cm of stalk so the root does not bleed. Unwashed roots keep for months in a cool, dark, slightly humid place, or a month in the fridge.",
+    "pairingIdeas": [
+      "Goat's cheese and walnut",
+      "Horseradish and soured cream",
+      "Orange and dill",
+      "Roasted with balsamic"
+    ],
+    "imageUrl": "/produce/beetroot.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rote Bete",
+      "FR": "Betterave",
+      "IT": "Barbabietola",
+      "NL": "Rode biet",
+      "GB": "Beetroot"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Deeply earthy and sugar-sweet — the highest sugar content of any common vegetable.",
+    "recipeIdea": "Wrap unpeeled in foil with thyme and roast at 190 °C for an hour; the skins slip off and the flesh concentrates into something almost jammy.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.6,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "bell-pepper",
+    "nameEN": "Bell Pepper",
+    "nameDE": "Paprika",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "Green, yellow and red are usually the same fruit at three stages of ripeness — red ones stayed on the plant longest, which is why they are sweetest and cost the most. German field peppers are a late-summer crop only.",
+    "storageTips": "Cool but not cold: around 8 °C in the fridge door, unwashed, for up to two weeks. Peppers wrinkle rather than rot, so a soft one is still perfectly good roasted.",
+    "pairingIdeas": [
+      "Roasted with garlic and oil",
+      "Stuffed with rice and herbs",
+      "Smoked paprika and onion",
+      "Raw with quark dip"
+    ],
+    "imageUrl": "/produce/bell-pepper.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Paprika",
+      "FR": "Poivron",
+      "IT": "Peperone",
+      "NL": "Paprika",
+      "GB": "Bell Pepper"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Sweet and juicy when red, greener and slightly bitter when picked early.",
+    "recipeIdea": "Blister whole over a flame until black, steam in a covered bowl for ten minutes, slip the skins off and dress with oil, garlic and sherry vinegar.",
+    "co2": {
+      "local": 0.4,
+      "imported": 3.2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "nightshade"
+    }
+  },
+  {
+    "id": "salsify",
+    "nameEN": "Black Salsify",
+    "nameDE": "Schwarzwurzel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [],
+    "description": "Nicknamed the winter asparagus, and genuinely worth the mess. The black skin bleeds a sticky latex that stains hands and boards, which is the only reason this excellent root is not more popular.",
+    "storageTips": "Store unwashed in a cool, dark place wrapped in newspaper for up to three weeks. Peel under running water wearing gloves, and drop the roots straight into water with lemon or vinegar.",
+    "pairingIdeas": [
+      "Brown butter and breadcrumbs",
+      "Béchamel and nutmeg",
+      "Ham and parsley",
+      "Deep-fried as crisps"
+    ],
+    "imageUrl": "/produce/salsify.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL"
+    ],
+    "localNames": {
+      "DE": "Schwarzwurzel",
+      "FR": "Salsifis noir",
+      "NL": "Schorseneer"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": [
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Delicate, nutty and faintly oyster-like, with a texture between asparagus and salsify's cousin, scorzonera.",
+    "recipeIdea": "Simmer peeled roots in milk until tender, then finish in a pan with butter, breadcrumbs and parsley.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.8,
+      "importMode": "road",
+      "origin": "Belgium / Netherlands"
+    },
+    "illustration": {
+      "archetype": "root-taper"
+    }
+  },
+  {
+    "id": "broccoli",
+    "nameEN": "Broccoli",
+    "nameDE": "Brokkoli",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A flower bud harvested before it opens — yellowing florets mean it went too far. Britain's purple sprouting variety fills the hungry gap in late winter when almost nothing else is cut.",
+    "storageTips": "Keep it cold and unwrapped in the fridge for up to five days; broccoli respires fast and yellows in a sealed bag. The stalk is the sweetest part — peel and use it.",
+    "pairingIdeas": [
+      "Garlic, chilli and anchovy",
+      "Almonds and lemon",
+      "Charred with soy",
+      "Cheese sauce"
+    ],
+    "imageUrl": "/produce/broccoli.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Brokkoli",
+      "FR": "Brocoli",
+      "IT": "Broccolo",
+      "NL": "Broccoli",
+      "GB": "Broccoli"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Char it hard",
+    "flavorProfile": "Grassy and sulphurous when boiled, sweet and nutty when roasted or seared dry.",
+    "recipeIdea": "Break into florets, roast at 230 °C until the edges blacken, then toss with lemon, chilli flakes and toasted almonds.",
+    "co2": {
+      "local": 0.4,
+      "imported": 1.5,
+      "importMode": "road",
+      "origin": "Spain"
+    },
+    "illustration": {
+      "archetype": "brassica-floret"
+    }
+  },
+  {
+    "id": "brussels-sprouts",
+    "nameEN": "Brussels Sprouts",
+    "nameDE": "Rosenkohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "monthsInStorage": [
+      3
+    ],
+    "description": "Buds that grow up a single thick stalk, harvested from the bottom upward. Modern varieties have had most of the bitter glucosinolates bred out of them — the reputation is thirty years out of date.",
+    "storageTips": "Best bought still on the stalk, which keeps them fresh for over a week. Loose sprouts last five days in the fridge; trim the base only just before cooking.",
+    "pairingIdeas": [
+      "Bacon and chestnut",
+      "Roasted with balsamic",
+      "Shaved raw with parmesan",
+      "Brown butter and lemon"
+    ],
+    "imageUrl": "/produce/brussels-sprouts.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rosenkohl",
+      "FR": "Chou de Bruxelles",
+      "NL": "Spruitjes",
+      "GB": "Brussels Sprouts"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": [
+          3
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": [
+          3
+        ]
+      }
+    },
+    "culinaryTag": "Char it hard",
+    "flavorProfile": "Nutty and faintly bitter, turning sweet and deeply savoury when roasted rather than boiled.",
+    "recipeIdea": "Halve, roast cut-side down at 220 °C until blackened, then hit them with balsamic and crisp bacon while still hot.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.7,
+      "importMode": "road",
+      "origin": "Netherlands"
+    },
+    "illustration": {
+      "archetype": "sprouts"
+    }
+  },
+  {
+    "id": "lettuce",
+    "nameEN": "Butterhead Lettuce",
+    "nameDE": "Kopfsalat",
+    "category": "vegetable",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The soft-leaved head lettuce that defines a German summer salad. Field-grown heads are looser and sweeter than the tight hydroponic ones sold in winter, and they bruise just as easily.",
+    "storageTips": "Do not wash until you use it. Wrap the whole head in a slightly damp tea towel inside a bag — it will stay perky for four or five days.",
+    "pairingIdeas": [
+      "Cream and vinegar dressing",
+      "Toasted seeds and radish",
+      "Soft herbs and shallot",
+      "Griddled in wedges"
+    ],
+    "imageUrl": "/produce/lettuce.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Kopfsalat",
+      "FR": "Laitue",
+      "IT": "Lattuga",
+      "NL": "Kropsla",
+      "GB": "Butterhead Lettuce"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Mild, buttery and faintly sweet, with almost no bitterness in young heads.",
+    "recipeIdea": "Dress torn leaves at the very last second with cream, white wine vinegar, sugar and lots of black pepper — the classic Rahmsalat.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.1,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "leafy-head"
+    }
+  },
+  {
+    "id": "button-mushroom",
+    "nameEN": "Button Mushroom",
+    "nameDE": "Champignon",
+    "category": "vegetable",
+    "monthsInSeason": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthsInStorage": [],
+    "description": "Cultivated indoors on composted straw, so it is local and available every month of the year with no glasshouse heating to speak of. One of the few genuinely year-round items that carries no seasonal penalty.",
+    "storageTips": "Paper bag in the fridge, never plastic — trapped moisture makes them slimy within a day. Do not soak them; brush or wipe instead.",
+    "pairingIdeas": [
+      "Garlic, parsley and butter",
+      "Cream and thyme",
+      "On toast with egg",
+      "Raw, shaved into salad"
+    ],
+    "imageUrl": "/produce/button-mushroom.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Champignon",
+      "FR": "Champignon de Paris",
+      "IT": "Champignon",
+      "NL": "Champignon",
+      "GB": "Button Mushroom"
+    },
+    "culinaryTag": "Sear in a dry pan",
+    "flavorProfile": "Mild and nutty raw, turning intensely savoury and meaty once the water has cooked out.",
+    "recipeIdea": "Sear in a dry hot pan until the water evaporates and they squeak, then add butter, garlic and parsley for the last minute only.",
+    "co2": {
+      "local": 0.7,
+      "imported": 1.2,
+      "importMode": "road",
+      "origin": "Poland / Netherlands"
+    },
+    "illustration": {
+      "archetype": "mushroom"
+    }
+  },
+  {
+    "id": "carrot",
+    "nameEN": "Carrot",
+    "nameDE": "Möhre",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "The backbone of the European winter larder. Bunched summer carrots are sweet and slender; the main crop is lifted in autumn and held in sand or cold store, which is why good local carrots never really run out.",
+    "storageTips": "Cut the tops off at once — they wick moisture from the root. Stored in a box of damp sand in a cool cellar, main-crop carrots keep for months; in the fridge, a sealed bag gives three weeks.",
+    "pairingIdeas": [
+      "Cumin and coriander",
+      "Honey and thyme",
+      "Ginger in soup",
+      "Raw with apple"
+    ],
+    "imageUrl": "/produce/carrot.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Möhre",
+      "FR": "Carotte",
+      "IT": "Carota",
+      "NL": "Wortel",
+      "GB": "Carrot"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Sugary and earthy, with a resinous, almost floral note in older stored roots.",
+    "recipeIdea": "Roast whole with cumin and honey until the edges blister, then scatter with yoghurt, dill and pistachios.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.5,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "root-taper"
+    }
+  },
+  {
+    "id": "cauliflower",
+    "nameEN": "Cauliflower",
+    "nameDE": "Blumenkohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "Growers fold the outer leaves over the developing head to keep it white — sunlight turns it creamy yellow, which is harmless but sells badly. Italy runs its crop through the winter instead of the summer.",
+    "storageTips": "Stem-down in the fridge, loosely wrapped, up to a week. Black speckling on the curd is a mould that starts at the surface; cut it away and the head underneath is fine.",
+    "pairingIdeas": [
+      "Brown butter and capers",
+      "Curry spices",
+      "Béchamel and nutmeg",
+      "Raw, shaved into salad"
+    ],
+    "imageUrl": "/produce/cauliflower.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Blumenkohl",
+      "FR": "Chou-fleur",
+      "IT": "Cavolfiore",
+      "NL": "Bloemkool",
+      "GB": "Cauliflower"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Mild and faintly sweet, developing real nuttiness and caramel notes with dry heat.",
+    "recipeIdea": "Roast a whole head, brushed with spiced butter, at 200 °C for 50 minutes until a knife slides through — then carve it like a joint.",
+    "co2": {
+      "local": 0.4,
+      "imported": 1.4,
+      "importMode": "road",
+      "origin": "Spain / Italy"
+    },
+    "illustration": {
+      "archetype": "cauliflower"
+    }
+  },
+  {
+    "id": "celeriac",
+    "nameEN": "Celeriac",
+    "nameDE": "Knollensellerie",
+    "category": "vegetable",
+    "monthsInSeason": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "description": "An ugly, knobbly root with one of the best flavours in the winter store. It is the backbone of German Suppengrün, the soup-vegetable bundle sold with carrot, leek and parsley.",
+    "storageTips": "Keeps two to three months in a cool cellar or a month in the fridge. Once cut, the flesh browns fast — drop peeled pieces into acidulated water.",
+    "pairingIdeas": [
+      "Apple and mustard rémoulade",
+      "Potato in mash",
+      "Truffle or hazelnut oil",
+      "Baked whole in salt"
+    ],
+    "imageUrl": "/produce/celeriac.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Knollensellerie",
+      "FR": "Céleri-rave",
+      "IT": "Sedano rapa",
+      "NL": "Knolselderij",
+      "GB": "Celeriac"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "culinaryTag": "Ideal for soups",
+    "flavorProfile": "Celery's aroma with a nutty, starchy body — savoury rather than sweet.",
+    "recipeIdea": "Bake a whole scrubbed root in a salt crust for 90 minutes, then crack it open and serve the steaming flesh with brown butter and hazelnuts.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.7,
+      "importMode": "road",
+      "origin": "Netherlands / Poland"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "celery",
+    "nameEN": "Celery",
+    "nameDE": "Staudensellerie",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12
+    ],
+    "description": "Grown for its stalks rather than its root, and a different plant habit from celeriac entirely. The pale, tender hearts are blanched by tying the outer stalks up around them as the plant grows.",
+    "storageTips": "Wrap the whole head tightly in foil, not plastic — it keeps the ethylene out and celery stays crisp for two weeks. Limp stalks revive in ice water.",
+    "pairingIdeas": [
+      "Blue cheese and walnut",
+      "Base of a soffritto",
+      "Raw with salt",
+      "Braised with stock"
+    ],
+    "imageUrl": "/produce/celery.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Staudensellerie",
+      "FR": "Céleri branche",
+      "IT": "Sedano",
+      "NL": "Bleekselderij",
+      "GB": "Celery"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          1
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12
+        ]
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Salty-green and aromatic, with a bitter edge in the outer stalks and sweetness in the heart.",
+    "recipeIdea": "Braise whole hearts in chicken stock with butter for 40 minutes, then finish under the grill with parmesan.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.9,
+      "importMode": "road",
+      "origin": "Spain / Italy"
+    },
+    "illustration": {
+      "archetype": "stalk-bundle"
+    }
+  },
+  {
+    "id": "chicory",
+    "nameEN": "Chicory",
+    "nameDE": "Chicorée",
+    "category": "vegetable",
+    "monthsInSeason": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [],
+    "description": "Grown in two stages: a root is raised outdoors in summer, lifted, then forced in complete darkness so the bud grows pale and tight. Any light at all turns the leaf tips green and much more bitter.",
+    "storageTips": "Keep it wrapped and in the dark — a paper bag in the fridge drawer. Exposure to light makes it bitter within a day or two. Use within a week.",
+    "pairingIdeas": [
+      "Ham and béchamel",
+      "Orange and walnut",
+      "Blue cheese and pear",
+      "Braised with butter and honey"
+    ],
+    "imageUrl": "/produce/chicory.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Chicorée",
+      "FR": "Endive",
+      "NL": "Witlof",
+      "GB": "Chicory"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Crisp and cleanly bitter raw; caramel-sweet with just an edge of bitterness once braised.",
+    "recipeIdea": "Braise halved heads in butter, honey and orange juice until sticky, then roll in ham, cover in béchamel and bake — the Belgian classic.",
+    "co2": {
+      "local": 0.5,
+      "imported": 1.1,
+      "importMode": "road",
+      "origin": "Belgium / France"
+    },
+    "illustration": {
+      "archetype": "chicory"
+    }
+  },
+  {
+    "id": "chinese-cabbage",
+    "nameEN": "Chinese Cabbage",
+    "nameDE": "Chinakohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2
+    ],
+    "description": "Fast-growing, frost-tolerant and far milder than European cabbage. A useful bridge vegetable that gives crisp salad leaves well into the months when lettuce has to be flown in.",
+    "storageTips": "Wrapped in the fridge, a whole head holds for three weeks — remarkable for something this tender. Cut faces brown quickly, so slice from one end.",
+    "pairingIdeas": [
+      "Sesame and soy",
+      "Fermented as kimchi",
+      "Raw with a sharp dressing",
+      "Quick-braised with ginger"
+    ],
+    "imageUrl": "/produce/chinese-cabbage.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Chinakohl",
+      "FR": "Chou chinois",
+      "IT": "Cavolo cinese",
+      "NL": "Chinese kool",
+      "GB": "Chinese Cabbage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1
+        ]
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Juicy, sweet and barely brassica — crisp white ribs with soft, delicate leaf tips.",
+    "recipeIdea": "Salt shredded leaves for an hour, rinse, then pack with chilli, garlic, ginger and fish sauce and ferment three days for a fast kimchi.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.7,
+      "importMode": "road",
+      "origin": "Spain / Italy"
+    },
+    "illustration": {
+      "archetype": "chicory"
+    }
+  },
+  {
+    "id": "courgette",
+    "nameEN": "Courgette",
+    "nameDE": "Zucchini",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "Prolific to the point of comedy — one healthy plant will out-produce a household. Small ones are dense and nutty; anything marrow-sized is mostly water. The golden flowers are a delicacy in their own right.",
+    "storageTips": "Fridge drawer, unwashed, up to a week. Do not wrap in plastic — trapped condensation makes them soften at the stem end within days.",
+    "pairingIdeas": [
+      "Mint and lemon",
+      "Ricotta and basil",
+      "Grilled with garlic",
+      "Grated into fritters"
+    ],
+    "imageUrl": "/produce/courgette.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Zucchini",
+      "FR": "Courgette",
+      "IT": "Zucchina",
+      "NL": "Courgette",
+      "GB": "Courgette"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Great for grilling",
+    "flavorProfile": "Mild and faintly sweet, with a nuttiness that only appears under real heat and char.",
+    "recipeIdea": "Slice lengthways, griddle hard until striped, then marinate warm in olive oil, garlic, mint and red wine vinegar.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.7,
+      "importMode": "road",
+      "origin": "Spain"
+    },
+    "illustration": {
+      "archetype": "cucumber"
+    }
+  },
+  {
+    "id": "cucumber",
+    "nameEN": "Cucumber",
+    "nameDE": "Gurke",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "Field cucumbers are bumpier, shorter and far more flavourful than the smooth glasshouse type. The Spreewald region south-east of Berlin turned the small pickling variety into a protected speciality.",
+    "storageTips": "Never below 10 °C — the fridge gives cucumbers cold damage and they go translucent. A cool, dark corner of the kitchen is better, and keep them away from tomatoes and apples.",
+    "pairingIdeas": [
+      "Dill and sour cream",
+      "Smashed with garlic and sesame",
+      "Pickled with mustard seed",
+      "Cold soup with yoghurt"
+    ],
+    "imageUrl": "/produce/cucumber.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Gurke",
+      "FR": "Concombre",
+      "IT": "Cetriolo",
+      "NL": "Komkommer",
+      "GB": "Cucumber"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Watery-fresh and faintly melon-like, with a bitter green note concentrated in the skin near the stem.",
+    "recipeIdea": "Smash with the flat of a knife, salt for ten minutes, then dress with garlic, black vinegar, sesame oil and chilli.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.7,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "cucumber"
+    }
+  },
+  {
+    "id": "endive",
+    "nameEN": "Curly Endive",
+    "nameDE": "Endivie",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "A frilly, frost-tolerant salad that carries German plates from late summer into autumn. Frisée and escarole are the two forms — one spiky and fine, one broad-leaved and milder.",
+    "storageTips": "Store the whole head damp-wrapped in the fridge for up to five days. The pale inner heart is much less bitter than the dark outer leaves, so mix them deliberately.",
+    "pairingIdeas": [
+      "Warm bacon dressing",
+      "Poached egg and croutons",
+      "Garlic and anchovy",
+      "Braised in stock"
+    ],
+    "imageUrl": "/produce/endive.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Endivie",
+      "FR": "Frisée",
+      "IT": "Indivia riccia",
+      "NL": "Andijvie",
+      "GB": "Curly Endive"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Crisp and cleanly bitter, standing up to dressings that would drown a soft lettuce.",
+    "recipeIdea": "Pour hot bacon fat and sherry vinegar straight over the leaves so they half-wilt, then top with a poached egg.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1,
+      "importMode": "road",
+      "origin": "Italy / Spain"
+    },
+    "illustration": {
+      "archetype": "rosette"
+    }
+  },
+  {
+    "id": "fennel",
+    "nameEN": "Fennel",
+    "nameDE": "Fenchel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "The swollen leaf base of a herb, sold as a bulb. Italy grows the vast majority of Europe's crop and treats it as a winter vegetable; German fennel is a late-summer one.",
+    "storageTips": "Fridge drawer, up to a week, with the feathery fronds cut off and kept separately — they are a free herb and taste like a gentler dill.",
+    "pairingIdeas": [
+      "Orange and olives",
+      "Shaved raw with lemon",
+      "Braised with white wine",
+      "Pork and sausage"
+    ],
+    "imageUrl": "/produce/fennel.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Fenchel",
+      "FR": "Fenouil",
+      "IT": "Finocchio",
+      "NL": "Venkel",
+      "GB": "Fennel"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Cleanly aniseed and crunchy raw; the liquorice note softens into sweetness when braised.",
+    "recipeIdea": "Shave paper-thin on a mandoline and dress with orange segments, black olives and good oil — a Sicilian winter salad.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.3,
+      "importMode": "road",
+      "origin": "Italy / Spain"
+    },
+    "illustration": {
+      "archetype": "fennel"
+    }
+  },
+  {
+    "id": "peas",
+    "nameEN": "Garden Peas",
+    "nameDE": "Erbsen",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8
+    ],
+    "monthsInStorage": [],
+    "description": "The shortest window of any summer vegetable. Sugars convert to starch within hours of picking, which is the one honest argument for frozen peas the rest of the year — they are frozen within ninety minutes of harvest.",
+    "storageTips": "Cook the same day you buy them, pods on. If you must wait, keep them cold in their pods; podded peas dry out and toughen fast.",
+    "pairingIdeas": [
+      "Mint and butter",
+      "Smoked bacon or ham",
+      "Ricotta on toast",
+      "Cold in a herb salad"
+    ],
+    "imageUrl": "/produce/peas.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Erbsen",
+      "FR": "Petits pois",
+      "IT": "Piselli",
+      "NL": "Doperwten",
+      "GB": "Garden Peas"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Blanch briefly",
+    "flavorProfile": "Grassy and intensely sweet at their peak, turning floury within a day of picking.",
+    "recipeIdea": "Blanch for 90 seconds, crush roughly with mint, lemon and olive oil, and pile onto ricotta toast.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.6,
+      "importMode": "air",
+      "origin": "Kenya / Guatemala"
+    },
+    "illustration": {
+      "archetype": "pod"
+    }
+  },
+  {
+    "id": "garlic",
+    "nameEN": "Garlic",
+    "nameDE": "Knoblauch",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8
+    ],
+    "monthsInStorage": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "description": "Lifted in midsummer when the lower leaves brown, then cured for two weeks. Wet or green garlic, sold in June before curing, is mild and juicy and worth looking for at markets.",
+    "storageTips": "Dry, dark and airy at room temperature — cured bulbs keep six months. A green shoot in the middle means it is aging; the shoot is bitter, so pull it out.",
+    "pairingIdeas": [
+      "Roasted whole into a paste",
+      "Confit in olive oil",
+      "Raw in aioli",
+      "With parsley and lemon"
+    ],
+    "imageUrl": "/produce/garlic.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Knoblauch",
+      "FR": "Ail",
+      "IT": "Aglio",
+      "NL": "Knoflook",
+      "GB": "Garlic"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8
+        ],
+        "monthsInStorage": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8
+        ],
+        "monthsInStorage": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8
+        ],
+        "monthsInStorage": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ]
+      }
+    },
+    "culinaryTag": "Roast it whole",
+    "flavorProfile": "Fierce and acrid raw; sweet, mellow and almost caramel once slow-roasted.",
+    "recipeIdea": "Cut the top off a whole head, douse in oil, wrap in foil and roast at 180 °C for 45 minutes — then squeeze the cloves out like paste.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.1,
+      "importMode": "sea",
+      "origin": "China / Argentina"
+    },
+    "illustration": {
+      "archetype": "garlic"
+    }
+  },
+  {
+    "id": "artichoke",
+    "nameEN": "Globe Artichoke",
+    "nameDE": "Artischocke",
+    "category": "vegetable",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [],
+    "description": "An edible thistle bud, and a Mediterranean staple rather than a German one. Brittany supplies most of Northern Europe from late spring; Italy's Roman varieties run right through the winter instead.",
+    "storageTips": "Stand the stems in water like cut flowers, or refrigerate in a bag for up to five days. Cut surfaces blacken in minutes — rub them with lemon immediately.",
+    "pairingIdeas": [
+      "Lemon and olive oil",
+      "Vinaigrette, leaf by leaf",
+      "Braised with white wine",
+      "Fried whole, Roman style"
+    ],
+    "imageUrl": "/produce/artichoke.png",
+    "region": [
+      "FR",
+      "IT"
+    ],
+    "localNames": {
+      "FR": "Artichaut",
+      "IT": "Carciofo"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Nutty, green and faintly bitter, with a compound that makes everything eaten after it taste sweeter.",
+    "recipeIdea": "Trim to the heart, braise in olive oil, white wine, garlic and mint, then serve at room temperature with the cooking liquid.",
+    "co2": {
+      "local": 0.6,
+      "imported": 1.4,
+      "importMode": "road",
+      "origin": "Egypt / Peru"
+    },
+    "illustration": {
+      "archetype": "artichoke"
+    }
+  },
+  {
+    "id": "green-beans",
+    "nameEN": "Green Beans",
+    "nameDE": "Grüne Bohnen",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "High summer into early autumn, when the pods snap cleanly instead of bending. Always cooked, never raw — raw beans contain phasin, which breaks down within about ten minutes of boiling.",
+    "storageTips": "Keep in a perforated bag in the fridge for up to five days. Blanch for three minutes and freeze flat if the harvest outruns you.",
+    "pairingIdeas": [
+      "Savory herb and butter",
+      "Bacon and onion",
+      "Tomato and garlic",
+      "Almonds and brown butter"
+    ],
+    "imageUrl": "/produce/green-beans.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Grüne Bohnen",
+      "FR": "Haricot vert",
+      "IT": "Fagiolino",
+      "NL": "Sperziebonen",
+      "GB": "Green Beans"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Always cook first",
+    "flavorProfile": "Squeaky and vegetal, with a sweetness that deepens the longer you cook them.",
+    "recipeIdea": "Simmer with a sprig of summer savory — Bohnenkraut, literally 'bean herb' — then toss in butter with crisped bacon.",
+    "co2": {
+      "local": 0.3,
+      "imported": 6.4,
+      "importMode": "air",
+      "origin": "Kenya / Morocco"
+    },
+    "illustration": {
+      "archetype": "pod"
+    }
+  },
+  {
+    "id": "horseradish",
+    "nameEN": "Horseradish",
+    "nameDE": "Meerrettich",
+    "category": "vegetable",
+    "monthsInSeason": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthsInStorage": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "description": "Dug in autumn and cellared through the year. The heat only appears once the root is cut or grated, when enzymes and mustard-oil precursors meet — and it fades within an hour, which is why jarred horseradish is never the same.",
+    "storageTips": "Whole roots keep for months wrapped in damp cloth in the fridge or buried in cellar sand. Grate only what you need; stir vinegar in immediately to lock in the heat.",
+    "pairingIdeas": [
+      "Boiled beef and apple",
+      "Smoked fish and cream",
+      "Beetroot",
+      "Whipped into cream"
+    ],
+    "imageUrl": "/produce/horseradish.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Meerrettich",
+      "FR": "Raifort",
+      "NL": "Mierikswortel",
+      "GB": "Horseradish"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "culinaryTag": "Grate it fresh",
+    "flavorProfile": "Volatile, sinus-clearing heat with a clean sweetness underneath — nothing like chilli's lingering burn.",
+    "recipeIdea": "Grate fresh into lightly whipped cream with a squeeze of lemon and a pinch of salt; serve with boiled beef or smoked trout.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.7,
+      "importMode": "road",
+      "origin": "Hungary / Poland"
+    },
+    "illustration": {
+      "archetype": "root-taper"
+    }
+  },
+  {
+    "id": "jerusalem-artichoke",
+    "nameEN": "Jerusalem Artichoke",
+    "nameDE": "Topinambur",
+    "category": "vegetable",
+    "monthsInSeason": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [],
+    "description": "Neither from Jerusalem nor an artichoke — it is a sunflower tuber, and it grows so readily in German gardens that it is classed as invasive. Its inulin content is famously hard on the digestion; start with a small portion.",
+    "storageTips": "The thin skin means it dries out fast. Leave the tubers in the ground and dig as needed, or keep them in a bag in the fridge for up to two weeks.",
+    "pairingIdeas": [
+      "Hazelnut and brown butter",
+      "Puréed into soup",
+      "Roasted with thyme",
+      "Shaved raw with lemon"
+    ],
+    "imageUrl": "/produce/jerusalem-artichoke.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL"
+    ],
+    "localNames": {
+      "DE": "Topinambur",
+      "FR": "Topinambour",
+      "IT": "Topinambur",
+      "NL": "Aardpeer"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Sweet, smoky and nutty — somewhere between artichoke heart and water chestnut.",
+    "recipeIdea": "Roast whole and unpeeled at 200 °C until the skins crackle, then crush with brown butter, lemon and toasted hazelnuts.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.6,
+      "importMode": "road",
+      "origin": "France"
+    },
+    "illustration": {
+      "archetype": "tuber"
+    }
+  },
+  {
+    "id": "kale",
+    "nameEN": "Kale",
+    "nameDE": "Grünkohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "monthsInStorage": [],
+    "description": "Northern Germany's winter institution, eaten on Grünkohlfahrten — organised walks that end in a very large meal. Tradition holds that it should not be cut before the first frost, and the folklore has a basis: cold genuinely raises its sugar content.",
+    "storageTips": "Keeps a week in the fridge in a loose bag. Strip the leaves from the tough central ribs before cooking or freezing; the ribs never soften.",
+    "pairingIdeas": [
+      "Pinkel sausage and mustard",
+      "Smoked pork and oats",
+      "Garlic and chilli",
+      "Crisped in the oven"
+    ],
+    "imageUrl": "/produce/kale.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Grünkohl",
+      "FR": "Chou frisé",
+      "NL": "Boerenkool",
+      "GB": "Kale"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Robust, mineral and cabbage-sweet, with a bitterness that frost and long cooking both remove.",
+    "recipeIdea": "Stew stripped leaves for two hours with smoked pork, onion, mustard and a handful of oats — the classic North German Grünkohl.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.8,
+      "importMode": "road",
+      "origin": "Italy / Spain"
+    },
+    "illustration": {
+      "archetype": "leafy-loose"
+    }
+  },
+  {
+    "id": "kohlrabi",
+    "nameEN": "Kohlrabi",
+    "nameDE": "Kohlrabi",
+    "category": "vegetable",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11,
+      12
+    ],
+    "description": "A swollen stem rather than a root, and one of the few German vegetable names that travelled into English untranslated. Small early bulbs are crisp and sweet; anything bigger than a fist turns woody.",
+    "storageTips": "Remove the leaves and keep the bulb in the fridge for up to two weeks. The leaves are excellent — treat them like kale and cook them the same day.",
+    "pairingIdeas": [
+      "Cream sauce and dill",
+      "Raw batons with salt",
+      "Schnitzel-style breadcrumbs",
+      "Apple in a slaw"
+    ],
+    "imageUrl": "/produce/kohlrabi.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Kohlrabi",
+      "FR": "Chou-rave",
+      "IT": "Cavolo rapa",
+      "NL": "Koolrabi",
+      "GB": "Kohlrabi"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11
+        ]
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Sweet, crunchy and faintly peppery — broccoli stem crossed with apple.",
+    "recipeIdea": "Cut into thick slices, bread them like a schnitzel and shallow-fry until golden; serve with a lemony herb quark.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.1,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "lambs-lettuce",
+    "nameEN": "Lamb's Lettuce",
+    "nameDE": "Feldsalat",
+    "category": "vegetable",
+    "monthsInSeason": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "monthsInStorage": [],
+    "description": "The one salad leaf that genuinely belongs to the German winter. It survives hard frost in open ground, which is why it fills the months when every other lettuce is imported or grown under lights.",
+    "storageTips": "Extremely delicate — buy it dry and use within two days. Wash only at the last moment, in a big bowl of water so the grit sinks, and spin it properly dry.",
+    "pairingIdeas": [
+      "Bacon and walnut",
+      "Pumpkin seed oil",
+      "Mushrooms and croutons",
+      "Orange and hazelnut"
+    ],
+    "imageUrl": "/produce/lambs-lettuce.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Feldsalat",
+      "FR": "Mâche",
+      "IT": "Valerianella",
+      "NL": "Veldsla",
+      "GB": "Lamb's Lettuce"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Soft, nutty and slightly milky — nothing like the bitterness of other winter leaves.",
+    "recipeIdea": "Dress with pumpkin seed oil, cider vinegar and a little honey, then add warm bacon and croutons straight from the pan.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "rosette"
+    }
+  },
+  {
+    "id": "leek",
+    "nameEN": "Leek",
+    "nameDE": "Lauch",
+    "category": "vegetable",
+    "monthsInSeason": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthsInStorage": [],
+    "description": "Two crops in one name: slim summer leeks from June, then the thick, frost-hardy winter type that stands in the field through snow. Only May has no local leeks at all, while one crop ends and the next begins.",
+    "storageTips": "Whole, untrimmed leeks keep two weeks in the fridge. Once cut they release sulphur compounds that taint everything nearby, so wrap the cut end well.",
+    "pairingIdeas": [
+      "Butter and cream",
+      "Potato in soup",
+      "Mustard vinaigrette",
+      "Slow-braised with thyme"
+    ],
+    "imageUrl": "/produce/leek.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Lauch",
+      "FR": "Poireau",
+      "IT": "Porro",
+      "NL": "Prei",
+      "GB": "Leek"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Gentler and sweeter than onion, with a silky texture once it gives up its structure.",
+    "recipeIdea": "Halve lengthways, braise cut-side down in butter and stock for 25 minutes, then dress warm with mustard vinaigrette and chopped egg.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.9,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "stalk-bundle"
+    }
+  },
+  {
+    "id": "may-turnip",
+    "nameEN": "May Turnip",
+    "nameDE": "Mairübchen",
+    "category": "vegetable",
+    "monthsInSeason": [
+      4,
+      5,
+      6
+    ],
+    "monthsInStorage": [],
+    "description": "Small, fast, white spring turnips pulled young before any woodiness sets in. A genuinely seasonal item with a window of barely ten weeks, and far more delicate than the autumn turnips most people picture.",
+    "storageTips": "Remove the greens and cook them separately — they are excellent. The roots keep only about a week; they are bred for tenderness, not for the cellar.",
+    "pairingIdeas": [
+      "Glazed in butter and stock",
+      "Raw with salt",
+      "Spring lamb",
+      "Their own greens, wilted"
+    ],
+    "imageUrl": "/produce/may-turnip.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL"
+    ],
+    "localNames": {
+      "DE": "Mairübchen",
+      "FR": "Navet nouveau",
+      "NL": "Meiraap"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Glaze in butter",
+    "flavorProfile": "Juicy, crisp and sweet with a faint radish heat that cooking removes entirely.",
+    "recipeIdea": "Glaze whole in butter, a spoon of sugar and just enough stock to cover, until the liquid reduces to a shine.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.7,
+      "importMode": "road",
+      "origin": "France"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "onion",
+    "nameEN": "Onion",
+    "nameDE": "Zwiebel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9
+    ],
+    "monthsInStorage": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "description": "Harvested in high summer, dried until the necks are papery, then stored for the best part of a year. A properly cured onion is one of the most energy-efficient foods in the European larder.",
+    "storageTips": "Dark, dry and well ventilated — a net bag or open crate, never plastic, never the fridge. Keep well away from potatoes: the moisture onions give off makes potatoes sprout.",
+    "pairingIdeas": [
+      "Slow-caramelised in soup",
+      "Roasted whole with thyme",
+      "Pickled in red wine vinegar",
+      "Raw and thinly sliced"
+    ],
+    "imageUrl": "/produce/onion.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Zwiebel",
+      "FR": "Oignon",
+      "IT": "Cipolla",
+      "NL": "Ui",
+      "GB": "Onion"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Pungent and sulphurous raw, turning profoundly sweet after forty minutes in a pan.",
+    "recipeIdea": "Cook thickly sliced onions in butter over low heat for 45 minutes without rushing, deglaze with wine, and you have the base of almost everything worth eating in winter.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.4,
+      "importMode": "sea",
+      "origin": "New Zealand / Chile"
+    },
+    "illustration": {
+      "archetype": "bulb"
+    }
+  },
+  {
+    "id": "pak-choi",
+    "nameEN": "Pak Choi",
+    "nameDE": "Pak Choi",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "An East Asian brassica now grown widely in Dutch and German market gardens. It goes from sown to cut in about six weeks, so growers slot it in between other crops through the warm half of the year.",
+    "storageTips": "Keeps about five days in the fridge in a loose bag. Wash carefully between the stem bases, where grit collects and never rinses out once cooked.",
+    "pairingIdeas": [
+      "Ginger, garlic and soy",
+      "Sesame oil and chilli",
+      "Steamed under fish",
+      "Charred in a dry wok"
+    ],
+    "imageUrl": "/produce/pak-choi.png",
+    "region": [
+      "DE",
+      "NL",
+      "FR",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Pak Choi",
+      "FR": "Pak choï",
+      "NL": "Paksoi",
+      "GB": "Pak Choi"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Wilt, don't boil",
+    "flavorProfile": "Juicy, mild and faintly mustardy, with crisp stems and silky leaves that cook at different speeds.",
+    "recipeIdea": "Split lengthways, sear the cut faces in a smoking-hot pan, then add a splash of stock and soy and cover for one minute.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.6,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "chicory"
+    }
+  },
+  {
+    "id": "parsnip",
+    "nameEN": "Parsnip",
+    "nameDE": "Pastinake",
+    "category": "vegetable",
+    "monthsInSeason": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "monthsInStorage": [
+      4
+    ],
+    "description": "A medieval staple that fell out of German kitchens for a century and came back through organic box schemes. Frost is not a problem but a requirement — cold converts the starch to sugar, so parsnips lifted after the first freeze taste markedly sweeter.",
+    "storageTips": "Leave them in the ground as long as you can; once lifted, store cold and humid for up to a month. Woody cores in large roots should be cut out before cooking.",
+    "pairingIdeas": [
+      "Honey and rosemary",
+      "Apple in soup",
+      "Curry spice",
+      "Roasted alongside beef"
+    ],
+    "imageUrl": "/produce/parsnip.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Pastinake",
+      "FR": "Panais",
+      "NL": "Pastinaak",
+      "GB": "Parsnip"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": [
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": [
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": [
+          3,
+          4
+        ]
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Sweet, spicy and faintly aniseed — like a carrot with more perfume and more starch.",
+    "recipeIdea": "Quarter lengthways, parboil, then roast hard in goose fat with honey and rosemary until the edges are lacquered.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.6,
+      "importMode": "road",
+      "origin": "Netherlands / UK"
+    },
+    "illustration": {
+      "archetype": "root-taper"
+    }
+  },
+  {
+    "id": "potato",
+    "nameEN": "Potato",
+    "nameDE": "Kartoffel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "New potatoes come out of the ground from June with skins you can rub off with a thumb. The main crop is lifted through autumn and cellared, which is why local potatoes are genuinely available all twelve months.",
+    "storageTips": "Cool, dark and airy — never the fridge, where starch turns to sugar and frying goes brown and sweet. Keep them away from onions and apples; both accelerate sprouting.",
+    "pairingIdeas": [
+      "Butter and parsley",
+      "Quark with linseed oil",
+      "Rosemary and sea salt",
+      "Cold in a vinegar salad"
+    ],
+    "imageUrl": "/produce/potato.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Kartoffel",
+      "FR": "Pomme de terre",
+      "IT": "Patata",
+      "NL": "Aardappel",
+      "GB": "Potato"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Earthy and buttery; waxy types stay sweet and firm, floury ones turn fluffy and absorbent.",
+    "recipeIdea": "Boil new potatoes in heavily salted water, crush them lightly, then roast in butter until the torn edges go crisp.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.4,
+      "importMode": "road",
+      "origin": "Egypt / Israel"
+    },
+    "illustration": {
+      "archetype": "tuber"
+    }
+  },
+  {
+    "id": "pumpkin",
+    "nameEN": "Pumpkin",
+    "nameDE": "Kürbis",
+    "category": "vegetable",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [
+      11,
+      12,
+      1
+    ],
+    "description": "Hokkaido is the German default — small, orange and the only common variety whose skin you can eat without peeling. Cut the stalk with 5 cm of stem attached or the fruit rots from the crown.",
+    "storageTips": "A whole, unblemished pumpkin keeps three to six months at cool room temperature — around 12 to 15 °C, not the fridge. Once cut, wrap and refrigerate, and use within four days.",
+    "pairingIdeas": [
+      "Sage and brown butter",
+      "Ginger and coconut",
+      "Roasted with chilli and feta",
+      "Pumpkin seed oil"
+    ],
+    "imageUrl": "/produce/pumpkin.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Kürbis",
+      "FR": "Potiron",
+      "IT": "Zucca",
+      "NL": "Pompoen",
+      "GB": "Pumpkin"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": [
+          11,
+          12,
+          1
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1
+        ]
+      }
+    },
+    "culinaryTag": "Best for roasting",
+    "flavorProfile": "Sweet, chestnut-like and slightly floury — Hokkaido has more flavour and less water than the big carving types.",
+    "recipeIdea": "Roast unpeeled Hokkaido wedges at 200 °C with chilli and cumin, then crumble over feta and toasted pumpkin seeds.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.6,
+      "importMode": "road",
+      "origin": "Spain / Italy"
+    },
+    "illustration": {
+      "archetype": "squash"
+    }
+  },
+  {
+    "id": "radicchio",
+    "nameEN": "Radicchio",
+    "nameDE": "Radicchio",
+    "category": "vegetable",
+    "monthsInSeason": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "monthsInStorage": [],
+    "description": "The red chicory of the Veneto, where Treviso and Castelfranco varieties have protected status. Cold weather deepens both its colour and its bitterness — the best heads come after the first frosts.",
+    "storageTips": "Keeps a week or more in the fridge, tightly wrapped. Soaking cut leaves in cold water for twenty minutes noticeably reduces the bitterness if it is too much.",
+    "pairingIdeas": [
+      "Grilled with balsamic",
+      "Gorgonzola and walnut",
+      "Risotto with red wine",
+      "Orange and fennel"
+    ],
+    "imageUrl": "/produce/radicchio.png",
+    "region": [
+      "IT",
+      "FR",
+      "DE"
+    ],
+    "localNames": {
+      "DE": "Radicchio",
+      "FR": "Trévise",
+      "IT": "Radicchio"
+    },
+    "regionalSeasons": {
+      "DE": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "FR": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Char it hard",
+    "flavorProfile": "Assertively bitter and peppery raw, sweetening dramatically under fire or long roasting.",
+    "recipeIdea": "Quarter, grill until the edges char, then dress hot with aged balsamic, olive oil and shaved parmesan.",
+    "co2": {
+      "local": 0.3,
+      "imported": 0.9,
+      "importMode": "road",
+      "origin": "Italy"
+    },
+    "illustration": {
+      "archetype": "leafy-head"
+    }
+  },
+  {
+    "id": "radish",
+    "nameEN": "Radish",
+    "nameDE": "Radieschen",
+    "category": "vegetable",
+    "monthsInSeason": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The fastest crop in the garden — sown to pulled in four weeks. Field radishes arrive with the first real warmth and carry the peppery bite that greenhouse bunches never quite manage.",
+    "storageTips": "Twist the leaves off immediately, or they will draw moisture out of the roots overnight. Store the roots in a sealed box with a damp cloth for up to a week; revive limp ones in ice water.",
+    "pairingIdeas": [
+      "Butter and flaky salt on rye",
+      "Quark and chives",
+      "Shaved into slaws",
+      "Roasted whole with honey"
+    ],
+    "imageUrl": "/produce/radish.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Radieschen",
+      "FR": "Radis",
+      "IT": "Ravanello",
+      "NL": "Radijs",
+      "GB": "Radish"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Crisp and juicy with a mustard-oil heat that fades to sweetness when roasted.",
+    "recipeIdea": "Halve a bunch, sear cut-side down in butter for three minutes, then glaze with honey and a splash of vinegar — the heat turns them mellow.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.8,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "red-cabbage",
+    "nameEN": "Red Cabbage",
+    "nameDE": "Rotkohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "description": "The anthocyanins that colour it act as a pH indicator — add acid and it turns vivid red, add alkali and it goes blue. Cooking it without vinegar or apple is how you end up with grey cabbage.",
+    "storageTips": "Keeps for two months whole in a cool cellar, three weeks in the fridge. Cut halves hold up well wrapped tightly for a week.",
+    "pairingIdeas": [
+      "Apple, clove and bay",
+      "Goose or duck",
+      "Chestnut and red wine",
+      "Raw with orange"
+    ],
+    "imageUrl": "/produce/red-cabbage.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rotkohl",
+      "FR": "Chou rouge",
+      "IT": "Cavolo rosso",
+      "NL": "Rode kool",
+      "GB": "Red Cabbage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": [
+          3,
+          4
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "culinaryTag": "Braise low and slow",
+    "flavorProfile": "Sweeter and more peppery than white cabbage, with a tannic edge that red wine and apple soften.",
+    "recipeIdea": "Braise shredded cabbage for 90 minutes with grated apple, red wine vinegar, cloves and a spoon of redcurrant jelly.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.5,
+      "importMode": "road",
+      "origin": "Netherlands / Poland"
+    },
+    "illustration": {
+      "archetype": "leafy-head"
+    }
+  },
+  {
+    "id": "rhubarb",
+    "nameEN": "Rhubarb",
+    "nameDE": "Rhabarber",
+    "category": "vegetable",
+    "monthsInSeason": [
+      4,
+      5,
+      6
+    ],
+    "monthsInStorage": [],
+    "description": "Botanically a vegetable, treated as a fruit in every kitchen. Like asparagus it is cut only until midsummer, after which the stalks turn woody and the plant is left to recover. Yorkshire's forced rhubarb is grown in dark sheds and picked by candlelight from January.",
+    "storageTips": "Keep unwashed stalks loosely wrapped in the fridge for up to a week. Cut and freeze in chunks without blanching — it holds its shape well for crumbles.",
+    "pairingIdeas": [
+      "Strawberries and vanilla",
+      "Ginger and orange zest",
+      "Oat crumble and cream",
+      "Roast pork or duck"
+    ],
+    "imageUrl": "/produce/rhubarb.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rhabarber",
+      "FR": "Rhubarbe",
+      "NL": "Rabarber",
+      "GB": "Rhubarb"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Best stewed or baked",
+    "flavorProfile": "Sharply sour and astringent raw, turning floral and jammy the moment sugar and heat get involved.",
+    "recipeIdea": "Roast 3 cm batons with sugar, orange juice and a split vanilla pod at 180 °C for 15 minutes — they keep their shape instead of collapsing.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands"
+    },
+    "illustration": {
+      "archetype": "stalk-bundle"
+    }
+  },
+  {
+    "id": "rocket",
+    "nameEN": "Rocket",
+    "nameDE": "Rucola",
+    "category": "vegetable",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "A brassica rather than a lettuce, which is where the mustard heat comes from. Wild rocket has narrow, deeply cut leaves and a far more aggressive bite than the broad-leaved cultivated kind.",
+    "storageTips": "Two or three days at most. Store dry in a box lined with kitchen paper; any moisture on the leaves turns them black at the edges overnight.",
+    "pairingIdeas": [
+      "Parmesan and lemon",
+      "Pear and pecorino",
+      "Scattered over pizza",
+      "Blitzed into pesto"
+    ],
+    "imageUrl": "/produce/rocket.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Rucola",
+      "FR": "Roquette",
+      "IT": "Rucola",
+      "NL": "Rucola",
+      "GB": "Rocket"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Peppery, nutty and faintly sulphurous, getting hotter as the plant runs to flower.",
+    "recipeIdea": "Blitz with walnuts, garlic, pecorino and oil for a pesto with far more character than the basil version.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.2,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "leafy-loose"
+    }
+  },
+  {
+    "id": "savoy-cabbage",
+    "nameEN": "Savoy Cabbage",
+    "nameDE": "Wirsing",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "monthsInStorage": [
+      3
+    ],
+    "description": "The crinkle-leaved cabbage that stands in the field through frost, and the best of the family for cooking quickly. Winter heads are looser, darker and sweeter than the pale summer ones.",
+    "storageTips": "Less dense than white cabbage, so it keeps a shorter time — about two weeks in the fridge. Use the dark outer leaves rather than discarding them; they have the most flavour.",
+    "pairingIdeas": [
+      "Cream and bacon",
+      "Chestnut and sage",
+      "Wrapped as cabbage rolls",
+      "Stir-fried with garlic"
+    ],
+    "imageUrl": "/produce/savoy-cabbage.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Wirsing",
+      "FR": "Chou de Milan",
+      "IT": "Verza",
+      "NL": "Savooiekool",
+      "GB": "Savoy Cabbage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          1,
+          2
+        ],
+        "monthsInStorage": [
+          3
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Wilt, don't boil",
+    "flavorProfile": "Milder and more delicate than other cabbages, with a nutty sweetness after frost.",
+    "recipeIdea": "Shred and cook seven minutes in cream with bacon and nutmeg — long enough to soften, short enough to stay green.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.5,
+      "importMode": "road",
+      "origin": "Italy / Netherlands"
+    },
+    "illustration": {
+      "archetype": "leafy-head"
+    }
+  },
+  {
+    "id": "spinach",
+    "nameEN": "Spinach",
+    "nameDE": "Spinat",
+    "category": "vegetable",
+    "monthsInSeason": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [],
+    "description": "A cool-weather crop with two distinct windows: tender spring leaves in March to May, then a heartier autumn cut. It bolts in midsummer heat, which is why field spinach disappears from June to August.",
+    "storageTips": "Highly perishable — use within two days. Store dry and loosely packed; moisture on the leaves turns them to slime. Blanch and freeze in portions if you have a glut.",
+    "pairingIdeas": [
+      "Nutmeg and cream",
+      "Garlic and lemon",
+      "Feta in filo",
+      "Poached egg and brown butter"
+    ],
+    "imageUrl": "/produce/spinach.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Spinat",
+      "FR": "Épinard",
+      "IT": "Spinaci",
+      "NL": "Spinazie",
+      "GB": "Spinach"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          2,
+          3,
+          4,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Wilt, don't boil",
+    "flavorProfile": "Green and mineral with a slight chalky edge from oxalic acid, sweetening after frost.",
+    "recipeIdea": "Wilt in a dry pan, squeeze out every drop of water, then fold into ricotta with nutmeg and lemon zest for a fast pasta filling.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.9,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "leafy-loose"
+    }
+  },
+  {
+    "id": "spring-onion",
+    "nameEN": "Spring Onion",
+    "nameDE": "Frühlingszwiebel",
+    "category": "vegetable",
+    "monthsInSeason": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "Young onions pulled before the bulb swells. The whole plant is usable, and the green tops carry a fresher, grassier flavour than the white base.",
+    "storageTips": "Stand the roots in a centimetre of water on the windowsill and they will keep growing for a week. In the fridge, wrap loosely — they perfume everything nearby.",
+    "pairingIdeas": [
+      "Charred whole on the grill",
+      "Folded into potato salad",
+      "Soy and sesame",
+      "Sprinkled over soup"
+    ],
+    "imageUrl": "/produce/spring-onion.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Frühlingszwiebel",
+      "FR": "Cébette",
+      "IT": "Cipollotto",
+      "NL": "Bosui",
+      "GB": "Spring Onion"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Great for grilling",
+    "flavorProfile": "Bright and mildly sharp raw; sweet and almost creamy once blackened over fire.",
+    "recipeIdea": "Grill whole until the outer layer chars, then peel and dress with romesco — the Catalan calçot treatment works on any spring onion.",
+    "co2": {
+      "local": 0.2,
+      "imported": 1.4,
+      "importMode": "road",
+      "origin": "Egypt / Spain"
+    },
+    "illustration": {
+      "archetype": "herb-grass"
+    }
+  },
+  {
+    "id": "swede",
+    "nameEN": "Swede",
+    "nameDE": "Steckrübe",
+    "category": "vegetable",
+    "monthsInSeason": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "monthsInStorage": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "description": "Long remembered in Germany as the famine food of the Steckrübenwinter of 1916–17, and unfairly dismissed ever since. Treated well — roasted, mashed with butter — it is one of the sweetest roots in the cellar.",
+    "storageTips": "Keeps three or four months in a cold, humid cellar; a month in the fridge. Shop-bought swedes are often waxed, which extends life but must be peeled thickly.",
+    "pairingIdeas": [
+      "Butter and white pepper",
+      "Mashed with potato",
+      "Roasted with maple",
+      "Beef stew"
+    ],
+    "imageUrl": "/produce/swede.png",
+    "region": [
+      "DE",
+      "FR",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Steckrübe",
+      "FR": "Rutabaga",
+      "NL": "Koolraap",
+      "GB": "Swede"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": [
+          1,
+          2,
+          3
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "monthsInStorage": [
+          1,
+          2,
+          3
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1
+        ],
+        "monthsInStorage": [
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "culinaryTag": "Ideal for soups",
+    "flavorProfile": "Sweet and mildly mustardy, with an earthiness that butter and pepper tame completely.",
+    "recipeIdea": "Steam chunks until collapsing, mash hard with a lot of butter and white pepper, and serve under something braised.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.5,
+      "importMode": "road",
+      "origin": "UK / Netherlands"
+    },
+    "illustration": {
+      "archetype": "root-bulbous"
+    }
+  },
+  {
+    "id": "sweetcorn",
+    "nameEN": "Sweetcorn",
+    "nameDE": "Zuckermais",
+    "category": "vegetable",
+    "monthsInSeason": [
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "Late summer only, and the clearest case of eat-it-today produce there is: sugar starts converting to starch the moment the cob leaves the stalk. Look for tight green husks and pale, damp silks.",
+    "storageTips": "Leave the husks on and refrigerate immediately — cold slows the sugar loss. Cook within 48 hours; after that you are eating starch.",
+    "pairingIdeas": [
+      "Butter and coarse salt",
+      "Chilli, lime and cheese",
+      "Charred in salads",
+      "Chowder with potato"
+    ],
+    "imageUrl": "/produce/sweetcorn.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Zuckermais",
+      "FR": "Maïs doux",
+      "IT": "Mais dolce",
+      "NL": "Suikermaïs",
+      "GB": "Sweetcorn"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          7,
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          8,
+          9
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Great for grilling",
+    "flavorProfile": "Milky and sugar-sweet, with a toasty depth once the kernels catch colour.",
+    "recipeIdea": "Grill husked cobs until spotted black, roll in butter, lime juice, chilli and grated hard cheese.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.3,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "corn"
+    }
+  },
+  {
+    "id": "chard",
+    "nameEN": "Swiss Chard",
+    "nameDE": "Mangold",
+    "category": "vegetable",
+    "monthsInSeason": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The same species as beetroot, bred for leaves instead of roots. Rainbow varieties have stems in yellow, pink and crimson; the colour is all in the stalk and mostly washes out in cooking.",
+    "storageTips": "Separate stalks from leaves before storing. Leaves keep two or three days; stalks last over a week. Both freeze well after a short blanch.",
+    "pairingIdeas": [
+      "Garlic, raisins and pine nuts",
+      "Cream and nutmeg",
+      "Lentils and lemon",
+      "Baked with cheese"
+    ],
+    "imageUrl": "/produce/chard.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Mangold",
+      "FR": "Blette",
+      "IT": "Bietola",
+      "NL": "Snijbiet",
+      "GB": "Swiss Chard"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Cook stalks first",
+    "flavorProfile": "Earthy and mineral like young beetroot leaves, with sweet, celery-crisp stalks.",
+    "recipeIdea": "Fry the diced stalks with garlic for five minutes, add the shredded leaves, then finish with raisins, pine nuts and a squeeze of lemon.",
+    "co2": {
+      "local": 0.3,
+      "imported": 1.2,
+      "importMode": "road",
+      "origin": "Southern Europe"
+    },
+    "illustration": {
+      "archetype": "leafy-loose"
+    }
+  },
+  {
+    "id": "tomato",
+    "nameEN": "Tomato",
+    "nameDE": "Tomate",
+    "category": "vegetable",
+    "monthsInSeason": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "monthsInStorage": [],
+    "description": "The single biggest seasonal-eating win. A tomato ripened on the vine in August tastes nothing like a January one grown under heated glass, and costs roughly a tenth of the carbon.",
+    "storageTips": "Room temperature, stem side down, out of direct sun. Refrigeration destroys the volatile compounds that make a tomato taste of anything — below 12 °C the flavour is gone for good.",
+    "pairingIdeas": [
+      "Basil and olive oil",
+      "Mozzarella and salt",
+      "Bread salad",
+      "Slow-roasted with garlic"
+    ],
+    "imageUrl": "/produce/tomato.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Tomate",
+      "FR": "Tomate",
+      "IT": "Pomodoro",
+      "NL": "Tomaat",
+      "GB": "Tomato"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "IT": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      },
+      "NL": {
+        "monthsInSeason": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": []
+      },
+      "GB": {
+        "monthsInSeason": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "monthsInStorage": []
+      }
+    },
+    "culinaryTag": "Raw in salads",
+    "flavorProfile": "Sweet, acidic and savoury all at once — ripe field fruit has a glutamate depth that greenhouse fruit lacks.",
+    "recipeIdea": "Halve, salt generously, and roast at 140 °C for two hours with garlic and thyme; freeze what you don't eat as winter's pasta sauce.",
+    "co2": {
+      "local": 0.3,
+      "imported": 2.9,
+      "importMode": "greenhouse",
+      "origin": "Netherlands / Spain"
+    },
+    "illustration": {
+      "archetype": "round-fruit"
+    }
+  },
+  {
+    "id": "white-cabbage",
+    "nameEN": "White Cabbage",
+    "nameDE": "Weißkohl",
+    "category": "vegetable",
+    "monthsInSeason": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "monthsInStorage": [
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "description": "The most stored vegetable in Northern Europe and the raw material for sauerkraut, which kept German households in vitamin C through winters long before greenhouses existed.",
+    "storageTips": "A dense head keeps two to three months in a cold cellar or several weeks in the fridge. Do not wash before storing; peel off the outer leaves as they tire.",
+    "pairingIdeas": [
+      "Caraway and bacon",
+      "Fermented as sauerkraut",
+      "Apple and vinegar slaw",
+      "Charred in wedges"
+    ],
+    "imageUrl": "/produce/white-cabbage.png",
+    "region": [
+      "DE",
+      "FR",
+      "IT",
+      "NL",
+      "GB"
+    ],
+    "localNames": {
+      "DE": "Weißkohl",
+      "FR": "Chou blanc",
+      "IT": "Cavolo cappuccio",
+      "NL": "Witte kool",
+      "GB": "White Cabbage"
+    },
+    "regionalSeasons": {
+      "FR": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "IT": {
+        "monthsInSeason": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "monthsInStorage": [
+          4,
+          5
+        ]
+      },
+      "NL": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "GB": {
+        "monthsInSeason": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "monthsInStorage": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    },
+    "culinaryTag": "Ferment or braise",
+    "flavorProfile": "Peppery and sulphurous raw, sweet and mellow braised, sharply sour fermented.",
+    "recipeIdea": "Shred, salt at 2 % of its weight, pack tight in a jar under its own brine and leave two weeks at room temperature — sauerkraut needs nothing else.",
+    "co2": {
+      "local": 0.2,
+      "imported": 0.5,
+      "importMode": "road",
+      "origin": "Poland / Netherlands"
+    },
+    "illustration": {
+      "archetype": "leafy-head"
+    }
+  }
+]

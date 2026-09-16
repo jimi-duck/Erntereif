@@ -1,0 +1,143 @@
+# Stay Local
+
+A seasonal almanac for Germany and its neighbours. Pick a month and a country,
+and see what is actually being harvested nearby — what is coming out of the
+cellar, what starts next month, and what a kilo of the imported alternative
+costs in carbon.
+
+Simple, clean, bold: white space, one neutral grotesque set Swiss, near-black
+green and a single neon accent. All 87 items are photographed on white and cut
+out, so the produce itself supplies the colour and the interface stays quiet.
+
+## What it does
+
+- **Month and country controls.** Twelve-month rail defaulting to the current
+  month, and a country selector for Germany, France, Italy, the Netherlands and
+  the UK. Your country choice is remembered; the month always follows the real
+  calendar on a fresh visit.
+- **A season badge for the month** — peak, high, early, late, or stored and
+  winter stock — derived from how much of the year's range is being harvested
+  and whether the curve is rising or falling.
+- **Produce grouped into printed sections** — in season now, from the cellar,
+  coming next month — each headed in English and in the selected country's own
+  language (`Saison`, `De saison`, `Di stagione`, `In het seizoen`).
+- **Filters** by category (vegetables / fruit / herbs) and by supply: direct
+  harvest versus cellar goods.
+- **Per-item status**: cards only badge what the section heading cannot say —
+  `Just started` and `Last weeks`. The rest is in the detail view.
+- **Detail view** with a twelve-month season ribbon, flavour notes, storage
+  advice, pairing ideas, a recipe suggestion, and a local-versus-imported
+  carbon comparison.
+- **Search across five languages.** Typing `Spargel`, `asperge`, `asparago` or
+  `asparagus` all find the same crop, and searching widens the grid beyond
+  what is in season so you can look up when something comes back.
+
+## Running it
+
+```bash
+npm install
+npm run dev
+```
+
+| Script | What it does |
+| --- | --- |
+| `npm run dev` | Vite dev server |
+| `npm run build` | Typechecks, builds to `dist/` |
+| `npm run preview` | Serves the production build |
+| `npm run typecheck` | TypeScript, no emit |
+| `npm run lint` | oxlint |
+| `npm run illustrations` | Legacy duotone SVG generator — see *The pictures* |
+
+## How it is put together
+
+```
+src/
+  data/seasonalProduce.json   87 items — the single source of truth
+  types/produce.ts            the ProduceItem schema
+  lib/seasonality.ts          calendar resolution, status, month summaries
+  lib/co2.ts                  carbon comparison helpers
+  lib/calendar.ts             months and countries
+  store/useAppStore.ts        Zustand: month, country, filters, selection
+  hooks/                      filtering and modal behaviour
+  components/                 UI
+public/produce/             87 cut-out PNGs, one per item
+```
+
+### The data
+
+`src/data/seasonalProduce.json` holds 48 vegetables, 24 fruits and 15 herbs.
+Each item carries a German reference calendar (`monthsInSeason`,
+`monthsInStorage`) plus `regionalSeasons` overrides wherever the local season
+genuinely differs — Italian asparagus starts in March, British asparagus in
+May, Dutch glasshouse tomatoes run eight months of the year.
+
+Harvest windows follow published agricultural calendars: the
+Bundeszentrum für Ernährung (BZfE) Saisonkalender for Germany, and national
+grower calendars elsewhere. Where an item has no country-specific override, the
+detail view says so rather than presenting German dates as local ones.
+
+Seasons move by a week or two with weather, region and variety. Every window is
+the middle of a range, not a hard edge.
+
+### The carbon figures
+
+`co2` gives indicative kg CO₂e per kg, comparing local and in-season against
+the dominant out-of-season alternative on European shelves. The values sit
+inside ranges published in food-LCA work for the German market — open-field
+regional produce around 0.2–0.4, cold-stored slightly higher, heated glasshouse
+roughly 2–3.5, air-freighted 4–11. Driving comparisons assume 0.12 kg CO₂e per
+car kilometre. They are for comparing options, not for carbon accounting.
+
+### The design
+
+Two inks and a lot of white, now carrying photographs. The tokens live in
+`src/index.css`.
+
+- **Ink** — `#0f2a1e`, a green dark enough to read as black. Type, the carbon
+  panel, the footer.
+- **Neon** — `#3df07a`. One accent, used hard: the rule under the active month,
+  the underline in the headline, the primary button. It no longer appears in
+  the artwork — the produce brings its own colour.
+- **Surfaces** — white page, `#f2f3f0` for picture tiles and quiet blocks.
+- **Data-only accents** — corn yellow and coral, used nowhere except the
+  `From store` badge and the imported-carbon bar.
+- **Type** — Inter throughout, set Swiss: flush left, sentence case, tight
+  negative tracking that increases with size, leading down to `0.9` on the
+  headline, tabular figures everywhere. `.display` sets weight and tracking only
+  — no colour — so the same utility works on white and on the dark blocks.
+  `.label` (10px, uppercase, `0.08em`) indexes the page. Hierarchy comes from
+  size and weight against hairline rules, not from decoration.
+
+### The pictures
+
+Every item is a cut-out photograph on transparent ground, committed to
+`public/produce/<id>.png` at 256px square and a 128-colour palette — about
+18KB each, 1.6MB for the set. They were sliced from a single generated contact
+sheet of all 87 crops, so the whole set shares one light, one camera angle and
+one white ground, which is what keeps it reading as a series.
+
+The source frames are small — roughly 100px per crop — so the layout is built
+to suit them rather than to fight them. Tiles are `object-contain` with 14%
+padding inside a five-column grid, which lands the produce near its native
+size instead of scaling it up to fill the tile. Widening the grid or dropping
+the padding will make them visibly soft; if you want them larger, you need
+larger originals, not more CSS.
+
+The earlier duotone generator is still in the tree at
+`scripts/generate-illustrations.mjs` with its palette, and `npm run
+illustrations` still works — it writes `public/produce/*.svg`, which nothing
+reads any more. It is kept as a way back to the two-ink set, not as part of
+the build.
+
+## Adding produce
+
+Add an object to `src/data/seasonalProduce.json` following the `ProduceItem`
+interface in `src/types/produce.ts` and set `imageUrl` to `/produce/<id>.png`.
+
+Then add the picture: a cut-out on transparent ground, 256px square, the crop
+filling about 94% of the frame, shot square-on against white like the rest of
+the set. Anything with its own background or its own lighting will stand out
+immediately in the grid.
+
+`illustration.archetype` is still on the schema and still feeds the legacy SVG
+generator. Nothing in the app reads it.
