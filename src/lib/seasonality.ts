@@ -73,9 +73,9 @@ export interface StatusPresentation {
 
 export const STATUS_PRESENTATION: Record<SeasonStatus, StatusPresentation> = {
   peak: { label: 'In Saison', className: 'bg-invert text-on-invert', rank: 0 },
-  starting: { label: 'Geht los', className: 'bg-neon-500 text-ink-900', rank: 1 },
-  ending: { label: 'Letzte Wochen', className: 'bg-coral-500 text-white', rank: 2 },
-  stored: { label: 'Aus dem Lager', className: 'bg-corn-500 text-ink-900', rank: 3 },
+  starting: { label: 'Geht los', className: 'bg-neon-500 text-on-accent', rank: 1 },
+  ending: { label: 'Letzte Wochen', className: 'bg-coral-500 text-on-accent', rank: 2 },
+  stored: { label: 'Aus dem Lager', className: 'bg-corn-500 text-on-accent', rank: 3 },
   soon: { label: 'Nächsten Monat', className: 'bg-page text-ink-900 ring-1 ring-ink-900', rank: 4 },
   'out-of-season': {
     label: 'Außer Saison',
@@ -177,9 +177,9 @@ export function summariseMonth(month: Month, country: CountryCode): SeasonSummar
 }
 
 export const SEASON_TONE_CLASS: Record<SeasonTone, string> = {
-  peak: 'bg-neon-500 text-ink-900',
-  high: 'bg-neon-500 text-ink-900',
-  rising: 'bg-corn-500 text-ink-900',
-  fading: 'bg-coral-500 text-white',
+  peak: 'bg-neon-500 text-on-accent',
+  high: 'bg-neon-500 text-on-accent',
+  rising: 'bg-corn-500 text-on-accent',
+  fading: 'bg-coral-500 text-on-accent',
   lean: 'bg-invert text-on-invert',
 }

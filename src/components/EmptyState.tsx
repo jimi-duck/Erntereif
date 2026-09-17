@@ -17,7 +17,7 @@ export function EmptyState({ title, body, onReset }: Props) {
       <button
         type="button"
         onClick={onReset}
-        className="label mt-7 rounded-sm bg-neon-500 px-5 py-3 text-ink-900 transition hover:bg-neon-600"
+        className="label mt-7 rounded-sm bg-neon-500 px-5 py-3 text-on-accent transition hover:bg-neon-600"
       >
         Filter zurücksetzen
       </button>

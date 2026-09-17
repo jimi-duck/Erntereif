@@ -149,9 +149,20 @@ a dark tile becomes a pale smear. So the photographs keep a light plate
 the interface goes dark around them. If you ever darken `plate`, check the
 blackberry.
 
-The dark type ramp is spaced so the weakest tone still clears 4.5:1 on the
-page, because `ink-300` carries 10px uppercase labels — on white it can afford
-to whisper, on near-black it cannot.
+Both type ramps are spaced by contrast rather than by eye, and measured
+against the *lightest* ground a quiet label can land on rather than against the
+page — `surface` in light mode, a season-ribbon cell in dark. That is the worst
+case, and it is the one that has to pass; `ink-300` carries 10px uppercase
+labels, so it is the tone that has to earn its contrast.
+
+Text on a bright accent uses `on-accent`, which never flips. The accents do not
+flip either, so an ink that did would have landed near-white on neon green at
+1.3:1.
+
+A screening of every rendered text node — compositing alpha, walking ancestors
+for the real background, and with transitions disabled so nothing is measured
+mid-fade — passes AA in light and dark, grid and drawer. Worth re-running after
+any colour change: `--color-ink-300` at its old light value read 1.9:1.
 
 ### The pictures
 

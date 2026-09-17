@@ -24,7 +24,7 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
                 className={cn(
                   'label flex h-9 items-center justify-center rounded-sm transition',
                   harvest && 'bg-invert text-on-invert',
-                  stored && 'bg-neon-500 text-ink-900',
+                  stored && 'bg-neon-500 text-on-accent',
                   !harvest && !stored && 'bg-surface text-ink-300',
                   active && 'ring-2 ring-neon-600 ring-offset-2 ring-offset-white',
                 )}

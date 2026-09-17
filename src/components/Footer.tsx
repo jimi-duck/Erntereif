@@ -59,7 +59,7 @@ export function Footer() {
         <div className="mt-14 flex flex-wrap items-center gap-3 border-t border-white/15 pt-6">
           <Wordmark className="size-7" />
           <p className="display text-base lowercase text-white">erntereif</p>
-          <p className="label ml-auto text-white/35">Saisonkalender</p>
+          <p className="label ml-auto text-white/65">Saisonkalender</p>
         </div>
       </div>
     </footer>

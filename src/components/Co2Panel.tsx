@@ -17,15 +17,15 @@ export function Co2Panel({ co2 }: { co2: Co2Profile }) {
   return (
     <section className="rounded-sm bg-block p-5 text-white">
       <div className="flex items-baseline justify-between gap-3">
-        <h3 className="label text-white/50">Klimabilanz</h3>
-        <span className="label rounded-sm bg-neon-500 px-2 py-1 text-ink-900">
+        <h3 className="label text-white/65">Klimabilanz</h3>
+        <span className="label rounded-sm bg-neon-500 px-2 py-1 text-on-accent">
           {savingPercent}% weniger
         </span>
       </div>
 
       <p className="display mt-5 text-[2.5rem] leading-none tracking-[-0.04em] text-white">
         {formatKg(saving)}
-        <span className="ml-2.5 align-middle text-sm font-semibold tracking-normal text-white/50">CO₂e gespart pro kg</span>
+        <span className="ml-2.5 align-middle text-sm font-semibold tracking-normal text-white/65">CO₂e gespart pro kg</span>
       </p>
 
       <dl className="mt-5 space-y-3.5">
@@ -56,7 +56,7 @@ export function Co2Panel({ co2 }: { co2: Co2Profile }) {
       </dl>
 
       <p className="mt-5 flex items-start gap-2 border-t border-white/15 pt-4 text-xs leading-relaxed text-white/70">
-        <Car className="mt-0.5 size-3.5 shrink-0 text-white/40" aria-hidden />
+        <Car className="mt-0.5 size-3.5 shrink-0 text-white/55" aria-hidden />
         <span>
           Ein Kilo von hier zu kaufen spart so viel, wie{' '}
           <strong className="font-bold text-white">{formatCarKm(carKm)}</strong> nicht zu fahren.

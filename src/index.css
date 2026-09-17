@@ -16,13 +16,17 @@
   --font-sans: 'Inter', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, Arial, sans-serif;
   --font-display: 'Inter', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, sans-serif;
 
-  /* Ink — a green so dark it reads as black */
+  /* Ink — a green so dark it reads as black.
+     The ramp is spaced by contrast, not by eye. `ink-300` is the quietest
+     tone that still carries 10px type, so it is measured against `surface`
+     (#f2f3f0) rather than white — the lightest ground a label ever sits on,
+     and therefore the worst case. Against it: 4.6, 5.2, 6.6, 9.2. */
   --color-ink-900: #0f2a1e;
   --color-ink-800: #1b3a2b;
   --color-ink-600: #3f5147;
-  --color-ink-500: #5d6b62;
-  --color-ink-400: #8b958e;
-  --color-ink-300: #b6bdb8;
+  --color-ink-500: #515b54;
+  --color-ink-400: #5e6861;
+  --color-ink-300: #67716a;
 
   /* Surfaces */
   --color-page: #ffffff;
@@ -49,12 +53,19 @@
 
   /* The accent */
   --color-neon-500: #3df07a;
-  --color-neon-600: #21d75f;
+  /* The accent for use *on* a light ground — hover states, the active-month
+     dot. #21d75f read 1.9:1 on white, which is not a text colour. */
+  --color-neon-600: #0a7f33;
   --color-neon-100: #d8fce5;
 
   /* Data-only accents, used sparingly */
   --color-corn-500: #ffd93d;
   --color-coral-500: #ff5a5f;
+
+  /* Type on a bright accent. Never flips — the accents do not flip either, so
+     an ink that did would land white-on-neon in dark mode (1.3:1). Clears AA
+     on all three: 10.2 on neon, 5.0 on coral, 11.1 on corn. */
+  --color-on-accent: #0f2a1e;
 
   --ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
 
@@ -105,16 +116,16 @@
  * reading of "the produce supplies the colour".
  * ------------------------------------------------------------------ */
 :root[data-theme='dark'] {
-  /* An evenly spaced ramp where even the weakest tone clears 4.5:1 on the
-     page. `ink-300` carries 10px uppercase labels, so it is the one that has
-     to earn its contrast — on white it can afford to whisper, on near-black it
-     cannot. Measured against `--color-page`: 4.5, 5.8, 7.5, 9.4, 14.4, 16.4. */
+  /* Spaced the same way, but against `surface-deep` and the ribbon cells
+     rather than the page — a quiet label on a raised dark block has far less
+     to work with than the same label on the page, and that is the case that
+     has to pass. Against a ribbon cell: 4.6, 5.2, 5.8, 6.6. */
   --color-ink-900: #edf2ee;
   --color-ink-800: #dde4de;
-  --color-ink-600: #afbbb3;
-  --color-ink-500: #9ba79f;
-  --color-ink-400: #87938b;
-  --color-ink-300: #737f77;
+  --color-ink-600: #bcc7bf;
+  --color-ink-500: #a5b1a9;
+  --color-ink-400: #9ba79f;
+  --color-ink-300: #919d95;
 
   --color-page: #0f1412;
   --color-panel: #171f1b;
