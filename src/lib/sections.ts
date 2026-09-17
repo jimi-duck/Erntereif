@@ -1,4 +1,5 @@
-import type { CountryCode, ResolvedProduce, SeasonStatus } from '@/types/produce'
+import { CATEGORY_LABEL, CATEGORY_ORDER } from '@/lib/seasonality'
+import type { Category, CountryCode, ResolvedProduce, SeasonStatus } from '@/types/produce'
 
 export type SectionKey = 'harvest' | 'storage' | 'soon' | 'out'
 
@@ -46,14 +47,35 @@ export const SECTIONS: SectionDefinition[] = [
   },
 ]
 
+/** A type block inside a section: vegetables, fruit or herbs. */
+export interface ProduceGroup {
+  category: Category
+  label: string
+  items: ResolvedProduce[]
+}
+
 export interface ProduceSection extends SectionDefinition {
   items: ResolvedProduce[]
+  /**
+   * The same items, blocked by type. A section can run to sixty-odd crops, and
+   * a grid that long needs a shape — so it is broken into vegetables, then
+   * fruit, then herbs, each alphabetical and each headed with its count.
+   */
+  groups: ProduceGroup[]
 }
 
 /** Split a resolved list into the printed sections, dropping any that are empty. */
 export function groupIntoSections(list: ResolvedProduce[]): ProduceSection[] {
-  return SECTIONS.map((section) => ({
-    ...section,
-    items: list.filter((r) => section.statuses.includes(r.status)),
-  })).filter((section) => section.items.length > 0)
+  return SECTIONS.map((section) => {
+    const items = list.filter((r) => section.statuses.includes(r.status))
+    return {
+      ...section,
+      items,
+      groups: CATEGORY_ORDER.map((category) => ({
+        category,
+        label: CATEGORY_LABEL[category],
+        items: items.filter((r) => r.item.category === category),
+      })).filter((group) => group.items.length > 0),
+    }
+  }).filter((section) => section.items.length > 0)
 }

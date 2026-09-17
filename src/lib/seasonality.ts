@@ -90,6 +90,12 @@ export const CATEGORY_LABEL: Record<Category, string> = {
   herb: 'Kräuter',
 }
 
+/**
+ * Vegetables, then fruit, then herbs — the order a grower's calendar prints,
+ * and the order the grid blocks them into.
+ */
+export const CATEGORY_ORDER: Category[] = ['vegetable', 'fruit', 'herb']
+
 /** Every item grown in the given country, resolved for the given month. */
 export function resolveAll(month: Month, country: CountryCode): ResolvedProduce[] {
   return PRODUCE.filter((item) => item.region.includes(country)).map((item) =>

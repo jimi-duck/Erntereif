@@ -40,16 +40,35 @@ export function ProduceSections({ sections, country, onSelect }: Props) {
             </div>
             <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-400">{section.blurb}</p>
 
-            <div className="mt-7 grid grid-cols-3 gap-x-3 gap-y-6 sm:grid-cols-4 sm:gap-x-4 md:grid-cols-5 lg:grid-cols-6">
-              {section.items.map((resolved, i) => (
-                <ProduceCard
-                  key={resolved.item.id}
-                  resolved={resolved}
-                  index={offset + i}
-                  onSelect={onSelect}
-                />
-              ))}
-            </div>
+            {/* A section can run to sixty crops, so it is blocked by type. With
+                only one type in it — under a category filter, or in a thin
+                month — the heading would just restate the filter, so it goes. */}
+            {section.groups.map((group, groupIndex) => {
+              const groupOffset =
+                offset + section.groups.slice(0, groupIndex).reduce((n, g) => n + g.items.length, 0)
+
+              return (
+                <div key={group.category} className={groupIndex === 0 ? 'mt-7' : 'mt-10'}>
+                  {section.groups.length > 1 && (
+                    <div className="flex items-baseline gap-2 border-t border-line pb-4 pt-2.5">
+                      <h3 className="label text-ink-500">{group.label}</h3>
+                      <span className="label tabular-nums text-ink-300">{group.items.length}</span>
+                    </div>
+                  )}
+
+                  <div className="grid grid-cols-3 gap-x-3 gap-y-6 sm:grid-cols-4 sm:gap-x-4 md:grid-cols-5 lg:grid-cols-6">
+                    {group.items.map((resolved, i) => (
+                      <ProduceCard
+                        key={resolved.item.id}
+                        resolved={resolved}
+                        index={groupOffset + i}
+                        onSelect={onSelect}
+                      />
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
           </section>
         )
       })}

@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { CATEGORY_LABEL, STATUS_PRESENTATION, resolveAll } from '@/lib/seasonality'
+import { CATEGORY_LABEL, resolveAll } from '@/lib/seasonality'
 import { useAppStore } from '@/store/useAppStore'
 import type { ResolvedProduce } from '@/types/produce'
 
@@ -42,10 +42,10 @@ export function useVisibleProduce(): ResolvedProduce[] {
     else if (supply === 'storage') list = list.filter((r) => r.supply === 'storage')
     else if (!query) list = list.filter((r) => r.supply !== 'none' || r.status === 'soon')
 
-    return list.sort(
-      (a, b) =>
-        STATUS_PRESENTATION[a.status].rank - STATUS_PRESENTATION[b.status].rank ||
-        a.localName.localeCompare(b.localName, 'de'),
-    )
+    // Alphabetical, and nothing else. The grid's structure is the section it
+    // sits in and the type block inside that, both of which are printed on the
+    // page — so sorting by status here would restart the alphabet part way
+    // down a block for a reason the reader cannot see.
+    return list.sort((a, b) => a.localName.localeCompare(b.localName, 'de'))
   }, [month, country, category, supply, search])
 }
