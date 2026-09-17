@@ -1,3 +1,4 @@
+import { ArrowUpRight } from 'lucide-react'
 import { assetUrl } from '@/lib/assets'
 import { cn } from '@/lib/cn'
 import { STATUS_PRESENTATION } from '@/lib/seasonality'
@@ -47,18 +48,31 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
             {presentation.label}
           </span>
         )}
+
+        {/* The eye lands bottom-right after scanning a tile, so that is where
+            the way in goes. Hidden until the card is hovered or focused —
+            eighty-seven permanent arrows would be noise, not signal. */}
+        <span
+          aria-hidden
+          className="absolute bottom-2 right-2 flex size-6 items-center justify-center rounded-full bg-ink-900 text-white opacity-0 transition duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+        >
+          <ArrowUpRight className="size-3.5" />
+        </span>
       </div>
 
+      {/* Three things and no more: the picture, the name, and what to do with
+          it. Every line is capped, because one crop with a long name or a long
+          tag would otherwise set the row height for all six. */}
       <div className="flex flex-1 flex-col pt-2.5">
-        <h3 className="display hyphenate text-[0.8rem] leading-[1.15] text-ink-900 transition group-hover:text-neon-600">
+        {/* h4: the section heading is h2 and the type block above this card is
+            h3, so a card name sits one level below that. */}
+        <h4 className="display hyphenate line-clamp-2 text-[0.8rem] leading-[1.15] text-ink-900 transition group-hover:text-neon-600">
           {localName}
-        </h3>
+        </h4>
         {showGerman && (
-          <p className="hyphenate mt-0.5 text-[0.72rem] leading-tight text-ink-400">{item.nameDE}</p>
+          <p className="mt-0.5 truncate text-[0.72rem] leading-tight text-ink-400">{item.nameDE}</p>
         )}
-        <p className="label mt-auto pt-2 text-[9px] tracking-[0.07em] text-ink-300">
-          {item.culinaryTag}
-        </p>
+        <p className="label mt-auto truncate pt-2 text-ink-300">{item.culinaryTag}</p>
       </div>
     </button>
   )

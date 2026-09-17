@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { Search, Sprout, Warehouse, X } from 'lucide-react'
 import { cn } from '@/lib/cn'
 import { useAppStore, type CategoryFilter, type SupplyFilter } from '@/store/useAppStore'
@@ -22,9 +23,31 @@ interface Props {
 
 export function FilterBar({ resultCount }: Props) {
   const { category, supply, search, setCategory, setSupply, setSearch } = useAppStore()
+  const barRef = useRef<HTMLDivElement>(null)
+
+  /**
+   * Publish the height of the sticky chrome as `--chrome-h`.
+   *
+   * This bar is the bottom of the stack and it reflows — the filters wrap on a
+   * narrow window — so anything that wants to stick underneath it cannot use a
+   * fixed number. Its own `top` plus its own height is that number, measured
+   * rather than guessed, and kept in step as the window resizes.
+   */
+  useEffect(() => {
+    const el = barRef.current
+    if (!el) return
+    const sync = () => {
+      const top = parseFloat(getComputedStyle(el).top) || 0
+      document.documentElement.style.setProperty('--chrome-h', `${Math.round(top + el.offsetHeight)}px`)
+    }
+    sync()
+    const observer = new ResizeObserver(sync)
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
 
   return (
-    <div className="sticky top-[61px] z-20 border-y border-line bg-white/95 backdrop-blur-md">
+    <div ref={barRef} className="sticky top-[61px] z-20 border-y border-line bg-white/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2.5 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2.5">
           <div role="group" aria-label="Nach Kategorie filtern" className="flex items-center gap-4">

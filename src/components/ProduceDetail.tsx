@@ -29,7 +29,14 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
   const grownIn = COUNTRIES.filter((c) => item.region.includes(c.code))
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center sm:items-center sm:p-6" role="presentation">
+    // A drawer, not a centred modal: anchored to the right edge so the grid
+    // stays visible and in place behind it, and the reader keeps their spot in
+    // a list that can run to sixty items. On a phone there is no room beside
+    // it, so it stays a bottom sheet.
+    <div
+      className="fixed inset-0 z-50 flex items-end sm:items-stretch sm:justify-end"
+      role="presentation"
+    >
       <div
         className="animate-overlay-in absolute inset-0 bg-ink-900/60"
         onClick={handleClose}
@@ -41,7 +48,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="produce-detail-title"
-        className="animate-slide-up relative flex max-h-[92vh] w-full flex-col overflow-hidden rounded-t-sm bg-white shadow-2xl sm:max-h-[88vh] sm:max-w-3xl sm:rounded-sm sm:animate-scale-in"
+        className="animate-slide-up relative flex max-h-[92vh] w-full flex-col overflow-hidden rounded-t-sm bg-white shadow-2xl sm:max-h-none sm:h-full sm:max-w-xl sm:rounded-none sm:animate-drawer-in lg:max-w-2xl"
       >
         <button
           type="button"
@@ -53,13 +60,15 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
         </button>
 
         <div className="overflow-y-auto overscroll-contain">
-          <div className="flex flex-col sm:flex-row">
+          <div className="flex flex-col">
+            {/* A band across the top. The drawer is too narrow to seat the
+                photograph beside the text without squeezing both. */}
             <img
               src={assetUrl(item.imageUrl)}
               alt=""
               width={256}
               height={256}
-              className="h-44 w-full bg-surface object-contain p-6 sm:aspect-square sm:h-auto sm:w-56 sm:shrink-0 sm:p-10"
+              className="h-44 w-full bg-surface object-contain p-6 sm:h-52 sm:p-7"
             />
             <div className="min-w-0 flex-1 p-5 sm:p-7">
               <div className="flex flex-wrap items-center gap-2">
