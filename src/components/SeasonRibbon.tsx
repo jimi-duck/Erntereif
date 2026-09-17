@@ -23,7 +23,7 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
                 title={`${m.long}: ${state}`}
                 className={cn(
                   'label flex h-9 items-center justify-center rounded-sm transition',
-                  harvest && 'bg-ink-900 text-white',
+                  harvest && 'bg-invert text-on-invert',
                   stored && 'bg-neon-500 text-ink-900',
                   !harvest && !stored && 'bg-surface text-ink-300',
                   active && 'ring-2 ring-neon-600 ring-offset-2 ring-offset-white',
@@ -40,7 +40,7 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
       </ul>
       <div className="label mt-3 flex flex-wrap gap-x-4 gap-y-1.5 text-ink-400">
         <span className="flex items-center gap-1.5">
-          <span className="size-2.5 rounded-sm bg-ink-900" aria-hidden /> Geerntet
+          <span className="size-2.5 rounded-sm bg-invert" aria-hidden /> Geerntet
         </span>
         <span className="flex items-center gap-1.5">
           <span className="size-2.5 rounded-sm bg-neon-500" aria-hidden /> Aus dem Lager

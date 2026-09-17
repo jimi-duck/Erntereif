@@ -38,7 +38,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
       role="presentation"
     >
       <div
-        className="animate-overlay-in absolute inset-0 bg-ink-900/60"
+        className="animate-overlay-in absolute inset-0 bg-scrim/60"
         onClick={handleClose}
         aria-hidden
       />
@@ -48,13 +48,13 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
         role="dialog"
         aria-modal="true"
         aria-labelledby="produce-detail-title"
-        className="animate-slide-up relative flex max-h-[92vh] w-full flex-col overflow-hidden rounded-t-sm bg-white shadow-2xl sm:max-h-none sm:h-full sm:max-w-xl sm:rounded-none sm:animate-drawer-in lg:max-w-2xl"
+        className="animate-slide-up relative flex max-h-[92vh] w-full flex-col overflow-hidden rounded-t-sm bg-panel shadow-2xl sm:max-h-none sm:h-full sm:max-w-xl sm:rounded-none sm:animate-drawer-in lg:max-w-2xl"
       >
         <button
           type="button"
           onClick={handleClose}
           aria-label="Schließen"
-          className="absolute right-3 top-3 z-10 flex size-9 items-center justify-center rounded-sm bg-white text-ink-900 shadow-sm transition hover:bg-surface-deep"
+          className="absolute right-3 top-3 z-10 flex size-9 items-center justify-center rounded-sm bg-panel text-ink-900 shadow-sm transition hover:bg-surface-deep"
         >
           <X className="size-4" aria-hidden />
         </button>
@@ -68,7 +68,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
               alt=""
               width={256}
               height={256}
-              className="h-44 w-full bg-surface object-contain p-6 sm:h-52 sm:p-7"
+              className="h-44 w-full bg-plate object-contain p-6 sm:h-52 sm:p-7"
             />
             <div className="min-w-0 flex-1 p-5 sm:p-7">
               <div className="flex flex-wrap items-center gap-2">

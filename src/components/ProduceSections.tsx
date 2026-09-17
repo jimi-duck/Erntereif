@@ -54,7 +54,7 @@ export function ProduceSections({ sections, country, onSelect }: Props) {
                     // block you are in, and can skip one you do not want.
                     // Phones keep it static: a third sticky layer would eat
                     // most of the screen.
-                    <div className="flex items-baseline gap-2 border-t border-line bg-white pb-4 pt-2.5 sm:sticky sm:top-[var(--chrome-h)] sm:z-10">
+                    <div className="flex items-baseline gap-2 border-t border-line bg-page pb-4 pt-2.5 sm:sticky sm:top-[var(--chrome-h)] sm:z-10">
                       <h3 className="label text-ink-500">{group.label}</h3>
                       <span className="label tabular-nums text-ink-300">{group.items.length}</span>
                     </div>

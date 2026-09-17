@@ -47,7 +47,7 @@ export function FilterBar({ resultCount }: Props) {
   }, [])
 
   return (
-    <div ref={barRef} className="sticky top-[61px] z-20 border-y border-line bg-white/95 backdrop-blur-md">
+    <div ref={barRef} className="sticky top-[61px] z-20 border-y border-line bg-page/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2.5 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2.5">
           <div role="group" aria-label="Nach Kategorie filtern" className="flex items-center gap-4">
@@ -88,7 +88,7 @@ export function FilterBar({ resultCount }: Props) {
                   className={cn(
                     'label flex items-center gap-1.5 rounded-sm border px-2.5 py-1.5 transition',
                     selected
-                      ? 'border-ink-900 bg-ink-900 text-white'
+                      ? 'border-invert bg-invert text-on-invert'
                       : 'border-line text-ink-400 hover:border-ink-900 hover:text-ink-900',
                   )}
                 >
@@ -111,7 +111,7 @@ export function FilterBar({ resultCount }: Props) {
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Spargel, fraise, kale…"
             aria-label="Suchen"
-            className="w-full rounded-sm border border-line bg-surface py-2 pl-9 pr-8 text-sm text-ink-900 placeholder:text-ink-400 transition focus:border-ink-900 focus:bg-white focus:outline-none focus:ring-2 focus:ring-neon-500"
+            className="w-full rounded-sm border border-line bg-surface py-2 pl-9 pr-8 text-sm text-ink-900 placeholder:text-ink-400 transition focus:border-ink-900 focus:bg-panel focus:outline-none focus:ring-2 focus:ring-neon-500"
           />
           {search && (
             <button

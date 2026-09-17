@@ -26,7 +26,7 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
       style={{ animationDelay: `${Math.min(index, 14) * 24}ms` }}
       className="group animate-fade-up flex flex-col text-left"
     >
-      <div className="relative overflow-hidden rounded-sm bg-surface">
+      <div className="relative overflow-hidden rounded-sm bg-plate">
         {/* Photographs are 256px originals, so they sit inside the tile at
             roughly native size rather than being scaled up to fill it. */}
         <img
@@ -54,7 +54,7 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
             eighty-seven permanent arrows would be noise, not signal. */}
         <span
           aria-hidden
-          className="absolute bottom-2 right-2 flex size-6 items-center justify-center rounded-full bg-ink-900 text-white opacity-0 transition duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+          className="absolute bottom-2 right-2 flex size-6 items-center justify-center rounded-full bg-invert text-on-invert opacity-0 transition duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
         >
           <ArrowUpRight className="size-3.5" />
         </span>

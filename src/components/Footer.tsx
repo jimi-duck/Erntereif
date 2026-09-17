@@ -41,7 +41,7 @@ const NOTES = [
 
 export function Footer() {
   return (
-    <footer className="mt-24 bg-ink-900 text-white">
+    <footer className="mt-24 bg-block text-white">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
         <p className="display-black max-w-3xl text-[2.25rem] leading-[0.88] text-white sm:text-[4rem]">
           Iss, was <span className="text-neon-500">nebenan wächst</span>.
@@ -58,7 +58,7 @@ export function Footer() {
 
         <div className="mt-14 flex flex-wrap items-center gap-3 border-t border-white/15 pt-6">
           <Wordmark className="size-7" />
-          <p className="display text-base lowercase text-white">stay local</p>
+          <p className="display text-base lowercase text-white">erntereif</p>
           <p className="label ml-auto text-white/35">Saisonkalender</p>
         </div>
       </div>

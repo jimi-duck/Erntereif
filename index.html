@@ -9,13 +9,44 @@
       name="description"
       content="Saisonkalender für Deutschland und Europa. Was diesen Monat geerntet wird, was aus dem Lager kommt und wie viel CO₂ du damit sparst."
     />
-    <title>Stay Local — Saisonkalender für Obst und Gemüse</title>
+    <title>Erntereif — Saisonkalender für Obst und Gemüse</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      // Resolve the theme before first paint, or a reader who chose dark gets a
+      // white flash on every load. Kept deliberately tiny and inline: an
+      // external file would be a render-blocking round trip to avoid a flash.
+      // The key matches THEME_KEY in src/lib/theme.ts.
+      ;(function () {
+        try {
+          // Carry the choice over from the key used before the rename, once.
+          var legacy = localStorage.getItem('stay-local-theme')
+          if (legacy !== null) {
+            if (localStorage.getItem('erntereif-theme') === null) {
+              localStorage.setItem('erntereif-theme', legacy)
+            }
+            localStorage.removeItem('stay-local-theme')
+          }
+          var stored = localStorage.getItem('erntereif-theme')
+          var theme =
+            stored === 'light' || stored === 'dark'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light'
+          document.documentElement.dataset.theme = theme
+          if (theme === 'dark') {
+            document.querySelector('meta[name="theme-color"]').content = '#0f1412'
+          }
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light'
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

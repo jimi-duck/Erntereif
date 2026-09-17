@@ -1,4 +1,7 @@
-# Stay Local
+# Erntereif
+
+*Erntereif* — ripe for harvest. The name is the whole product: it answers
+*when*, not *what*.
 
 A seasonal almanac for Germany and its neighbours. Pick a month and a country,
 and see what is actually being harvested nearby — what is coming out of the
@@ -122,6 +125,33 @@ Two inks and a lot of white, now carrying photographs. The tokens live in
 - **German breaks** — compounds like `Frühlingszwiebel` are long and the grid
   is tight, so card names carry `.hyphenate` and the document is `lang="de"`,
   which lets the browser hyphenate them properly.
+
+### Light and dark
+
+`data-theme` on `<html>` is always a resolved `light` or `dark` — never
+"system" — so the CSS needs one selector and no media query. A small inline
+script in `index.html` sets it before first paint; `src/lib/theme.ts` keeps it
+in step afterwards and only stores a choice that *disagrees* with the OS, so
+anyone who never disagrees keeps following their system setting forever.
+
+Colours are semantic for this reason: `page` is the paper, `panel` is anything
+raised off it, `plate` is the square a photograph sits on, `ink-*` is the type
+ramp, `invert` is a chip that has to shout, `block` is a large dark slab.
+Nothing hard-codes white.
+
+**`plate` does not flip, and must not.** The cut-outs are soft-alpha almost
+everywhere — `blackberry.png` has five fully opaque pixels out of 45,149 — and
+the colour under that partial alpha still carries the near-white shadow they
+were shot with, around 230 of 255 at the edges. On any ground darker than
+roughly `#e6e8e2` every item picks up a visible grey halo; a dark blackberry on
+a dark tile becomes a pale smear. So the photographs keep a light plate
+(`#eceee8` in dark, a touch dimmed to take the glare off a grid of them) and
+the interface goes dark around them. If you ever darken `plate`, check the
+blackberry.
+
+The dark type ramp is spaced so the weakest tone still clears 4.5:1 on the
+page, because `ink-300` carries 10px uppercase labels — on white it can afford
+to whisper, on near-black it cannot.
 
 ### The pictures
 

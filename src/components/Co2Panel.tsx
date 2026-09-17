@@ -15,7 +15,7 @@ export function Co2Panel({ co2 }: { co2: Co2Profile }) {
   const scale = (value: number) => `${Math.max((value / co2.imported) * 100, 4)}%`
 
   return (
-    <section className="rounded-sm bg-ink-900 p-5 text-white">
+    <section className="rounded-sm bg-block p-5 text-white">
       <div className="flex items-baseline justify-between gap-3">
         <h3 className="label text-white/50">Klimabilanz</h3>
         <span className="label rounded-sm bg-neon-500 px-2 py-1 text-ink-900">

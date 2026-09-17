@@ -1,6 +1,7 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 import { currentMonth } from '@/lib/calendar'
+import { adoptLegacyKey } from '@/lib/storage'
 import type { Category, CountryCode, Month } from '@/types/produce'
 
 export type CategoryFilter = Category | 'all'
@@ -25,6 +26,9 @@ interface AppState {
   clearFilters: () => void
 }
 
+// Before `persist` reads anything. See `adoptLegacyKey`.
+adoptLegacyKey('stay-local', 'erntereif')
+
 export const useAppStore = create<AppState>()(
   persist(
     (set) => ({
@@ -46,7 +50,7 @@ export const useAppStore = create<AppState>()(
       clearFilters: () => set({ category: 'all', supply: 'all', search: '' }),
     }),
     {
-      name: 'stay-local',
+      name: 'erntereif',
       // The month should follow the calendar on each visit; only the choice of
       // country is worth remembering between sessions.
       partialize: (state) => ({ country: state.country }),

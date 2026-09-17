@@ -1,12 +1,16 @@
 @import 'tailwindcss';
 
 /* ------------------------------------------------------------------ *
- * Stay Local — design tokens
+ * Erntereif — design tokens
  *
  * Simple, clean, bold: white space, one grotesque, near-black green ink
- * and a single neon green accent. The two illustration inks live in
- * `scripts/palette.mjs` — keep them in step with `--color-ink-900` and
- * `--color-neon-500`.
+ * and a single neon green accent.
+ *
+ * Every colour here is semantic, because the whole set flips for dark mode
+ * further down. `page` is the paper, `panel` is anything raised off it,
+ * `plate` is the square a photograph sits on, `ink-*` is the type ramp,
+ * `invert` is a chip that has to shout, `block` is a large dark slab.
+ * Nothing hard-codes white, or dark mode cannot happen.
  * ------------------------------------------------------------------ */
 @theme {
   --font-sans: 'Inter', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, Arial, sans-serif;
@@ -21,9 +25,27 @@
   --color-ink-300: #b6bdb8;
 
   /* Surfaces */
+  --color-page: #ffffff;
+  --color-panel: #ffffff;
   --color-surface: #f2f3f0;
   --color-surface-deep: #e7e9e5;
   --color-line: #e2e5e0;
+
+  /* The square a photograph sits on. It stays light in both themes — see the
+     dark block below for why it has to. */
+  --color-plate: #f2f3f0;
+
+  /* A chip that has to shout: the active filter, the peak badge, a harvested
+     month. This one really does invert. */
+  --color-invert: #0f2a1e;
+  --color-on-invert: #ffffff;
+
+  /* A large slab — the carbon panel, the footer. Dark in both themes, so the
+     white type sitting on it never has to change. */
+  --color-block: #0f2a1e;
+
+  /* The wash behind the drawer. Never flips; a scrim is dark by definition. */
+  --color-scrim: #0f2a1e;
 
   /* The accent */
   --color-neon-500: #3df07a;
@@ -67,6 +89,70 @@
   }
 }
 
+/* ------------------------------------------------------------------ *
+ * Dark mode
+ *
+ * Driven only by `data-theme` on <html>, which the boot script in index.html
+ * resolves from the stored choice or the OS before first paint. Keeping the
+ * media query out of here means one copy of these values instead of two.
+ *
+ * The one thing that does not flip is `plate`. The produce photographs are
+ * cut-outs whose soft alpha still carries the near-white shadow they were
+ * shot with — around 230 of 255 at the edges — so on anything darker than
+ * about #e6e8e2 every item picks up a visible grey halo. A dark blackberry
+ * on a dark tile becomes a pale smear. So the photographs keep their light
+ * plate and the interface goes dark around them, which is also the honest
+ * reading of "the produce supplies the colour".
+ * ------------------------------------------------------------------ */
+:root[data-theme='dark'] {
+  /* An evenly spaced ramp where even the weakest tone clears 4.5:1 on the
+     page. `ink-300` carries 10px uppercase labels, so it is the one that has
+     to earn its contrast — on white it can afford to whisper, on near-black it
+     cannot. Measured against `--color-page`: 4.5, 5.8, 7.5, 9.4, 14.4, 16.4. */
+  --color-ink-900: #edf2ee;
+  --color-ink-800: #dde4de;
+  --color-ink-600: #afbbb3;
+  --color-ink-500: #9ba79f;
+  --color-ink-400: #87938b;
+  --color-ink-300: #737f77;
+
+  --color-page: #0f1412;
+  --color-panel: #171f1b;
+  --color-surface: #1a2320;
+  --color-surface-deep: #232d28;
+  /* Hairlines do the structural work in this design, so they have to stay
+     visible once the page is dark rather than dissolving into it. */
+  --color-line: #39463f;
+
+  /* Dimmed just enough to take the glare off a grid of them, still light
+     enough to swallow the shadow baked into the cut-outs. */
+  --color-plate: #eceee8;
+
+  --color-invert: #edf2ee;
+  --color-on-invert: #0f1412;
+
+  /* Lifted off the page rather than inverted, so it still reads as a slab.
+     It has to separate from `panel` as well as from `page`, because the carbon
+     panel sits inside the drawer — at #1d2823 the two were within 1.1:1 of
+     each other and the slab simply vanished. */
+  --color-block: #303f36;
+
+  /* The accent needs no help on white; on near-black it wants opening up. */
+  --color-neon-600: #5cf58f;
+  --color-neon-100: #113a22;
+
+  /* The two data-only accents, pulled back from fluorescent. */
+  --color-corn-500: #e6c33c;
+  --color-coral-500: #ff6f73;
+}
+
+:root {
+  color-scheme: light;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
 @layer base {
   html {
     -webkit-text-size-adjust: 100%;
@@ -74,7 +160,7 @@
   }
 
   body {
-    @apply bg-white text-ink-600 font-sans antialiased;
+    @apply bg-page text-ink-600 font-sans antialiased;
   }
 
   :focus-visible {

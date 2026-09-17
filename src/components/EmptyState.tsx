@@ -9,7 +9,7 @@ interface Props {
 export function EmptyState({ title, body, onReset }: Props) {
   return (
     <div className="animate-fade-up flex flex-col items-start rounded-sm bg-surface px-7 py-16">
-      <span className="flex size-11 items-center justify-center rounded-sm bg-ink-900 text-neon-500">
+      <span className="flex size-11 items-center justify-center rounded-sm bg-block text-neon-500">
         <SearchX className="size-5" aria-hidden />
       </span>
       <h2 className="display mt-5 max-w-md text-2xl leading-tight tracking-[-0.03em] text-ink-900">{title}</h2>
