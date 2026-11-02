@@ -24,9 +24,9 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
                 className={cn(
                   'label flex h-9 items-center justify-center rounded-sm transition',
                   harvest && 'bg-invert text-on-invert',
-                  stored && 'bg-neon-500 text-on-accent',
+                  stored && 'bg-sage-500 text-on-accent',
                   !harvest && !stored && 'bg-surface text-ink-300',
-                  active && 'ring-2 ring-neon-600 ring-offset-2 ring-offset-white',
+                  active && 'ring-2 ring-sage-600 ring-offset-2 ring-offset-page',
                 )}
               >
                 <span aria-hidden>{m.initial}</span>
@@ -43,7 +43,7 @@ export function SeasonRibbon({ months, activeMonth }: Props) {
           <span className="size-2.5 rounded-sm bg-invert" aria-hidden /> Geerntet
         </span>
         <span className="flex items-center gap-1.5">
-          <span className="size-2.5 rounded-sm bg-neon-500" aria-hidden /> Aus dem Lager
+          <span className="size-2.5 rounded-sm bg-sage-500" aria-hidden /> Aus dem Lager
         </span>
         <span className="flex items-center gap-1.5">
           <span className="size-2.5 rounded-sm bg-surface" aria-hidden /> Nicht von hier

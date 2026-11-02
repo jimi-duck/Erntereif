@@ -13,68 +13,54 @@
  * Nothing hard-codes white, or dark mode cannot happen.
  * ------------------------------------------------------------------ */
 @theme {
-  --font-sans: 'Inter', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, Arial, sans-serif;
-  --font-display: 'Inter', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter Tight', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, Arial, sans-serif;
+  --font-display: 'Fraunces', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
 
-  /* Ink — a green so dark it reads as black.
-     The ramp is spaced by contrast, not by eye. `ink-300` is the quietest
-     tone that still carries 10px type, so it is measured against `surface`
-     (#f2f3f0) rather than white — the lightest ground a label ever sits on,
-     and therefore the worst case. Against it: 4.6, 5.2, 6.6, 9.2. */
-  --color-ink-900: #0f2a1e;
-  --color-ink-800: #1b3a2b;
-  --color-ink-600: #3f5147;
-  --color-ink-500: #515b54;
-  --color-ink-400: #5e6861;
-  --color-ink-300: #67716a;
+  /* Ink ramp, spaced by contrast on paper and on `surface`. */
+  --color-ink-900: var(--ink);
+  --color-ink-800: #2c3a30;
+  --color-ink-600: #435147;
+  --color-ink-500: #4f5d52;
+  --color-ink-400: #5a665c;
+  --color-ink-300: #636e65;
 
   /* Surfaces */
-  --color-page: #ffffff;
-  --color-panel: #ffffff;
-  --color-surface: #f2f3f0;
-  --color-surface-deep: #e7e9e5;
-  --color-line: #e2e5e0;
+  --color-page: var(--paper);
+  --color-panel: var(--card);
+  --color-surface: var(--paper-deep);
+  --color-surface-deep: var(--paper-deeper);
+  --color-line: var(--hairline);
+  --color-plate: var(--plate);
 
-  /* The square a photograph sits on. It stays light in both themes — see the
-     dark block below for why it has to. */
-  --color-plate: #f2f3f0;
+  --color-invert: var(--ink);
+  --color-on-invert: var(--paper);
+  --color-block: var(--ink);
+  --color-scrim: var(--ink);
 
-  /* A chip that has to shout: the active filter, the peak badge, a harvested
-     month. This one really does invert. */
-  --color-invert: #0f2a1e;
-  --color-on-invert: #ffffff;
-
-  /* A large slab — the carbon panel, the footer. Dark in both themes, so the
-     white type sitting on it never has to change. */
-  --color-block: #0f2a1e;
-
-  /* The wash behind the drawer. Never flips; a scrim is dark by definition. */
-  --color-scrim: #0f2a1e;
-
-  /* The accent */
-  --color-neon-500: #3df07a;
-  /* The accent for use *on* a light ground — hover states, the active-month
-     dot. #21d75f read 1.9:1 on white, which is not a text colour. */
-  --color-neon-600: #0a7f33;
-  --color-neon-100: #d8fce5;
-
-  /* Data-only accents, used sparingly */
-  --color-corn-500: #ffd93d;
-  --color-coral-500: #ff5a5f;
-
-  /* Type on a bright accent. Never flips — the accents do not flip either, so
-     an ink that did would land white-on-neon in dark mode (1.3:1). Clears AA
-     on all three: 10.2 on neon, 5.0 on coral, 11.1 on corn. */
-  --color-on-accent: #0f2a1e;
+  /* Palette */
+  --color-sage-500: var(--sage);
+  --color-sage-600: var(--sage-deep);
+  --color-sage-100: var(--sage-wash);
+  --color-sage-300: var(--sage-light);
+  --color-ochre-500: var(--ochre);
+  --color-terracotta-500: var(--terracotta);
+  --color-on-accent: var(--paper);
 
   --ease-organic: cubic-bezier(0.22, 1, 0.36, 1);
 
   --animate-fade-up: fade-up 0.4s var(--ease-organic) both;
+  /* `backwards`, not `both`: a finished opacity animation that still fills
+     forwards keeps a stacking context alive and breaks mix-blend-mode. */
+  --animate-fade-in: fade-in 0.5s ease-out backwards;
   --animate-scale-in: scale-in 0.26s var(--ease-organic) both;
   --animate-slide-up: slide-up 0.32s var(--ease-organic) both;
   --animate-drawer-in: drawer-in 0.34s var(--ease-organic) both;
   --animate-overlay-in: overlay-in 0.2s ease-out both;
 
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
   @keyframes fade-up {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
@@ -101,67 +87,60 @@
 }
 
 /* ------------------------------------------------------------------ *
- * Dark mode
+ * Palette — a botanical almanac
  *
- * Driven only by `data-theme` on <html>, which the boot script in index.html
- * resolves from the stored choice or the OS before first paint. Keeping the
- * media query out of here means one copy of these values instead of two.
- *
- * The one thing that does not flip is `plate`. The produce photographs are
- * cut-outs whose soft alpha still carries the near-white shadow they were
- * shot with — around 230 of 255 at the edges — so on anything darker than
- * about #e6e8e2 every item picks up a visible grey halo. A dark blackberry
- * on a dark tile becomes a pale smear. So the photographs keep their light
- * plate and the interface goes dark around them, which is also the honest
- * reading of "the produce supplies the colour".
+ * Warm paper, ink-green type, sage and terracotta. Everything else in the
+ * app reads these through the semantic tokens above.
  * ------------------------------------------------------------------ */
-:root[data-theme='dark'] {
-  /* Spaced the same way, but against `surface-deep` and the ribbon cells
-     rather than the page — a quiet label on a raised dark block has far less
-     to work with than the same label on the page, and that is the case that
-     has to pass. Against a ribbon cell: 4.6, 5.2, 5.8, 6.6. */
-  --color-ink-900: #edf2ee;
-  --color-ink-800: #dde4de;
-  --color-ink-600: #bcc7bf;
-  --color-ink-500: #a5b1a9;
-  --color-ink-400: #9ba79f;
-  --color-ink-300: #919d95;
-
-  --color-page: #0f1412;
-  --color-panel: #171f1b;
-  --color-surface: #1a2320;
-  --color-surface-deep: #232d28;
-  /* Hairlines do the structural work in this design, so they have to stay
-     visible once the page is dark rather than dissolving into it. */
-  --color-line: #39463f;
-
-  /* Dimmed just enough to take the glare off a grid of them, still light
-     enough to swallow the shadow baked into the cut-outs. */
-  --color-plate: #eceee8;
-
-  --color-invert: #edf2ee;
-  --color-on-invert: #0f1412;
-
-  /* Lifted off the page rather than inverted, so it still reads as a slab.
-     It has to separate from `panel` as well as from `page`, because the carbon
-     panel sits inside the drawer — at #1d2823 the two were within 1.1:1 of
-     each other and the slab simply vanished. */
-  --color-block: #303f36;
-
-  /* The accent needs no help on white; on near-black it wants opening up. */
-  --color-neon-600: #5cf58f;
-  --color-neon-100: #113a22;
-
-  /* The two data-only accents, pulled back from fluorescent. */
-  --color-corn-500: #e6c33c;
-  --color-coral-500: #ff6f73;
-}
-
 :root {
   color-scheme: light;
+  --paper: #faf6ee;
+  --paper-deep: #f1ebdd;
+  --paper-deeper: #e8e1d0;
+  --card: #fffdf8;
+  --plate: transparent;
+  --ink: #1f2a22;
+  --hairline: rgb(31 42 34 / 0.2);
+  --sage: #5f7a4a;
+  --sage-deep: #48612f;
+  --sage-light: #a9c08f;
+  --sage-wash: #e3ebd6;
+  --terracotta: #c0603f;
+  --terracotta-deep: #a24c2e;
+  --ochre: #c99a3b;
+  --ochre-deep: #8a6416;
+  --shadow-warm: 0 10px 28px -12px rgb(92 64 30 / 0.35);
 }
+
+/* Dark: a deep forest ground. The watercolours have white backgrounds, so
+   each one keeps a small cream plate to multiply against. */
 :root[data-theme='dark'] {
   color-scheme: dark;
+  --paper: #1b221d;
+  --paper-deep: #232c26;
+  --paper-deeper: #2d3831;
+  --card: #222b25;
+  --plate: #f5efe3;
+  --ink: #f1ece0;
+  --hairline: rgb(241 236 224 / 0.2);
+  --sage: #8fae74;
+  --sage-deep: #a9c08f;
+  --sage-light: #b9cfa3;
+  --sage-wash: #2c3a2b;
+  --terracotta: #e08a69;
+  --terracotta-deep: #e8a086;
+  --ochre: #dcb25a;
+  --ochre-deep: #dcb25a;
+  --shadow-warm: 0 10px 28px -12px rgb(0 0 0 / 0.6);
+}
+:root[data-theme='dark'] {
+  --color-ink-800: #ddd8cb;
+  --color-ink-600: #c3beb0;
+  --color-ink-500: #aeaa9c;
+  --color-ink-400: #a19d90;
+  --color-ink-300: #98948a;
+  --color-block: #2d3831;
+  --color-on-accent: #1b221d;
 }
 
 @layer base {
@@ -174,8 +153,19 @@
     @apply bg-page text-ink-600 font-sans antialiased;
   }
 
+  /* Paper grain: a tiny tiled noise laid over everything at ~4%. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.2  0 0 0 0 0.16  0 0 0 0 0.1  0 0 0 1.4 -0.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-ink-900;
+    @apply outline-2 outline-offset-2 outline-sage-600;
   }
 
   .no-scrollbar {
@@ -186,34 +176,38 @@
     display: none;
   }
 
-  /* Headlines: neutral grotesque, set heavy, tight and flush left. Colour is
-     left to the caller so the same utility works on white and on the dark
-     blocks. Larger sizes want tighter tracking — override per call site. */
+  /* Headlines: soft editorial serif. */
   .display {
-    @apply font-extrabold tracking-[-0.03em];
-    font-feature-settings: 'tnum' 1;
+    @apply font-display font-medium tracking-[-0.01em];
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    font-feature-settings: 'lnum' 1;
   }
-
-  /* The full-weight cut, for the two statements that carry the page. */
   .display-black {
-    @apply font-black tracking-[-0.045em];
-    font-feature-settings: 'tnum' 1;
+    @apply font-display font-medium tracking-[-0.025em];
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    font-feature-settings: 'lnum' 1;
   }
 
-  /* The small uppercase labels that index the page. */
+  /* Small-caps index labels. */
   .label {
-    @apply text-[10px] font-bold uppercase tracking-[0.09em];
+    @apply text-[11px] font-semibold uppercase tracking-[0.1em];
   }
 
-  /* German compounds are long and the grid is tight — let them break. */
+  /* A small rounded "stamp": 1px border, transparent fill. Colour via text-*. */
+  .stamp {
+    @apply inline-block rounded-full border border-current px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em];
+    font-variant-caps: all-small-caps;
+    font-size: 11px;
+  }
+
   .hyphenate {
     hyphens: auto;
     overflow-wrap: break-word;
   }
 
-  /* A rule under a key phrase in a headline. */
-  .underscore {
-    box-shadow: inset 0 -0.09em 0 0 var(--color-neon-500);
+  /* The white of a watercolour dissolves into the paper behind it. */
+  .illustration {
+    mix-blend-mode: multiply;
   }
 
   @media (prefers-reduced-motion: reduce) {

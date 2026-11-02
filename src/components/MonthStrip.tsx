@@ -4,7 +4,7 @@ import { cn } from '@/lib/cn'
 import { useAppStore } from '@/store/useAppStore'
 import type { Month } from '@/types/produce'
 
-/** The twelve months as a numbered index, the active one ruled in neon. */
+/** The twelve months as a numbered index, the active one on a sage watercolour blob. */
 export function MonthStrip() {
   const month = useAppStore((s) => s.month)
   const setMonth = useAppStore((s) => s.setMonth)
@@ -28,7 +28,7 @@ export function MonthStrip() {
       ref={railRef}
       role="group"
       aria-label="Monat"
-      className="no-scrollbar flex overflow-x-auto scroll-p-4 border-t border-line"
+      className="no-scrollbar flex snap-x snap-mandatory overflow-x-auto scroll-px-4 border-t border-line"
     >
       {MONTHS.map((m) => {
         const selected = m.number === month
@@ -40,28 +40,40 @@ export function MonthStrip() {
             aria-pressed={selected}
             aria-label={m.long}
             onClick={() => setMonth(m.number as Month)}
-            className="group relative min-w-[4.75rem] flex-1 px-3 pb-3.5 pt-3 text-left sm:min-w-0"
+            className="group relative min-w-[4.5rem] flex-1 snap-center px-3 pb-4 pt-4 text-center sm:min-w-0"
           >
-            <span
-              className={cn(
-                'absolute inset-x-0 top-0 h-[3px] transition',
-                selected ? 'bg-neon-500' : 'bg-transparent group-hover:bg-ink-300',
+            <span className="relative mx-auto flex size-11 items-center justify-center" aria-hidden>
+              {selected && (
+                <svg
+                  viewBox="0 0 48 48"
+                  className="absolute inset-0 size-full text-sage-500"
+                  fill="currentColor"
+                >
+                  <path
+                    fillOpacity=".4"
+                    d="M24.5 3.5c9.6-.4 19.6 6.3 20.6 16.4 1.1 10.5-5.6 24.5-18.8 25.2C14.4 45.8 3 37.7 2.9 25.3 2.8 13.600 12.8 4 24.5 3.500Z"
+                  />
+                  <path
+                    fillOpacity=".25"
+                    d="M25 6c8.2.2 16.1 6.8 16.3 15.6.2 9.900-7.700 20-17.600 19.700C13.800 41 6.700 32.8 7 23.900 7.300 14.4 15.5 5.8 25 6Z"
+                  />
+                </svg>
               )}
-              aria-hidden
-            />
-            <span
-              className={cn(
-                'label block text-[10px] tabular-nums transition',
-                selected ? 'text-ink-900' : 'text-ink-300',
+              <span
+                className={cn(
+                  'display relative text-xl tabular-nums transition',
+                  selected ? 'text-ink-900' : 'text-ink-400 group-hover:text-ink-900',
+                )}
+              >
+                {m.number}
+              </span>
+              {m.number === thisMonth && (
+                <span className="absolute -bottom-1 left-1/2 size-1.5 -translate-x-1/2 rounded-full bg-sage-600" />
               )}
-              aria-hidden
-            >
-              {String(m.number).padStart(2, '0')}
-              {m.number === thisMonth && <span className="ml-1 text-neon-600">●</span>}
             </span>
             <span
               className={cn(
-                'label mt-1 block whitespace-nowrap transition',
+                'label mt-2 block whitespace-nowrap transition',
                 selected ? 'text-ink-900' : 'text-ink-400 group-hover:text-ink-900',
               )}
               aria-hidden

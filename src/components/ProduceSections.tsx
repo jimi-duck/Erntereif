@@ -23,22 +23,26 @@ export function ProduceSections({ sections, country, onSelect }: Props) {
 
         return (
           <section key={section.key} aria-labelledby={`section-${section.key}`}>
-            <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 border-t-2 border-ink-900 pt-3">
-              <span className="label tabular-nums text-ink-300" aria-hidden>
-                {String(sectionIndex + 1).padStart(2, '0')}
-              </span>
-              <h2
-                id={`section-${section.key}`}
-                className="display-black text-[1.6rem] leading-none text-ink-900 sm:text-[2rem]"
-              >
-                {section.title}
-              </h2>
-              {local && <span className="label text-ink-300">{local}</span>}
-              <span className="display-black ml-auto text-[1.6rem] tabular-nums leading-none text-ink-300 sm:text-[2rem]">
-                {section.items.length}
-              </span>
+            <div className="border-t border-line pt-5">
+              <p className="label text-sage-600" aria-hidden>
+                Kapitel {String(sectionIndex + 1).padStart(2, '0')}
+              </p>
+              <div className="mt-2 flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                <h2
+                  id={`section-${section.key}`}
+                  className="display-black text-[1.9rem] leading-none text-ink-900 sm:text-[2.5rem]"
+                >
+                  {section.title}
+                </h2>
+                {local && <span className="label text-ink-300">{local}</span>}
+                <span className="display ml-auto text-[1.6rem] font-light tabular-nums leading-none text-ink-300 sm:text-[2rem]">
+                  {section.items.length}
+                </span>
+              </div>
+              <p className="display mt-2 max-w-md text-[0.95rem] italic leading-relaxed text-ink-400">
+                {section.blurb}
+              </p>
             </div>
-            <p className="mt-2 max-w-sm text-sm leading-relaxed text-ink-400">{section.blurb}</p>
 
             {/* A section can run to sixty crops, so it is blocked by type. With
                 only one type in it — under a category filter, or in a thin
@@ -55,12 +59,12 @@ export function ProduceSections({ sections, country, onSelect }: Props) {
                     // Phones keep it static: a third sticky layer would eat
                     // most of the screen.
                     <div className="flex items-baseline gap-2 border-t border-line bg-page pb-4 pt-2.5 sm:sticky sm:top-[var(--chrome-h)] sm:z-10">
-                      <h3 className="label text-ink-500">{group.label}</h3>
+                      <h3 className="display text-base italic text-ink-500">{group.label}</h3>
                       <span className="label tabular-nums text-ink-300">{group.items.length}</span>
                     </div>
                   )}
 
-                  <div className="grid grid-cols-3 gap-x-3 gap-y-6 sm:grid-cols-4 sm:gap-x-4 md:grid-cols-5 lg:grid-cols-6">
+                  <div className="grid grid-cols-2 gap-x-3 gap-y-5 sm:grid-cols-3 sm:gap-x-4 md:grid-cols-4 lg:grid-cols-5 md:grid-cols-5 lg:grid-cols-6">
                     {group.items.map((resolved, i) => (
                       <ProduceCard
                         key={resolved.item.id}

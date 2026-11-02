@@ -41,25 +41,27 @@ const NOTES = [
 
 export function Footer() {
   return (
-    <footer className="mt-24 bg-block text-white">
+    <footer className="mt-24 bg-block text-[#faf6ee]">
       <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-        <p className="display-black max-w-3xl text-[2.25rem] leading-[0.88] text-white sm:text-[4rem]">
-          Iss, was <span className="text-neon-500">nebenan wächst</span>.
+        <p className="display-black max-w-3xl text-[2.25rem] leading-[1] text-[#faf6ee] sm:text-[4rem]">
+          Iss, was <em className="text-sage-300">nebenan wächst</em>.
         </p>
 
         <div className="mt-14 grid gap-9 sm:grid-cols-3">
           {NOTES.map((note) => (
             <div key={note.title}>
-              <h2 className="label border-t border-white/20 pt-3 text-neon-500">{note.title}</h2>
-              <p className="mt-3 text-sm leading-relaxed text-white/60">{note.body}</p>
+              <h2 className="label border-t border-white/20 pt-3 text-sage-300">{note.title}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-[#faf6ee]/70">{note.body}</p>
             </div>
           ))}
         </div>
 
         <div className="mt-14 flex flex-wrap items-center gap-3 border-t border-white/15 pt-6">
           <Wordmark className="size-7" />
-          <p className="display text-base lowercase text-white">erntereif</p>
-          <p className="label ml-auto text-white/65">Saisonkalender</p>
+          <p className="display text-lg lowercase italic text-[#faf6ee]">erntereif</p>
+          <p className="display ml-auto text-sm italic text-[#faf6ee]/70">
+            Illustrationen in Aquarell
+          </p>
         </div>
       </div>
     </footer>

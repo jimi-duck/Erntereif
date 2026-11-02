@@ -2,7 +2,6 @@ import { useCallback, useRef } from 'react'
 import { ChefHat, Info, Refrigerator, Sparkles, X } from 'lucide-react'
 import { assetUrl } from '@/lib/assets'
 import { COUNTRIES, countryByCode, monthName } from '@/lib/calendar'
-import { cn } from '@/lib/cn'
 import { CATEGORY_LABEL, STATUS_PRESENTATION } from '@/lib/seasonality'
 import { useModalBehaviour } from '@/hooks/useModalBehaviour'
 import { Co2Panel } from './Co2Panel'
@@ -68,20 +67,20 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
               alt=""
               width={256}
               height={256}
-              className="h-44 w-full bg-plate object-contain p-6 sm:h-52 sm:p-7"
+              className="illustration h-44 w-full bg-plate object-contain p-6 sm:h-52 sm:p-7"
             />
             <div className="min-w-0 flex-1 p-5 sm:p-7">
               <div className="flex flex-wrap items-center gap-2">
-                <span className={cn('label rounded-sm px-2 py-1', presentation.className)}>
+                <span className={presentation.className}>
                   {presentation.label}
                 </span>
-                <span className="label rounded-sm border border-line px-2 py-1 text-ink-400">
+                <span className="stamp text-ink-400">
                   {CATEGORY_LABEL[item.category]}
                 </span>
               </div>
               <h2
                 id="produce-detail-title"
-                className="display-black mt-4 text-[2.25rem] leading-[0.9] text-ink-900 sm:text-[3rem]"
+                className="display-black mt-4 text-[2.25rem] leading-[1] text-ink-900 sm:text-[3rem]"
               >
                 {localName}
               </h2>
@@ -112,7 +111,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
                 <SeasonRibbon months={months} activeMonth={month} />
               </div>
               {usesReferenceCalendar && (
-                <p className="mt-4 flex items-start gap-2 rounded bg-corn-500/20 p-3 text-xs leading-relaxed text-ink-700">
+                <p className="mt-4 flex items-start gap-2 rounded bg-ochre-500/20 p-3 text-xs leading-relaxed text-ink-600">
                   <Info className="mt-0.5 size-3.5 shrink-0 text-ink-900" aria-hidden />
                   <span>
                     Für dieses Land gibt es noch keinen eigenen Kalender — du siehst den deutschen.
@@ -133,7 +132,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
 
             <section className="border-t border-line pt-6">
               <h3 className="label flex items-center gap-2 text-ink-900">
-                <ChefHat className="size-3.5 text-neon-600" aria-hidden />
+                <ChefHat className="size-3.5 text-sage-600" aria-hidden />
                 In der Küche
               </h3>
               <p className="mt-2.5 text-sm leading-relaxed text-ink-500">{item.recipeIdea}</p>
@@ -169,7 +168,7 @@ function Panel({
   return (
     <section>
       <h3 className="label flex items-center gap-2 text-ink-900">
-        <Icon className="size-3.5 text-neon-600" aria-hidden />
+        <Icon className="size-3.5 text-sage-600" aria-hidden />
         {title}
       </h3>
       <p className="mt-2.5 text-sm leading-relaxed text-ink-500">{children}</p>

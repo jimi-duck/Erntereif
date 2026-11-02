@@ -47,9 +47,9 @@ export function FilterBar({ resultCount }: Props) {
   }, [])
 
   return (
-    <div ref={barRef} className="sticky top-[61px] z-20 border-y border-line bg-page/95 backdrop-blur-md">
+    <div ref={barRef} className="sticky top-[61px] z-20 border-b border-line bg-page">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2.5 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
-        <div className="flex flex-wrap items-center gap-x-5 gap-y-2.5">
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-2.5">
           <div role="group" aria-label="Nach Kategorie filtern" className="flex items-center gap-4">
             {CATEGORY_TABS.map((tab) => (
               <button
@@ -58,15 +58,15 @@ export function FilterBar({ resultCount }: Props) {
                 aria-pressed={category === tab.value}
                 onClick={() => setCategory(tab.value)}
                 className={cn(
-                  'label relative py-2 transition',
+                  'display relative py-1.5 text-base italic transition',
                   category === tab.value ? 'text-ink-900' : 'text-ink-400 hover:text-ink-900',
                 )}
               >
                 {tab.label}
                 <span
                   className={cn(
-                    'absolute inset-x-0 bottom-0 h-[3px] transition',
-                    category === tab.value ? 'bg-neon-500' : 'bg-transparent',
+                    'absolute inset-x-0 bottom-0 h-[2px] rounded-full transition',
+                    category === tab.value ? 'bg-sage-500' : 'bg-transparent',
                   )}
                   aria-hidden
                 />
@@ -86,9 +86,9 @@ export function FilterBar({ resultCount }: Props) {
                   onClick={() => setSupply(tab.value)}
                   title={tab.label}
                   className={cn(
-                    'label flex items-center gap-1.5 rounded-sm border px-2.5 py-1.5 transition',
+                    'label flex items-center gap-1.5 rounded-full border px-3 py-1.5 transition',
                     selected
-                      ? 'border-invert bg-invert text-on-invert'
+                      ? 'border-sage-600 bg-sage-100 text-sage-600'
                       : 'border-line text-ink-400 hover:border-ink-900 hover:text-ink-900',
                   )}
                 >
@@ -111,14 +111,14 @@ export function FilterBar({ resultCount }: Props) {
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Spargel, fraise, kale…"
             aria-label="Suchen"
-            className="w-full rounded-sm border border-line bg-surface py-2 pl-9 pr-8 text-sm text-ink-900 placeholder:text-ink-400 transition focus:border-ink-900 focus:bg-panel focus:outline-none focus:ring-2 focus:ring-neon-500"
+            className="w-full rounded-full border border-line bg-panel py-2 pl-9 pr-8 text-sm text-ink-900 placeholder:text-ink-400 transition focus:border-sage-600 focus:outline-none focus:ring-2 focus:ring-sage-500/50"
           />
           {search && (
             <button
               type="button"
               onClick={() => setSearch('')}
               aria-label="Suche löschen"
-              className="absolute right-2 top-1/2 flex size-6 -translate-y-1/2 items-center justify-center rounded-sm text-ink-400 transition hover:bg-surface-deep hover:text-ink-900"
+              className="absolute right-2 top-1/2 flex size-6 -translate-y-1/2 items-center justify-center rounded-full text-ink-400 transition hover:bg-surface-deep hover:text-ink-900"
             >
               <X className="size-3.5" aria-hidden />
             </button>

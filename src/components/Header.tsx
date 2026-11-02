@@ -11,7 +11,7 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3.5 sm:px-6">
         <a href="#main" className="flex items-center gap-2.5 rounded">
           <Wordmark />
-          <span className="display whitespace-nowrap text-xl lowercase leading-none tracking-[-0.035em] text-ink-900">
+          <span className="display whitespace-nowrap text-2xl lowercase italic leading-none text-ink-900">
             erntereif
           </span>
           <span className="label hidden border-l border-line pl-2.5 text-ink-400 sm:block">
@@ -25,7 +25,7 @@ export function Header() {
             aria-pressed={theme === 'dark'}
             aria-label={theme === 'dark' ? 'Zur hellen Ansicht wechseln' : 'Zur dunklen Ansicht wechseln'}
             title={theme === 'dark' ? 'Hell' : 'Dunkel'}
-            className="flex size-9 shrink-0 items-center justify-center rounded-sm border border-line text-ink-500 transition hover:border-ink-900 hover:text-ink-900"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full border border-line text-ink-500 transition hover:border-ink-900 hover:text-ink-900"
           >
             {theme === 'dark' ? (
               <Sun className="size-4" aria-hidden />
