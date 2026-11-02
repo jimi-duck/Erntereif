@@ -47,7 +47,7 @@ export function FilterBar({ resultCount }: Props) {
   }, [])
 
   return (
-    <div ref={barRef} className="sticky top-[61px] z-20 border-b border-line bg-page">
+    <div ref={barRef} className="sticky top-[73px] z-20 border-b border-line bg-page">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-2.5 sm:px-6 lg:flex-row lg:items-center lg:justify-between">
         <div className="flex flex-wrap items-center gap-x-6 gap-y-2.5">
           <div role="group" aria-label="Nach Kategorie filtern" className="flex items-center gap-4">

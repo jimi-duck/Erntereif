@@ -57,7 +57,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-wrap items-center gap-3 border-t border-white/15 pt-6">
-          <Wordmark className="size-7" />
+          <Wordmark className="size-9" plate />
           <p className="display text-lg lowercase italic text-[#faf6ee]">erntereif</p>
           <p className="display ml-auto text-sm italic text-[#faf6ee]/70">
             Illustrationen in Aquarell
