@@ -67,7 +67,7 @@ export function SeasonHero({ month, countryName, summary }: Props) {
         {/* Opacity-only entrance: a transform here would isolate the images
             from the paper and stop the multiply blend. */}
         <div
-          className="animate-fade-in relative mx-auto hidden aspect-square w-full max-w-md rounded-[2rem] bg-plate sm:block lg:max-w-none"
+          className="animate-fade-in relative mx-auto hidden aspect-square w-full max-w-md rounded-[2rem] sm:block lg:max-w-none"
           aria-hidden
         >
           {PLATE.map((p) => (

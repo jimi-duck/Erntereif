@@ -3,14 +3,11 @@
 /* ------------------------------------------------------------------ *
  * Erntereif — design tokens
  *
- * Simple, clean, bold: white space, one grotesque, near-black green ink
- * and a single neon green accent.
- *
- * Every colour here is semantic, because the whole set flips for dark mode
- * further down. `page` is the paper, `panel` is anything raised off it,
- * `plate` is the square a photograph sits on, `ink-*` is the type ramp,
- * `invert` is a chip that has to shout, `block` is a large dark slab.
- * Nothing hard-codes white, or dark mode cannot happen.
+ * A botanical almanac: warm paper, ink-green type, sage, terracotta and
+ * ochre. Raw palette values live on :root below; the semantic names here
+ * (`page`, `panel`, `surface`, `ink-*`, `invert`, `block`) are what the
+ * components use. Light only — the watercolours have white grounds that
+ * dissolve into the paper with a multiply blend, which needs a light page.
  * ------------------------------------------------------------------ */
 @theme {
   --font-sans: 'Inter Tight', 'Helvetica Neue', Helvetica, ui-sans-serif, system-ui, Arial, sans-serif;
@@ -30,8 +27,7 @@
   --color-surface: var(--paper-deep);
   --color-surface-deep: var(--paper-deeper);
   --color-line: var(--hairline);
-  --color-plate: var(--plate);
-
+  
   --color-invert: var(--ink);
   --color-on-invert: var(--paper);
   --color-block: var(--ink);
@@ -98,7 +94,6 @@
   --paper-deep: #f1ebdd;
   --paper-deeper: #e8e1d0;
   --card: #fffdf8;
-  --plate: transparent;
   --ink: #1f2a22;
   --hairline: rgb(31 42 34 / 0.2);
   --sage: #5f7a4a;
@@ -110,37 +105,6 @@
   --ochre: #c99a3b;
   --ochre-deep: #8a6416;
   --shadow-warm: 0 10px 28px -12px rgb(92 64 30 / 0.35);
-}
-
-/* Dark: a deep forest ground. The watercolours have white backgrounds, so
-   each one keeps a small cream plate to multiply against. */
-:root[data-theme='dark'] {
-  color-scheme: dark;
-  --paper: #1b221d;
-  --paper-deep: #232c26;
-  --paper-deeper: #2d3831;
-  --card: #222b25;
-  --plate: #f5efe3;
-  --ink: #f1ece0;
-  --hairline: rgb(241 236 224 / 0.2);
-  --sage: #8fae74;
-  --sage-deep: #a9c08f;
-  --sage-light: #b9cfa3;
-  --sage-wash: #2c3a2b;
-  --terracotta: #e08a69;
-  --terracotta-deep: #e8a086;
-  --ochre: #dcb25a;
-  --ochre-deep: #dcb25a;
-  --shadow-warm: 0 10px 28px -12px rgb(0 0 0 / 0.6);
-}
-:root[data-theme='dark'] {
-  --color-ink-800: #ddd8cb;
-  --color-ink-600: #c3beb0;
-  --color-ink-500: #aeaa9c;
-  --color-ink-400: #a19d90;
-  --color-ink-300: #98948a;
-  --color-block: #2d3831;
-  --color-on-accent: #1b221d;
 }
 
 @layer base {

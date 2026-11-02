@@ -67,7 +67,7 @@ export function ProduceDetail({ resolved, month, country, onClose }: Props) {
               alt=""
               width={256}
               height={256}
-              className="illustration h-44 w-full bg-plate object-contain p-6 sm:h-52 sm:p-7"
+              className="illustration h-44 w-full object-contain p-6 sm:h-52 sm:p-7"
             />
             <div className="min-w-0 flex-1 p-5 sm:p-7">
               <div className="flex flex-wrap items-center gap-2">

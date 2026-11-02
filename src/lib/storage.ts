@@ -2,7 +2,7 @@
  * Carry a value over from a storage key the app used to use, once.
  *
  * Renaming the app renamed its `localStorage` keys, which would otherwise drop
- * everyone's remembered country and theme on the release that shipped the new
+ * everyone's remembered country on the release that shipped the new
  * name, and leave the old keys sitting in their browser forever. This adopts
  * the old value if the new key is empty, and clears the old key either way, so
  * it runs at most once per visitor.

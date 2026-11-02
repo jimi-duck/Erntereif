@@ -16,37 +16,6 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,300..700,0..100;1,9..144,300..700,0..100&family=Inter+Tight:wght@400..700&display=swap"
       rel="stylesheet"
     />
-    <script>
-      // Resolve the theme before first paint, or a reader who chose dark gets a
-      // white flash on every load. Kept deliberately tiny and inline: an
-      // external file would be a render-blocking round trip to avoid a flash.
-      // The key matches THEME_KEY in src/lib/theme.ts.
-      ;(function () {
-        try {
-          // Carry the choice over from the key used before the rename, once.
-          var legacy = localStorage.getItem('stay-local-theme')
-          if (legacy !== null) {
-            if (localStorage.getItem('erntereif-theme') === null) {
-              localStorage.setItem('erntereif-theme', legacy)
-            }
-            localStorage.removeItem('stay-local-theme')
-          }
-          var stored = localStorage.getItem('erntereif-theme')
-          var theme =
-            stored === 'light' || stored === 'dark'
-              ? stored
-              : window.matchMedia('(prefers-color-scheme: dark)').matches
-                ? 'dark'
-                : 'light'
-          document.documentElement.dataset.theme = theme
-          if (theme === 'dark') {
-            document.querySelector('meta[name="theme-color"]').content = '#1b221d'
-          }
-        } catch (error) {
-          document.documentElement.dataset.theme = 'light'
-        }
-      })()
-    </script>
   </head>
   <body>
     <div id="root"></div>

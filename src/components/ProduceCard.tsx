@@ -29,7 +29,7 @@ export function ProduceCard({ resolved, onSelect, index }: Props) {
       style={{ animationDelay: `${Math.min(index, 14) * 24}ms` }}
       className="group animate-fade-in relative top-0 flex flex-col rounded-2xl px-2 pb-4 pt-2 text-left transition-[top,box-shadow,background-color] duration-300 ease-organic hover:-top-0.5 hover:bg-panel hover:shadow-[var(--shadow-warm)] focus-visible:bg-panel"
     >
-      <div className="relative overflow-hidden rounded-xl bg-plate">
+      <div className="relative overflow-hidden rounded-xl">
         <img
           src={assetUrl(item.imageUrl)}
           alt=""
